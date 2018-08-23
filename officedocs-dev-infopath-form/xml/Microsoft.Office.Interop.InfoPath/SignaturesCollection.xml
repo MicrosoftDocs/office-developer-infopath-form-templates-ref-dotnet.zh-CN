@@ -1,0 +1,37 @@
+<Type Name="SignaturesCollection" FullName="Microsoft.Office.Interop.InfoPath.SignaturesCollection">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8de7172b8f2ee375c0e93cb07cb9bbebb05b85b6" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21040981" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface SignaturesCollection : Microsoft.Office.Interop.InfoPath.Signatures" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract SignaturesCollection implements class Microsoft.Office.Interop.InfoPath.Signatures" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.SignaturesCollection" />
+  <TypeSignature Language="VB.NET" Value="Public Interface SignaturesCollection&#xA;Implements Signatures" />
+  <TypeSignature Language="C++ CLI" Value="public interface class SignaturesCollection : Microsoft::Office::Interop::InfoPath::Signatures" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.Signatures</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.InfoPath.SignaturesCollectionClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("096CD716-0786-11D1-95FA-0080C78EE3BB")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

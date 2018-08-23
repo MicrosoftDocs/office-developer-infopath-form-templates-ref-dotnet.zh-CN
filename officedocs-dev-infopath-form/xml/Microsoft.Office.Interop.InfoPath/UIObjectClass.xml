@@ -1,0 +1,383 @@
+<Type Name="UIObjectClass" FullName="Microsoft.Office.Interop.InfoPath.UIObjectClass">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="2236d84a71749fe96940ae39a94c2603e945d750" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21041128" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class UIObjectClass : Microsoft.Office.Interop.InfoPath.UIObject" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi UIObjectClass extends System.Object implements class Microsoft.Office.Interop.InfoPath.UI, class Microsoft.Office.Interop.InfoPath.UI2, class Microsoft.Office.Interop.InfoPath.UIObject" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.UIObjectClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class UIObjectClass&#xA;Implements UIObject" />
+  <TypeSignature Language="C++ CLI" Value="public ref class UIObjectClass : Microsoft::Office::Interop::InfoPath::UIObject" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.UIObject</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(0)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("80758363-5146-11D5-A672-00B0D022E945")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Alert">
+      <MemberSignature Language="C#" Value="public virtual void Alert (string bstrAlertString);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Alert([in]string bstrAlertString) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.UIObjectClass.Alert(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Alert (bstrAlertString As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Alert(System::String ^ bstrAlertString) = Microsoft::Office::Interop::InfoPath::UI2::Alert;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.UI2.Alert(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrAlertString" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrAlertString">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Confirm">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.XdConfirmChoice Confirm (string bstrPrompt, Microsoft.Office.Interop.InfoPath.XdConfirmButtons lButtons);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.Office.Interop.InfoPath.XdConfirmChoice Confirm([in]string bstrPrompt, [in]valuetype Microsoft.Office.Interop.InfoPath.XdConfirmButtons lButtons) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.UIObjectClass.Confirm(System.String,Microsoft.Office.Interop.InfoPath.XdConfirmButtons)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Confirm (bstrPrompt As String, lButtons As XdConfirmButtons) As XdConfirmChoice" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::XdConfirmChoice Confirm(System::String ^ bstrPrompt, Microsoft::Office::Interop::InfoPath::XdConfirmButtons lButtons) = Microsoft::Office::Interop::InfoPath::UI2::Confirm;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.UI2.Confirm(System.String,Microsoft.Office.Interop.InfoPath.XdConfirmButtons)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdConfirmChoice</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrPrompt" Type="System.String" />
+        <Parameter Name="lButtons" Type="Microsoft.Office.Interop.InfoPath.XdConfirmButtons" />
+      </Parameters>
+      <Docs>
+        <param name="bstrPrompt">To be added.</param>
+        <param name="lButtons">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetSaveAsDialogFileName">
+      <MemberSignature Language="C#" Value="public virtual void SetSaveAsDialogFileName (string bstrFileName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetSaveAsDialogFileName([in]string bstrFileName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.UIObjectClass.SetSaveAsDialogFileName(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub SetSaveAsDialogFileName (bstrFileName As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void SetSaveAsDialogFileName(System::String ^ bstrFileName) = Microsoft::Office::Interop::InfoPath::UI2::SetSaveAsDialogFileName;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.UI2.SetSaveAsDialogFileName(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrFileName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrFileName">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetSaveAsDialogLocation">
+      <MemberSignature Language="C#" Value="public virtual void SetSaveAsDialogLocation (string bstrLocation);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetSaveAsDialogLocation([in]string bstrLocation) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.UIObjectClass.SetSaveAsDialogLocation(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub SetSaveAsDialogLocation (bstrLocation As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void SetSaveAsDialogLocation(System::String ^ bstrLocation) = Microsoft::Office::Interop::InfoPath::UI2::SetSaveAsDialogLocation;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.UI2.SetSaveAsDialogLocation(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrLocation" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrLocation">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowMailItem">
+      <MemberSignature Language="C#" Value="public virtual void ShowMailItem (string bstrTo, string bstrCC, string bstrBCC, string bstrSubject, string bstrBody);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ShowMailItem([in]string bstrTo, [in]string bstrCC, [in]string bstrBCC, [in]string bstrSubject, [in]string bstrBody) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.UIObjectClass.ShowMailItem(System.String,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub ShowMailItem (bstrTo As String, bstrCC As String, bstrBCC As String, bstrSubject As String, bstrBody As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void ShowMailItem(System::String ^ bstrTo, System::String ^ bstrCC, System::String ^ bstrBCC, System::String ^ bstrSubject, System::String ^ bstrBody) = Microsoft::Office::Interop::InfoPath::UI2::ShowMailItem;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.UI2.ShowMailItem(System.String,System.String,System.String,System.String,System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrTo" Type="System.String" />
+        <Parameter Name="bstrCC" Type="System.String" />
+        <Parameter Name="bstrBCC" Type="System.String" />
+        <Parameter Name="bstrSubject" Type="System.String" />
+        <Parameter Name="bstrBody" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrTo">To be added.</param>
+        <param name="bstrCC">To be added.</param>
+        <param name="bstrBCC">To be added.</param>
+        <param name="bstrSubject">To be added.</param>
+        <param name="bstrBody">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowModalDialog">
+      <MemberSignature Language="C#" Value="public virtual object ShowModalDialog (string bstrName, object varArguments, object varHeight, object varWidth, object varTop, object varLeft);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object ShowModalDialog([in]string bstrName, [in]object varArguments, [in]object varHeight, [in]object varWidth, [in]object varTop, [in]object varLeft) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.UIObjectClass.ShowModalDialog(System.String,System.Object,System.Object,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function ShowModalDialog (bstrName As String, Optional varArguments As Object, Optional varHeight As Object, Optional varWidth As Object, Optional varTop As Object, Optional varLeft As Object) As Object" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.UI2.ShowModalDialog(System.String,System.Object,System.Object,System.Object,System.Object,System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrName" Type="System.String" />
+        <Parameter Name="varArguments" Type="System.Object" />
+        <Parameter Name="varHeight" Type="System.Object" />
+        <Parameter Name="varWidth" Type="System.Object" />
+        <Parameter Name="varTop" Type="System.Object" />
+        <Parameter Name="varLeft" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="bstrName">To be added.</param>
+        <param name="varArguments">To be added.</param>
+        <param name="varHeight">To be added.</param>
+        <param name="varWidth">To be added.</param>
+        <param name="varTop">To be added.</param>
+        <param name="varLeft">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowSignatureDialog">
+      <MemberSignature Language="C#" Value="public virtual void ShowSignatureDialog ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ShowSignatureDialog() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.UIObjectClass.ShowSignatureDialog" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub ShowSignatureDialog ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void ShowSignatureDialog() = Microsoft::Office::Interop::InfoPath::UI2::ShowSignatureDialog;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.UI2.ShowSignatureDialog</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UI_Alert">
+      <MemberSignature Language="C#" Value="public virtual void UI_Alert (string bstrAlertString);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void UI_Alert([in]string bstrAlertString) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.UIObjectClass.UI_Alert(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub UI_Alert (bstrAlertString As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void UI_Alert(System::String ^ bstrAlertString) = Microsoft::Office::Interop::InfoPath::UI::Alert;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrAlertString" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrAlertString">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UI_ShowMailItem">
+      <MemberSignature Language="C#" Value="public virtual void UI_ShowMailItem (string bstrTo, string bstrCC, string bstrBCC, string bstrSubject, string bstrBody);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void UI_ShowMailItem([in]string bstrTo, [in]string bstrCC, [in]string bstrBCC, [in]string bstrSubject, [in]string bstrBody) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.UIObjectClass.UI_ShowMailItem(System.String,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub UI_ShowMailItem (bstrTo As String, bstrCC As String, bstrBCC As String, bstrSubject As String, bstrBody As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void UI_ShowMailItem(System::String ^ bstrTo, System::String ^ bstrCC, System::String ^ bstrBCC, System::String ^ bstrSubject, System::String ^ bstrBody) = Microsoft::Office::Interop::InfoPath::UI::ShowMailItem;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrTo" Type="System.String" />
+        <Parameter Name="bstrCC" Type="System.String" />
+        <Parameter Name="bstrBCC" Type="System.String" />
+        <Parameter Name="bstrSubject" Type="System.String" />
+        <Parameter Name="bstrBody" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrTo">To be added.</param>
+        <param name="bstrCC">To be added.</param>
+        <param name="bstrBCC">To be added.</param>
+        <param name="bstrSubject">To be added.</param>
+        <param name="bstrBody">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UI_ShowModalDialog">
+      <MemberSignature Language="C#" Value="public virtual object UI_ShowModalDialog (string bstrName, object varArguments, object varHeight, object varWidth, object varTop, object varLeft);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object UI_ShowModalDialog([in]string bstrName, [in]object varArguments, [in]object varHeight, [in]object varWidth, [in]object varTop, [in]object varLeft) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.UIObjectClass.UI_ShowModalDialog(System.String,System.Object,System.Object,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function UI_ShowModalDialog (bstrName As String, Optional varArguments As Object, Optional varHeight As Object, Optional varWidth As Object, Optional varTop As Object, Optional varLeft As Object) As Object" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrName" Type="System.String" />
+        <Parameter Name="varArguments" Type="System.Object" />
+        <Parameter Name="varHeight" Type="System.Object" />
+        <Parameter Name="varWidth" Type="System.Object" />
+        <Parameter Name="varTop" Type="System.Object" />
+        <Parameter Name="varLeft" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="bstrName">To be added.</param>
+        <param name="varArguments">To be added.</param>
+        <param name="varHeight">To be added.</param>
+        <param name="varWidth">To be added.</param>
+        <param name="varTop">To be added.</param>
+        <param name="varLeft">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UI_ShowSignatureDialog">
+      <MemberSignature Language="C#" Value="public virtual void UI_ShowSignatureDialog ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void UI_ShowSignatureDialog() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.UIObjectClass.UI_ShowSignatureDialog" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub UI_ShowSignatureDialog ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void UI_ShowSignatureDialog() = Microsoft::Office::Interop::InfoPath::UI::ShowSignatureDialog;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

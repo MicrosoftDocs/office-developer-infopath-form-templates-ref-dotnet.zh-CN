@@ -1,0 +1,43 @@
+<Type Name="_ApplicationEvents_WindowDeactivateEventHandler" FullName="Microsoft.Office.Interop.InfoPath._ApplicationEvents_WindowDeactivateEventHandler">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e19098fa2feb4ad10c390bf1cde6635617b67587" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21039672" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public delegate void _ApplicationEvents_WindowDeactivateEventHandler(_XDocument pDocument, Window pWindow);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed _ApplicationEvents_WindowDeactivateEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath._ApplicationEvents_WindowDeactivateEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub _ApplicationEvents_WindowDeactivateEventHandler(pDocument As _XDocument, pWindow As Window)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void _ApplicationEvents_WindowDeactivateEventHandler(_XDocument ^ pDocument, Window ^ pWindow);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="pDocument" Type="Microsoft.Office.Interop.InfoPath._XDocument" />
+    <Parameter Name="pWindow" Type="Microsoft.Office.Interop.InfoPath.Window" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="pDocument">To be added.</param>
+    <param name="pWindow">To be added.</param>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

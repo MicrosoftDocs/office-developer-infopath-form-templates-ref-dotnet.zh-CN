@@ -1,0 +1,90 @@
+<Type Name="XdSignatureRelation" FullName="Microsoft.Office.Interop.InfoPath.XdSignatureRelation">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8077a79f97042e85da881d04528568aeeabce834" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21041317" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum XdSignatureRelation" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XdSignatureRelation extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.XdSignatureRelation" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XdSignatureRelation" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XdSignatureRelation" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("57C4BDEA-6E4C-39E2-ACD2-AA61226AE895")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xdSignatureRelationCoSign">
+      <MemberSignature Language="C#" Value="xdSignatureRelationCoSign" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.XdSignatureRelation xdSignatureRelationCoSign = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.XdSignatureRelation.xdSignatureRelationCoSign" />
+      <MemberSignature Language="VB.NET" Value="xdSignatureRelationCoSign" />
+      <MemberSignature Language="C++ CLI" Value="xdSignatureRelationCoSign" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdSignatureRelation</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xdSignatureRelationCounterSign">
+      <MemberSignature Language="C#" Value="xdSignatureRelationCounterSign" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.XdSignatureRelation xdSignatureRelationCounterSign = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.XdSignatureRelation.xdSignatureRelationCounterSign" />
+      <MemberSignature Language="VB.NET" Value="xdSignatureRelationCounterSign" />
+      <MemberSignature Language="C++ CLI" Value="xdSignatureRelationCounterSign" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdSignatureRelation</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xdSignatureRelationSingle">
+      <MemberSignature Language="C#" Value="xdSignatureRelationSingle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.XdSignatureRelation xdSignatureRelationSingle = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.XdSignatureRelation.xdSignatureRelationSingle" />
+      <MemberSignature Language="VB.NET" Value="xdSignatureRelationSingle" />
+      <MemberSignature Language="C++ CLI" Value="xdSignatureRelationSingle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdSignatureRelation</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

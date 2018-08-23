@@ -1,0 +1,72 @@
+<Type Name="DocEventObjectClass" FullName="Microsoft.Office.Interop.InfoPath.DocEventObjectClass">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c369b5e5551335b37961e5fbc65b567a31b40a39" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21042479" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class DocEventObjectClass : Microsoft.Office.Interop.InfoPath.DocEventObject" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi DocEventObjectClass extends System.Object implements class Microsoft.Office.Interop.InfoPath.DocEvent, class Microsoft.Office.Interop.InfoPath.DocEventObject" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.DocEventObjectClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class DocEventObjectClass&#xA;Implements DocEventObject" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DocEventObjectClass : Microsoft::Office::Interop::InfoPath::DocEventObject" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.DocEventObject</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(0)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("8075831B-5146-11D5-A672-00B0D022E945")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="XDocument">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.XDocument XDocument { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.XDocument XDocument" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.DocEventObjectClass.XDocument" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property XDocument As XDocument" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::InfoPath::XDocument ^ XDocument { Microsoft::Office::Interop::InfoPath::XDocument ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.DocEvent.XDocument</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XDocument</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,66 @@
+<Type Name="ButtonClass" FullName="Microsoft.Office.Interop.InfoPath.ButtonClass">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="7dcce56706e9b6b1349593cb55624eeb149d6dd8" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21040582" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class ButtonClass : Microsoft.Office.Interop.InfoPath.Button" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi ButtonClass extends System.Object implements class Microsoft.Office.Interop.InfoPath._ButtonEventSink_Event, class Microsoft.Office.Interop.InfoPath.Button, class Microsoft.Office.Interop.InfoPath.ButtonEmpty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.ButtonClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class ButtonClass&#xA;Implements Button" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ButtonClass : Microsoft::Office::Interop::InfoPath::Button" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.Button</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(0)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComSourceInterfaces("Microsoft.Office.Interop.InfoPath._ButtonEventSink\0")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("807583EA-5146-11D5-A672-00B0D022E945")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="OnClick">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.InfoPath._ButtonEventSink_OnClickEventHandler OnClick;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.InfoPath._ButtonEventSink_OnClickEventHandler OnClick" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.InfoPath.ButtonClass.OnClick" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event OnClick As _ButtonEventSink_OnClickEventHandler Implements OnClick" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::InfoPath::_ButtonEventSink_OnClickEventHandler ^ OnClick;" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Office.Interop.InfoPath._ButtonEventSink_Event.OnClick</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath._ButtonEventSink_OnClickEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

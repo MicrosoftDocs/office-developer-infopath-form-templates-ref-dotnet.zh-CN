@@ -1,0 +1,168 @@
+<Type Name="VersionUpgradeEventObjectClass" FullName="Microsoft.Office.Interop.InfoPath.VersionUpgradeEventObjectClass">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9ea07bfbe5e2dff6ab845a1320db4db3bb82926c" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21039392" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class VersionUpgradeEventObjectClass : Microsoft.Office.Interop.InfoPath.VersionUpgradeEventObject" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi VersionUpgradeEventObjectClass extends System.Object implements class Microsoft.Office.Interop.InfoPath.VersionUpgradeEvent, class Microsoft.Office.Interop.InfoPath.VersionUpgradeEventObject" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.VersionUpgradeEventObjectClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class VersionUpgradeEventObjectClass&#xA;Implements VersionUpgradeEventObject" />
+  <TypeSignature Language="C++ CLI" Value="public ref class VersionUpgradeEventObjectClass : Microsoft::Office::Interop::InfoPath::VersionUpgradeEventObject" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.VersionUpgradeEventObject</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(0)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("80758320-5146-11D5-A672-00B0D022E945")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DocumentVersion">
+      <MemberSignature Language="C#" Value="public virtual string DocumentVersion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DocumentVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.VersionUpgradeEventObjectClass.DocumentVersion" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property DocumentVersion As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ DocumentVersion { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.VersionUpgradeEvent.DocumentVersion</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReturnStatus">
+      <MemberSignature Language="C#" Value="public virtual bool ReturnStatus { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool ReturnStatus" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.VersionUpgradeEventObjectClass.ReturnStatus" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property ReturnStatus As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool ReturnStatus { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.VersionUpgradeEvent.ReturnStatus</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(101)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(101)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(101)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SolutionVersion">
+      <MemberSignature Language="C#" Value="public virtual string SolutionVersion { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SolutionVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.VersionUpgradeEventObjectClass.SolutionVersion" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property SolutionVersion As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ SolutionVersion { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.VersionUpgradeEvent.SolutionVersion</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XDocument">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.XDocument XDocument { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.XDocument XDocument" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.VersionUpgradeEventObjectClass.XDocument" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property XDocument As XDocument" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::InfoPath::XDocument ^ XDocument { Microsoft::Office::Interop::InfoPath::XDocument ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.VersionUpgradeEvent.XDocument</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(100)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XDocument</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,355 @@
+<Type Name="SolutionObjectClass" FullName="Microsoft.Office.Interop.InfoPath.SolutionObjectClass">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="127e948d84a21373ceb552fb2fbc131d877330a8" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21040995" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class SolutionObjectClass : Microsoft.Office.Interop.InfoPath.Solution2, Microsoft.Office.Interop.InfoPath.SolutionObject" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi SolutionObjectClass extends System.Object implements class Microsoft.Office.Interop.InfoPath.Solution, class Microsoft.Office.Interop.InfoPath.Solution2, class Microsoft.Office.Interop.InfoPath.SolutionObject" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.SolutionObjectClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class SolutionObjectClass&#xA;Implements Solution2, SolutionObject" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SolutionObjectClass : Microsoft::Office::Interop::InfoPath::Solution2, Microsoft::Office::Interop::InfoPath::SolutionObject" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.Solution2</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.SolutionObject</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(0)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("807583CE-5146-11D5-A672-00B0D022E945")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CacheID">
+      <MemberSignature Language="C#" Value="public virtual string CacheID { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CacheID" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SolutionObjectClass.CacheID" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property CacheID As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ CacheID { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.Solution2.CacheID</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DOM">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMDocument DOM { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMDocument DOM" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SolutionObjectClass.DOM" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property DOM As IXMLDOMDocument" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::InfoPath::Xml::IXMLDOMDocument ^ DOM { Microsoft::Office::Interop::InfoPath::Xml::IXMLDOMDocument ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.Solution.DOM</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMDocument</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PackageURL">
+      <MemberSignature Language="C#" Value="public virtual string PackageURL { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PackageURL" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SolutionObjectClass.PackageURL" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property PackageURL As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ PackageURL { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.Solution.PackageURL</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Solution2_DOM">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMDocument Solution2_DOM { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMDocument Solution2_DOM" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SolutionObjectClass.Solution2_DOM" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Solution2_DOM As IXMLDOMDocument" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::InfoPath::Xml::IXMLDOMDocument ^ Solution2_DOM { Microsoft::Office::Interop::InfoPath::Xml::IXMLDOMDocument ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMDocument</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Solution2_get_DOM">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMDocument Solution2_get_DOM ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance class Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMDocument Solution2_get_DOM() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SolutionObjectClass.Solution2_get_DOM" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Solution2_get_DOM () As IXMLDOMDocument" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::Xml::IXMLDOMDocument ^ Solution2_get_DOM() = Microsoft::Office::Interop::InfoPath::Solution2::get_DOM;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMDocument</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Solution2_get_PackageURL">
+      <MemberSignature Language="C#" Value="public virtual string Solution2_get_PackageURL ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance string Solution2_get_PackageURL() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SolutionObjectClass.Solution2_get_PackageURL" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Solution2_get_PackageURL () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ Solution2_get_PackageURL() = Microsoft::Office::Interop::InfoPath::Solution2::get_PackageURL;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Solution2_get_URI">
+      <MemberSignature Language="C#" Value="public virtual string Solution2_get_URI ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance string Solution2_get_URI() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SolutionObjectClass.Solution2_get_URI" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Solution2_get_URI () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ Solution2_get_URI() = Microsoft::Office::Interop::InfoPath::Solution2::get_URI;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Solution2_get_Version">
+      <MemberSignature Language="C#" Value="public virtual string Solution2_get_Version ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance string Solution2_get_Version() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SolutionObjectClass.Solution2_get_Version" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Solution2_get_Version () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ Solution2_get_Version() = Microsoft::Office::Interop::InfoPath::Solution2::get_Version;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Solution2_PackageURL">
+      <MemberSignature Language="C#" Value="public virtual string Solution2_PackageURL { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Solution2_PackageURL" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SolutionObjectClass.Solution2_PackageURL" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Solution2_PackageURL As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ Solution2_PackageURL { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Solution2_URI">
+      <MemberSignature Language="C#" Value="public virtual string Solution2_URI { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Solution2_URI" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SolutionObjectClass.Solution2_URI" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Solution2_URI As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ Solution2_URI { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Solution2_Version">
+      <MemberSignature Language="C#" Value="public virtual string Solution2_Version { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Solution2_Version" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SolutionObjectClass.Solution2_Version" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Solution2_Version As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ Solution2_Version { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="URI">
+      <MemberSignature Language="C#" Value="public virtual string URI { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string URI" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SolutionObjectClass.URI" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property URI As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ URI { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.Solution.URI</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Version">
+      <MemberSignature Language="C#" Value="public virtual string Version { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Version" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SolutionObjectClass.Version" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Version As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ Version { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.Solution.Version</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

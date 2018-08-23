@@ -1,0 +1,40 @@
+<Type Name="DataDOM" FullName="Microsoft.Office.Interop.InfoPath.DataDOM">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d539af8f4680041448b74d969c803dc92701bd80" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21040932" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface DataDOM : Microsoft.Office.Interop.InfoPath._DataDOMEventSink_Event, Microsoft.Office.Interop.InfoPath.DataDOMEmpty" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract DataDOM implements class Microsoft.Office.Interop.InfoPath._DataDOMEventSink_Event, class Microsoft.Office.Interop.InfoPath.DataDOMEmpty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.DataDOM" />
+  <TypeSignature Language="VB.NET" Value="Public Interface DataDOM&#xA;Implements _DataDOMEventSink_Event, DataDOMEmpty" />
+  <TypeSignature Language="C++ CLI" Value="public interface class DataDOM : Microsoft::Office::Interop::InfoPath::_DataDOMEventSink_Event, Microsoft::Office::Interop::InfoPath::DataDOMEmpty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath._DataDOMEventSink_Event</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.DataDOMEmpty</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.InfoPath.DataDOMClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("096CD785-0786-11D1-95FA-0080C78EE3BB")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

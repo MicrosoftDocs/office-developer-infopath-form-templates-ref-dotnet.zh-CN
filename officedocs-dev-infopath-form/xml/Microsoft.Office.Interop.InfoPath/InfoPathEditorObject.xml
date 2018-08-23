@@ -1,0 +1,37 @@
+<Type Name="InfoPathEditorObject" FullName="Microsoft.Office.Interop.InfoPath.InfoPathEditorObject">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3ba8036d722f79dfa84055fa16166e30fddd7b06" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21039784" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface InfoPathEditorObject : Microsoft.Office.Interop.InfoPath.InfoPathEditor" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract InfoPathEditorObject implements class Microsoft.Office.Interop.InfoPath.InfoPathEditor" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.InfoPathEditorObject" />
+  <TypeSignature Language="VB.NET" Value="Public Interface InfoPathEditorObject&#xA;Implements InfoPathEditor" />
+  <TypeSignature Language="C++ CLI" Value="public interface class InfoPathEditorObject : Microsoft::Office::Interop::InfoPath::InfoPathEditor" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.InfoPathEditor</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.InfoPath.InfoPathEditorObjectClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("096CD706-0786-11D1-95FA-0080C78EE3BB")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

@@ -1,0 +1,3472 @@
+<Type Name="CommandIds" FullName="Microsoft.Office.Interop.InfoPath.CommandIds">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="46c1ad8b74d3b2708230c89166cba6632f35b020" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21039805" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum CommandIds" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed CommandIds extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.CommandIds" />
+  <TypeSignature Language="VB.NET" Value="Public Enum CommandIds" />
+  <TypeSignature Language="C++ CLI" Value="public enum class CommandIds" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("FAC23FC1-6D62-4625-BB6D-551CE08057BB")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddWordToDictionary">
+      <MemberSignature Language="C#" Value="AddWordToDictionary" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds AddWordToDictionary = int32(131)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.AddWordToDictionary" />
+      <MemberSignature Language="VB.NET" Value="AddWordToDictionary" />
+      <MemberSignature Language="C++ CLI" Value="AddWordToDictionary" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>131</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AlignTextCenter">
+      <MemberSignature Language="C#" Value="AlignTextCenter" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds AlignTextCenter = int32(33)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.AlignTextCenter" />
+      <MemberSignature Language="VB.NET" Value="AlignTextCenter" />
+      <MemberSignature Language="C++ CLI" Value="AlignTextCenter" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>33</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AlignTextJustify">
+      <MemberSignature Language="C#" Value="AlignTextJustify" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds AlignTextJustify = int32(35)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.AlignTextJustify" />
+      <MemberSignature Language="VB.NET" Value="AlignTextJustify" />
+      <MemberSignature Language="C++ CLI" Value="AlignTextJustify" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>35</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AlignTextLeft">
+      <MemberSignature Language="C#" Value="AlignTextLeft" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds AlignTextLeft = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.AlignTextLeft" />
+      <MemberSignature Language="VB.NET" Value="AlignTextLeft" />
+      <MemberSignature Language="C++ CLI" Value="AlignTextLeft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AlignTextRight">
+      <MemberSignature Language="C#" Value="AlignTextRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds AlignTextRight = int32(34)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.AlignTextRight" />
+      <MemberSignature Language="VB.NET" Value="AlignTextRight" />
+      <MemberSignature Language="C++ CLI" Value="AlignTextRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>34</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearAutoSpace">
+      <MemberSignature Language="C#" Value="ClearAutoSpace" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds ClearAutoSpace = int32(85)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.ClearAutoSpace" />
+      <MemberSignature Language="VB.NET" Value="ClearAutoSpace" />
+      <MemberSignature Language="C++ CLI" Value="ClearAutoSpace" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>85</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearBulletedList">
+      <MemberSignature Language="C#" Value="ClearBulletedList" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds ClearBulletedList = int32(59)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.ClearBulletedList" />
+      <MemberSignature Language="VB.NET" Value="ClearBulletedList" />
+      <MemberSignature Language="C++ CLI" Value="ClearBulletedList" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>59</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearFontFormatting">
+      <MemberSignature Language="C#" Value="ClearFontFormatting" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds ClearFontFormatting = int32(109)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.ClearFontFormatting" />
+      <MemberSignature Language="VB.NET" Value="ClearFontFormatting" />
+      <MemberSignature Language="C++ CLI" Value="ClearFontFormatting" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>109</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ClearNumberedList">
+      <MemberSignature Language="C#" Value="ClearNumberedList" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds ClearNumberedList = int32(58)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.ClearNumberedList" />
+      <MemberSignature Language="VB.NET" Value="ClearNumberedList" />
+      <MemberSignature Language="C++ CLI" Value="ClearNumberedList" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>58</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Close">
+      <MemberSignature Language="C#" Value="Close" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds Close = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.Close" />
+      <MemberSignature Language="VB.NET" Value="Close" />
+      <MemberSignature Language="C++ CLI" Value="Close" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Copy">
+      <MemberSignature Language="C#" Value="Copy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds Copy = int32(53)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.Copy" />
+      <MemberSignature Language="VB.NET" Value="Copy" />
+      <MemberSignature Language="C++ CLI" Value="Copy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>53</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CorrectAllOfMisspelledWord">
+      <MemberSignature Language="C#" Value="CorrectAllOfMisspelledWord" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds CorrectAllOfMisspelledWord = int32(134)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.CorrectAllOfMisspelledWord" />
+      <MemberSignature Language="VB.NET" Value="CorrectAllOfMisspelledWord" />
+      <MemberSignature Language="C++ CLI" Value="CorrectAllOfMisspelledWord" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>134</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CorrectMisspelledWord">
+      <MemberSignature Language="C#" Value="CorrectMisspelledWord" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds CorrectMisspelledWord = int32(133)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.CorrectMisspelledWord" />
+      <MemberSignature Language="VB.NET" Value="CorrectMisspelledWord" />
+      <MemberSignature Language="C++ CLI" Value="CorrectMisspelledWord" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>133</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Cut">
+      <MemberSignature Language="C#" Value="Cut" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds Cut = int32(52)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.Cut" />
+      <MemberSignature Language="VB.NET" Value="Cut" />
+      <MemberSignature Language="C++ CLI" Value="Cut" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>52</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DecreaseFontSizeBy2">
+      <MemberSignature Language="C#" Value="DecreaseFontSizeBy2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds DecreaseFontSizeBy2 = int32(117)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.DecreaseFontSizeBy2" />
+      <MemberSignature Language="VB.NET" Value="DecreaseFontSizeBy2" />
+      <MemberSignature Language="C++ CLI" Value="DecreaseFontSizeBy2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>117</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DecreaseIndent">
+      <MemberSignature Language="C#" Value="DecreaseIndent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds DecreaseIndent = int32(60)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.DecreaseIndent" />
+      <MemberSignature Language="VB.NET" Value="DecreaseIndent" />
+      <MemberSignature Language="C++ CLI" Value="DecreaseIndent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>60</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteMisspelledWord">
+      <MemberSignature Language="C#" Value="DeleteMisspelledWord" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds DeleteMisspelledWord = int32(135)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.DeleteMisspelledWord" />
+      <MemberSignature Language="VB.NET" Value="DeleteMisspelledWord" />
+      <MemberSignature Language="C++ CLI" Value="DeleteMisspelledWord" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>135</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteSelectedColumns">
+      <MemberSignature Language="C#" Value="DeleteSelectedColumns" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds DeleteSelectedColumns = int32(68)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.DeleteSelectedColumns" />
+      <MemberSignature Language="VB.NET" Value="DeleteSelectedColumns" />
+      <MemberSignature Language="C++ CLI" Value="DeleteSelectedColumns" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>68</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteSelectedRows">
+      <MemberSignature Language="C#" Value="DeleteSelectedRows" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds DeleteSelectedRows = int32(67)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.DeleteSelectedRows" />
+      <MemberSignature Language="VB.NET" Value="DeleteSelectedRows" />
+      <MemberSignature Language="C++ CLI" Value="DeleteSelectedRows" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>67</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteSelectedTable">
+      <MemberSignature Language="C#" Value="DeleteSelectedTable" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds DeleteSelectedTable = int32(66)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.DeleteSelectedTable" />
+      <MemberSignature Language="VB.NET" Value="DeleteSelectedTable" />
+      <MemberSignature Language="C++ CLI" Value="DeleteSelectedTable" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>66</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DrawTable">
+      <MemberSignature Language="C#" Value="DrawTable" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds DrawTable = int32(50)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.DrawTable" />
+      <MemberSignature Language="VB.NET" Value="DrawTable" />
+      <MemberSignature Language="C++ CLI" Value="DrawTable" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>50</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EraseTable">
+      <MemberSignature Language="C#" Value="EraseTable" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds EraseTable = int32(51)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.EraseTable" />
+      <MemberSignature Language="VB.NET" Value="EraseTable" />
+      <MemberSignature Language="C++ CLI" Value="EraseTable" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>51</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FindNextMisspelledWord">
+      <MemberSignature Language="C#" Value="FindNextMisspelledWord" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds FindNextMisspelledWord = int32(132)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.FindNextMisspelledWord" />
+      <MemberSignature Language="VB.NET" Value="FindNextMisspelledWord" />
+      <MemberSignature Language="C++ CLI" Value="FindNextMisspelledWord" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>132</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FindReplaceFindNext">
+      <MemberSignature Language="C#" Value="FindReplaceFindNext" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds FindReplaceFindNext = int32(119)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.FindReplaceFindNext" />
+      <MemberSignature Language="VB.NET" Value="FindReplaceFindNext" />
+      <MemberSignature Language="C++ CLI" Value="FindReplaceFindNext" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>119</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FormatPainterApplyFormatting">
+      <MemberSignature Language="C#" Value="FormatPainterApplyFormatting" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds FormatPainterApplyFormatting = int32(23)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.FormatPainterApplyFormatting" />
+      <MemberSignature Language="VB.NET" Value="FormatPainterApplyFormatting" />
+      <MemberSignature Language="C++ CLI" Value="FormatPainterApplyFormatting" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>23</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FormatPainterApplyFormattingPersistent">
+      <MemberSignature Language="C#" Value="FormatPainterApplyFormattingPersistent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds FormatPainterApplyFormattingPersistent = int32(25)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.FormatPainterApplyFormattingPersistent" />
+      <MemberSignature Language="VB.NET" Value="FormatPainterApplyFormattingPersistent" />
+      <MemberSignature Language="C++ CLI" Value="FormatPainterApplyFormattingPersistent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>25</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FormatPainterCopyFormatting">
+      <MemberSignature Language="C#" Value="FormatPainterCopyFormatting" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds FormatPainterCopyFormatting = int32(24)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.FormatPainterCopyFormatting" />
+      <MemberSignature Language="VB.NET" Value="FormatPainterCopyFormatting" />
+      <MemberSignature Language="C++ CLI" Value="FormatPainterCopyFormatting" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>24</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FormatPainterCopyFormattingPersistent">
+      <MemberSignature Language="C#" Value="FormatPainterCopyFormattingPersistent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds FormatPainterCopyFormattingPersistent = int32(172)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.FormatPainterCopyFormattingPersistent" />
+      <MemberSignature Language="VB.NET" Value="FormatPainterCopyFormattingPersistent" />
+      <MemberSignature Language="C++ CLI" Value="FormatPainterCopyFormattingPersistent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>172</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCurrentMisspelledWord">
+      <MemberSignature Language="C#" Value="GetCurrentMisspelledWord" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds GetCurrentMisspelledWord = int32(139)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.GetCurrentMisspelledWord" />
+      <MemberSignature Language="VB.NET" Value="GetCurrentMisspelledWord" />
+      <MemberSignature Language="C++ CLI" Value="GetCurrentMisspelledWord" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>139</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDefaultFontColor">
+      <MemberSignature Language="C#" Value="GetDefaultFontColor" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds GetDefaultFontColor = int32(98)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.GetDefaultFontColor" />
+      <MemberSignature Language="VB.NET" Value="GetDefaultFontColor" />
+      <MemberSignature Language="C++ CLI" Value="GetDefaultFontColor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>98</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDefaultHighlightColor">
+      <MemberSignature Language="C#" Value="GetDefaultHighlightColor" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds GetDefaultHighlightColor = int32(97)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.GetDefaultHighlightColor" />
+      <MemberSignature Language="VB.NET" Value="GetDefaultHighlightColor" />
+      <MemberSignature Language="C++ CLI" Value="GetDefaultHighlightColor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>97</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFindReplaceOptionSearchDirection">
+      <MemberSignature Language="C#" Value="GetFindReplaceOptionSearchDirection" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds GetFindReplaceOptionSearchDirection = int32(94)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.GetFindReplaceOptionSearchDirection" />
+      <MemberSignature Language="VB.NET" Value="GetFindReplaceOptionSearchDirection" />
+      <MemberSignature Language="C++ CLI" Value="GetFindReplaceOptionSearchDirection" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>94</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFindReplaceState">
+      <MemberSignature Language="C#" Value="GetFindReplaceState" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds GetFindReplaceState = int32(171)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.GetFindReplaceState" />
+      <MemberSignature Language="VB.NET" Value="GetFindReplaceState" />
+      <MemberSignature Language="C++ CLI" Value="GetFindReplaceState" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>171</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFindString">
+      <MemberSignature Language="C#" Value="GetFindString" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds GetFindString = int32(87)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.GetFindString" />
+      <MemberSignature Language="VB.NET" Value="GetFindString" />
+      <MemberSignature Language="C++ CLI" Value="GetFindString" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>87</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFontAvailableByIndex">
+      <MemberSignature Language="C#" Value="GetFontAvailableByIndex" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds GetFontAvailableByIndex = int32(102)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.GetFontAvailableByIndex" />
+      <MemberSignature Language="VB.NET" Value="GetFontAvailableByIndex" />
+      <MemberSignature Language="C++ CLI" Value="GetFontAvailableByIndex" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>102</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFontsAvailableCount">
+      <MemberSignature Language="C#" Value="GetFontsAvailableCount" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds GetFontsAvailableCount = int32(101)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.GetFontsAvailableCount" />
+      <MemberSignature Language="VB.NET" Value="GetFontsAvailableCount" />
+      <MemberSignature Language="C++ CLI" Value="GetFontsAvailableCount" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>101</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFontSizeAvailableByIndex">
+      <MemberSignature Language="C#" Value="GetFontSizeAvailableByIndex" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds GetFontSizeAvailableByIndex = int32(104)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.GetFontSizeAvailableByIndex" />
+      <MemberSignature Language="VB.NET" Value="GetFontSizeAvailableByIndex" />
+      <MemberSignature Language="C++ CLI" Value="GetFontSizeAvailableByIndex" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>104</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFontSizesAvailableCount">
+      <MemberSignature Language="C#" Value="GetFontSizesAvailableCount" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds GetFontSizesAvailableCount = int32(103)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.GetFontSizesAvailableCount" />
+      <MemberSignature Language="VB.NET" Value="GetFontSizesAvailableCount" />
+      <MemberSignature Language="C++ CLI" Value="GetFontSizesAvailableCount" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>103</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHyperlinkAddress">
+      <MemberSignature Language="C#" Value="GetHyperlinkAddress" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds GetHyperlinkAddress = int32(159)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.GetHyperlinkAddress" />
+      <MemberSignature Language="VB.NET" Value="GetHyperlinkAddress" />
+      <MemberSignature Language="C++ CLI" Value="GetHyperlinkAddress" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>159</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GetHyperlinkDisplayText">
+      <MemberSignature Language="C#" Value="GetHyperlinkDisplayText" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds GetHyperlinkDisplayText = int32(158)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.GetHyperlinkDisplayText" />
+      <MemberSignature Language="VB.NET" Value="GetHyperlinkDisplayText" />
+      <MemberSignature Language="C++ CLI" Value="GetHyperlinkDisplayText" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>158</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPictureAlternativeText">
+      <MemberSignature Language="C#" Value="GetPictureAlternativeText" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds GetPictureAlternativeText = int32(169)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.GetPictureAlternativeText" />
+      <MemberSignature Language="VB.NET" Value="GetPictureAlternativeText" />
+      <MemberSignature Language="C++ CLI" Value="GetPictureAlternativeText" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>169</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPictureHeight">
+      <MemberSignature Language="C#" Value="GetPictureHeight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds GetPictureHeight = int32(167)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.GetPictureHeight" />
+      <MemberSignature Language="VB.NET" Value="GetPictureHeight" />
+      <MemberSignature Language="C++ CLI" Value="GetPictureHeight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>167</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPictureTextWrapping">
+      <MemberSignature Language="C#" Value="GetPictureTextWrapping" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds GetPictureTextWrapping = int32(170)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.GetPictureTextWrapping" />
+      <MemberSignature Language="VB.NET" Value="GetPictureTextWrapping" />
+      <MemberSignature Language="C++ CLI" Value="GetPictureTextWrapping" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>170</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPictureWidth">
+      <MemberSignature Language="C#" Value="GetPictureWidth" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds GetPictureWidth = int32(168)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.GetPictureWidth" />
+      <MemberSignature Language="VB.NET" Value="GetPictureWidth" />
+      <MemberSignature Language="C++ CLI" Value="GetPictureWidth" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>168</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GetReplaceWithString">
+      <MemberSignature Language="C#" Value="GetReplaceWithString" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds GetReplaceWithString = int32(89)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.GetReplaceWithString" />
+      <MemberSignature Language="VB.NET" Value="GetReplaceWithString" />
+      <MemberSignature Language="C++ CLI" Value="GetReplaceWithString" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>89</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSelectedCellBottomPadding">
+      <MemberSignature Language="C#" Value="GetSelectedCellBottomPadding" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds GetSelectedCellBottomPadding = int32(151)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.GetSelectedCellBottomPadding" />
+      <MemberSignature Language="VB.NET" Value="GetSelectedCellBottomPadding" />
+      <MemberSignature Language="C++ CLI" Value="GetSelectedCellBottomPadding" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>151</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSelectedCellLeftPadding">
+      <MemberSignature Language="C#" Value="GetSelectedCellLeftPadding" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds GetSelectedCellLeftPadding = int32(150)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.GetSelectedCellLeftPadding" />
+      <MemberSignature Language="VB.NET" Value="GetSelectedCellLeftPadding" />
+      <MemberSignature Language="C++ CLI" Value="GetSelectedCellLeftPadding" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>150</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSelectedCellRightPadding">
+      <MemberSignature Language="C#" Value="GetSelectedCellRightPadding" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds GetSelectedCellRightPadding = int32(152)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.GetSelectedCellRightPadding" />
+      <MemberSignature Language="VB.NET" Value="GetSelectedCellRightPadding" />
+      <MemberSignature Language="C++ CLI" Value="GetSelectedCellRightPadding" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>152</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSelectedCellTopPadding">
+      <MemberSignature Language="C#" Value="GetSelectedCellTopPadding" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds GetSelectedCellTopPadding = int32(149)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.GetSelectedCellTopPadding" />
+      <MemberSignature Language="VB.NET" Value="GetSelectedCellTopPadding" />
+      <MemberSignature Language="C++ CLI" Value="GetSelectedCellTopPadding" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>149</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSelectedCellVerticalAlignment">
+      <MemberSignature Language="C#" Value="GetSelectedCellVerticalAlignment" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds GetSelectedCellVerticalAlignment = int32(148)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.GetSelectedCellVerticalAlignment" />
+      <MemberSignature Language="VB.NET" Value="GetSelectedCellVerticalAlignment" />
+      <MemberSignature Language="C++ CLI" Value="GetSelectedCellVerticalAlignment" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>148</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSelectedColumnWidth">
+      <MemberSignature Language="C#" Value="GetSelectedColumnWidth" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds GetSelectedColumnWidth = int32(142)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.GetSelectedColumnWidth" />
+      <MemberSignature Language="VB.NET" Value="GetSelectedColumnWidth" />
+      <MemberSignature Language="C++ CLI" Value="GetSelectedColumnWidth" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>142</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSelectedRowHeight">
+      <MemberSignature Language="C#" Value="GetSelectedRowHeight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds GetSelectedRowHeight = int32(140)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.GetSelectedRowHeight" />
+      <MemberSignature Language="VB.NET" Value="GetSelectedRowHeight" />
+      <MemberSignature Language="C++ CLI" Value="GetSelectedRowHeight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>140</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSelectedTextBackgroundColor">
+      <MemberSignature Language="C#" Value="GetSelectedTextBackgroundColor" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds GetSelectedTextBackgroundColor = int32(127)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.GetSelectedTextBackgroundColor" />
+      <MemberSignature Language="VB.NET" Value="GetSelectedTextBackgroundColor" />
+      <MemberSignature Language="C++ CLI" Value="GetSelectedTextBackgroundColor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>127</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSelectedTextFont">
+      <MemberSignature Language="C#" Value="GetSelectedTextFont" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds GetSelectedTextFont = int32(124)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.GetSelectedTextFont" />
+      <MemberSignature Language="VB.NET" Value="GetSelectedTextFont" />
+      <MemberSignature Language="C++ CLI" Value="GetSelectedTextFont" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>124</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSelectedTextFontColor">
+      <MemberSignature Language="C#" Value="GetSelectedTextFontColor" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds GetSelectedTextFontColor = int32(125)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.GetSelectedTextFontColor" />
+      <MemberSignature Language="VB.NET" Value="GetSelectedTextFontColor" />
+      <MemberSignature Language="C++ CLI" Value="GetSelectedTextFontColor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>125</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSelectedTextFontSize">
+      <MemberSignature Language="C#" Value="GetSelectedTextFontSize" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds GetSelectedTextFontSize = int32(123)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.GetSelectedTextFontSize" />
+      <MemberSignature Language="VB.NET" Value="GetSelectedTextFontSize" />
+      <MemberSignature Language="C++ CLI" Value="GetSelectedTextFontSize" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>123</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSelectedTextHighlightColor">
+      <MemberSignature Language="C#" Value="GetSelectedTextHighlightColor" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds GetSelectedTextHighlightColor = int32(126)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.GetSelectedTextHighlightColor" />
+      <MemberSignature Language="VB.NET" Value="GetSelectedTextHighlightColor" />
+      <MemberSignature Language="C++ CLI" Value="GetSelectedTextHighlightColor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>126</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSpellingSuggestion">
+      <MemberSignature Language="C#" Value="GetSpellingSuggestion" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds GetSpellingSuggestion = int32(138)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.GetSpellingSuggestion" />
+      <MemberSignature Language="VB.NET" Value="GetSpellingSuggestion" />
+      <MemberSignature Language="C++ CLI" Value="GetSpellingSuggestion" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>138</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSpellingSuggestionsCount">
+      <MemberSignature Language="C#" Value="GetSpellingSuggestionsCount" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds GetSpellingSuggestionsCount = int32(137)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.GetSpellingSuggestionsCount" />
+      <MemberSignature Language="VB.NET" Value="GetSpellingSuggestionsCount" />
+      <MemberSignature Language="C++ CLI" Value="GetSpellingSuggestionsCount" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>137</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSubmitButtonCaption">
+      <MemberSignature Language="C#" Value="GetSubmitButtonCaption" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds GetSubmitButtonCaption = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.GetSubmitButtonCaption" />
+      <MemberSignature Language="VB.NET" Value="GetSubmitButtonCaption" />
+      <MemberSignature Language="C++ CLI" Value="GetSubmitButtonCaption" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GetTableDirection">
+      <MemberSignature Language="C#" Value="GetTableDirection" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds GetTableDirection = int32(77)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.GetTableDirection" />
+      <MemberSignature Language="VB.NET" Value="GetTableDirection" />
+      <MemberSignature Language="C++ CLI" Value="GetTableDirection" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>77</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GetTableHorizontalAlignment">
+      <MemberSignature Language="C#" Value="GetTableHorizontalAlignment" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds GetTableHorizontalAlignment = int32(75)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.GetTableHorizontalAlignment" />
+      <MemberSignature Language="VB.NET" Value="GetTableHorizontalAlignment" />
+      <MemberSignature Language="C++ CLI" Value="GetTableHorizontalAlignment" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>75</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GotoFirstErrorOnView">
+      <MemberSignature Language="C#" Value="GotoFirstErrorOnView" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds GotoFirstErrorOnView = int32(107)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.GotoFirstErrorOnView" />
+      <MemberSignature Language="VB.NET" Value="GotoFirstErrorOnView" />
+      <MemberSignature Language="C++ CLI" Value="GotoFirstErrorOnView" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>107</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GotoNextErrorOnView">
+      <MemberSignature Language="C#" Value="GotoNextErrorOnView" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds GotoNextErrorOnView = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.GotoNextErrorOnView" />
+      <MemberSignature Language="VB.NET" Value="GotoNextErrorOnView" />
+      <MemberSignature Language="C++ CLI" Value="GotoNextErrorOnView" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="IgnoreAllOfMisspelledWord">
+      <MemberSignature Language="C#" Value="IgnoreAllOfMisspelledWord" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds IgnoreAllOfMisspelledWord = int32(130)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.IgnoreAllOfMisspelledWord" />
+      <MemberSignature Language="VB.NET" Value="IgnoreAllOfMisspelledWord" />
+      <MemberSignature Language="C++ CLI" Value="IgnoreAllOfMisspelledWord" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>130</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="IgnoreMisspelledWord">
+      <MemberSignature Language="C#" Value="IgnoreMisspelledWord" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds IgnoreMisspelledWord = int32(129)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.IgnoreMisspelledWord" />
+      <MemberSignature Language="VB.NET" Value="IgnoreMisspelledWord" />
+      <MemberSignature Language="C++ CLI" Value="IgnoreMisspelledWord" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>129</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="IncreaseFontSizeBy2">
+      <MemberSignature Language="C#" Value="IncreaseFontSizeBy2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds IncreaseFontSizeBy2 = int32(118)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.IncreaseFontSizeBy2" />
+      <MemberSignature Language="VB.NET" Value="IncreaseFontSizeBy2" />
+      <MemberSignature Language="C++ CLI" Value="IncreaseFontSizeBy2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>118</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="IncreaseIndent">
+      <MemberSignature Language="C#" Value="IncreaseIndent" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds IncreaseIndent = int32(61)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.IncreaseIndent" />
+      <MemberSignature Language="VB.NET" Value="IncreaseIndent" />
+      <MemberSignature Language="C++ CLI" Value="IncreaseIndent" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>61</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InsertBulletedList">
+      <MemberSignature Language="C#" Value="InsertBulletedList" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds InsertBulletedList = int32(22)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.InsertBulletedList" />
+      <MemberSignature Language="VB.NET" Value="InsertBulletedList" />
+      <MemberSignature Language="C++ CLI" Value="InsertBulletedList" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>22</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InsertBulletedListEmptyCircle">
+      <MemberSignature Language="C#" Value="InsertBulletedListEmptyCircle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds InsertBulletedListEmptyCircle = int32(48)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.InsertBulletedListEmptyCircle" />
+      <MemberSignature Language="VB.NET" Value="InsertBulletedListEmptyCircle" />
+      <MemberSignature Language="C++ CLI" Value="InsertBulletedListEmptyCircle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>48</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InsertBulletedListSolidCircle">
+      <MemberSignature Language="C#" Value="InsertBulletedListSolidCircle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds InsertBulletedListSolidCircle = int32(47)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.InsertBulletedListSolidCircle" />
+      <MemberSignature Language="VB.NET" Value="InsertBulletedListSolidCircle" />
+      <MemberSignature Language="C++ CLI" Value="InsertBulletedListSolidCircle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>47</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InsertBulletedListSolidSquare">
+      <MemberSignature Language="C#" Value="InsertBulletedListSolidSquare" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds InsertBulletedListSolidSquare = int32(49)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.InsertBulletedListSolidSquare" />
+      <MemberSignature Language="VB.NET" Value="InsertBulletedListSolidSquare" />
+      <MemberSignature Language="C++ CLI" Value="InsertBulletedListSolidSquare" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>49</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InsertColumnLeft">
+      <MemberSignature Language="C#" Value="InsertColumnLeft" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds InsertColumnLeft = int32(64)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.InsertColumnLeft" />
+      <MemberSignature Language="VB.NET" Value="InsertColumnLeft" />
+      <MemberSignature Language="C++ CLI" Value="InsertColumnLeft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>64</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InsertColumnRight">
+      <MemberSignature Language="C#" Value="InsertColumnRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds InsertColumnRight = int32(65)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.InsertColumnRight" />
+      <MemberSignature Language="VB.NET" Value="InsertColumnRight" />
+      <MemberSignature Language="C++ CLI" Value="InsertColumnRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>65</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InsertHorizontalLine">
+      <MemberSignature Language="C#" Value="InsertHorizontalLine" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds InsertHorizontalLine = int32(78)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.InsertHorizontalLine" />
+      <MemberSignature Language="VB.NET" Value="InsertHorizontalLine" />
+      <MemberSignature Language="C++ CLI" Value="InsertHorizontalLine" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>78</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InsertHyperlink">
+      <MemberSignature Language="C#" Value="InsertHyperlink" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds InsertHyperlink = int32(81)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.InsertHyperlink" />
+      <MemberSignature Language="VB.NET" Value="InsertHyperlink" />
+      <MemberSignature Language="C++ CLI" Value="InsertHyperlink" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>81</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InsertImage">
+      <MemberSignature Language="C#" Value="InsertImage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds InsertImage = int32(80)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.InsertImage" />
+      <MemberSignature Language="VB.NET" Value="InsertImage" />
+      <MemberSignature Language="C++ CLI" Value="InsertImage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>80</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InsertNumberedList">
+      <MemberSignature Language="C#" Value="InsertNumberedList" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds InsertNumberedList = int32(21)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.InsertNumberedList" />
+      <MemberSignature Language="VB.NET" Value="InsertNumberedList" />
+      <MemberSignature Language="C++ CLI" Value="InsertNumberedList" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>21</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InsertNumberedListAlphaLowercase">
+      <MemberSignature Language="C#" Value="InsertNumberedListAlphaLowercase" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds InsertNumberedListAlphaLowercase = int32(43)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.InsertNumberedListAlphaLowercase" />
+      <MemberSignature Language="VB.NET" Value="InsertNumberedListAlphaLowercase" />
+      <MemberSignature Language="C++ CLI" Value="InsertNumberedListAlphaLowercase" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>43</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InsertNumberedListAlphaUppercase">
+      <MemberSignature Language="C#" Value="InsertNumberedListAlphaUppercase" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds InsertNumberedListAlphaUppercase = int32(44)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.InsertNumberedListAlphaUppercase" />
+      <MemberSignature Language="VB.NET" Value="InsertNumberedListAlphaUppercase" />
+      <MemberSignature Language="C++ CLI" Value="InsertNumberedListAlphaUppercase" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>44</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InsertNumberedListDecimal">
+      <MemberSignature Language="C#" Value="InsertNumberedListDecimal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds InsertNumberedListDecimal = int32(42)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.InsertNumberedListDecimal" />
+      <MemberSignature Language="VB.NET" Value="InsertNumberedListDecimal" />
+      <MemberSignature Language="C++ CLI" Value="InsertNumberedListDecimal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>42</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InsertNumberedListRomanLowercase">
+      <MemberSignature Language="C#" Value="InsertNumberedListRomanLowercase" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds InsertNumberedListRomanLowercase = int32(45)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.InsertNumberedListRomanLowercase" />
+      <MemberSignature Language="VB.NET" Value="InsertNumberedListRomanLowercase" />
+      <MemberSignature Language="C++ CLI" Value="InsertNumberedListRomanLowercase" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>45</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InsertNumberedListRomanUppercase">
+      <MemberSignature Language="C#" Value="InsertNumberedListRomanUppercase" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds InsertNumberedListRomanUppercase = int32(46)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.InsertNumberedListRomanUppercase" />
+      <MemberSignature Language="VB.NET" Value="InsertNumberedListRomanUppercase" />
+      <MemberSignature Language="C++ CLI" Value="InsertNumberedListRomanUppercase" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>46</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InsertPictureFromFile">
+      <MemberSignature Language="C#" Value="InsertPictureFromFile" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds InsertPictureFromFile = int32(13)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.InsertPictureFromFile" />
+      <MemberSignature Language="VB.NET" Value="InsertPictureFromFile" />
+      <MemberSignature Language="C++ CLI" Value="InsertPictureFromFile" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>13</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InsertRowAbove">
+      <MemberSignature Language="C#" Value="InsertRowAbove" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds InsertRowAbove = int32(62)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.InsertRowAbove" />
+      <MemberSignature Language="VB.NET" Value="InsertRowAbove" />
+      <MemberSignature Language="C++ CLI" Value="InsertRowAbove" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>62</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InsertRowBelow">
+      <MemberSignature Language="C#" Value="InsertRowBelow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds InsertRowBelow = int32(63)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.InsertRowBelow" />
+      <MemberSignature Language="VB.NET" Value="InsertRowBelow" />
+      <MemberSignature Language="C++ CLI" Value="InsertRowBelow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>63</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InsertTable">
+      <MemberSignature Language="C#" Value="InsertTable" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds InsertTable = int32(128)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.InsertTable" />
+      <MemberSignature Language="VB.NET" Value="InsertTable" />
+      <MemberSignature Language="C++ CLI" Value="InsertTable" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>128</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="IsFormDirectionLeftToRight">
+      <MemberSignature Language="C#" Value="IsFormDirectionLeftToRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds IsFormDirectionLeftToRight = int32(175)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.IsFormDirectionLeftToRight" />
+      <MemberSignature Language="VB.NET" Value="IsFormDirectionLeftToRight" />
+      <MemberSignature Language="C++ CLI" Value="IsFormDirectionLeftToRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>175</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="IsFormDirectionRightToLeft">
+      <MemberSignature Language="C#" Value="IsFormDirectionRightToLeft" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds IsFormDirectionRightToLeft = int32(174)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.IsFormDirectionRightToLeft" />
+      <MemberSignature Language="VB.NET" Value="IsFormDirectionRightToLeft" />
+      <MemberSignature Language="C++ CLI" Value="IsFormDirectionRightToLeft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>174</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MergeCells">
+      <MemberSignature Language="C#" Value="MergeCells" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds MergeCells = int32(73)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.MergeCells" />
+      <MemberSignature Language="VB.NET" Value="MergeCells" />
+      <MemberSignature Language="C++ CLI" Value="MergeCells" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>73</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Paste">
+      <MemberSignature Language="C#" Value="Paste" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds Paste = int32(54)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.Paste" />
+      <MemberSignature Language="VB.NET" Value="Paste" />
+      <MemberSignature Language="C++ CLI" Value="Paste" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>54</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PasteAsText">
+      <MemberSignature Language="C#" Value="PasteAsText" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds PasteAsText = int32(178)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.PasteAsText" />
+      <MemberSignature Language="VB.NET" Value="PasteAsText" />
+      <MemberSignature Language="C++ CLI" Value="PasteAsText" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>178</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PasteKeepSourceFormatting">
+      <MemberSignature Language="C#" Value="PasteKeepSourceFormatting" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds PasteKeepSourceFormatting = int32(176)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.PasteKeepSourceFormatting" />
+      <MemberSignature Language="VB.NET" Value="PasteKeepSourceFormatting" />
+      <MemberSignature Language="C++ CLI" Value="PasteKeepSourceFormatting" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>176</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PasteMatchDestination">
+      <MemberSignature Language="C#" Value="PasteMatchDestination" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds PasteMatchDestination = int32(177)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.PasteMatchDestination" />
+      <MemberSignature Language="VB.NET" Value="PasteMatchDestination" />
+      <MemberSignature Language="C++ CLI" Value="PasteMatchDestination" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>177</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Redo">
+      <MemberSignature Language="C#" Value="Redo" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds Redo = int32(57)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.Redo" />
+      <MemberSignature Language="VB.NET" Value="Redo" />
+      <MemberSignature Language="C++ CLI" Value="Redo" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>57</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveHyperlink">
+      <MemberSignature Language="C#" Value="RemoveHyperlink" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds RemoveHyperlink = int32(160)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.RemoveHyperlink" />
+      <MemberSignature Language="VB.NET" Value="RemoveHyperlink" />
+      <MemberSignature Language="C++ CLI" Value="RemoveHyperlink" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>160</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Replace">
+      <MemberSignature Language="C#" Value="Replace" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds Replace = int32(95)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.Replace" />
+      <MemberSignature Language="VB.NET" Value="Replace" />
+      <MemberSignature Language="C++ CLI" Value="Replace" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>95</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ReplaceAll">
+      <MemberSignature Language="C#" Value="ReplaceAll" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds ReplaceAll = int32(96)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.ReplaceAll" />
+      <MemberSignature Language="VB.NET" Value="ReplaceAll" />
+      <MemberSignature Language="C++ CLI" Value="ReplaceAll" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>96</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Save">
+      <MemberSignature Language="C#" Value="Save" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds Save = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.Save" />
+      <MemberSignature Language="VB.NET" Value="Save" />
+      <MemberSignature Language="C++ CLI" Value="Save" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SaveAs">
+      <MemberSignature Language="C#" Value="SaveAs" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SaveAs = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SaveAs" />
+      <MemberSignature Language="VB.NET" Value="SaveAs" />
+      <MemberSignature Language="C++ CLI" Value="SaveAs" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectAll">
+      <MemberSignature Language="C#" Value="SelectAll" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SelectAll = int32(55)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SelectAll" />
+      <MemberSignature Language="VB.NET" Value="SelectAll" />
+      <MemberSignature Language="C++ CLI" Value="SelectAll" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>55</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectCell">
+      <MemberSignature Language="C#" Value="SelectCell" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SelectCell = int32(72)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SelectCell" />
+      <MemberSignature Language="VB.NET" Value="SelectCell" />
+      <MemberSignature Language="C++ CLI" Value="SelectCell" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>72</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectColumns">
+      <MemberSignature Language="C#" Value="SelectColumns" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SelectColumns = int32(71)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SelectColumns" />
+      <MemberSignature Language="VB.NET" Value="SelectColumns" />
+      <MemberSignature Language="C++ CLI" Value="SelectColumns" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>71</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectHyperlink">
+      <MemberSignature Language="C#" Value="SelectHyperlink" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SelectHyperlink = int32(82)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SelectHyperlink" />
+      <MemberSignature Language="VB.NET" Value="SelectHyperlink" />
+      <MemberSignature Language="C++ CLI" Value="SelectHyperlink" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>82</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectNextColumn">
+      <MemberSignature Language="C#" Value="SelectNextColumn" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SelectNextColumn = int32(146)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SelectNextColumn" />
+      <MemberSignature Language="VB.NET" Value="SelectNextColumn" />
+      <MemberSignature Language="C++ CLI" Value="SelectNextColumn" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>146</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectNextRow">
+      <MemberSignature Language="C#" Value="SelectNextRow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SelectNextRow = int32(144)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SelectNextRow" />
+      <MemberSignature Language="VB.NET" Value="SelectNextRow" />
+      <MemberSignature Language="C++ CLI" Value="SelectNextRow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>144</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectPreviousColumn">
+      <MemberSignature Language="C#" Value="SelectPreviousColumn" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SelectPreviousColumn = int32(147)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SelectPreviousColumn" />
+      <MemberSignature Language="VB.NET" Value="SelectPreviousColumn" />
+      <MemberSignature Language="C++ CLI" Value="SelectPreviousColumn" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>147</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectPreviousRow">
+      <MemberSignature Language="C#" Value="SelectPreviousRow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SelectPreviousRow = int32(145)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SelectPreviousRow" />
+      <MemberSignature Language="VB.NET" Value="SelectPreviousRow" />
+      <MemberSignature Language="C++ CLI" Value="SelectPreviousRow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>145</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectRows">
+      <MemberSignature Language="C#" Value="SelectRows" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SelectRows = int32(70)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SelectRows" />
+      <MemberSignature Language="VB.NET" Value="SelectRows" />
+      <MemberSignature Language="C++ CLI" Value="SelectRows" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>70</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectTable">
+      <MemberSignature Language="C#" Value="SelectTable" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SelectTable = int32(69)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SelectTable" />
+      <MemberSignature Language="VB.NET" Value="SelectTable" />
+      <MemberSignature Language="C++ CLI" Value="SelectTable" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>69</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Set15LineSpacing">
+      <MemberSignature Language="C#" Value="Set15LineSpacing" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds Set15LineSpacing = int32(40)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.Set15LineSpacing" />
+      <MemberSignature Language="VB.NET" Value="Set15LineSpacing" />
+      <MemberSignature Language="C++ CLI" Value="Set15LineSpacing" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>40</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetAutoSpaceBetweenAsianAndLatinText">
+      <MemberSignature Language="C#" Value="SetAutoSpaceBetweenAsianAndLatinText" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetAutoSpaceBetweenAsianAndLatinText = int32(83)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetAutoSpaceBetweenAsianAndLatinText" />
+      <MemberSignature Language="VB.NET" Value="SetAutoSpaceBetweenAsianAndLatinText" />
+      <MemberSignature Language="C++ CLI" Value="SetAutoSpaceBetweenAsianAndLatinText" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>83</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetAutoSpaceBetweenAsianTextAndNumbers">
+      <MemberSignature Language="C#" Value="SetAutoSpaceBetweenAsianTextAndNumbers" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetAutoSpaceBetweenAsianTextAndNumbers = int32(84)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetAutoSpaceBetweenAsianTextAndNumbers" />
+      <MemberSignature Language="VB.NET" Value="SetAutoSpaceBetweenAsianTextAndNumbers" />
+      <MemberSignature Language="C++ CLI" Value="SetAutoSpaceBetweenAsianTextAndNumbers" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>84</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetDoubleLineSpacing">
+      <MemberSignature Language="C#" Value="SetDoubleLineSpacing" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetDoubleLineSpacing = int32(41)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetDoubleLineSpacing" />
+      <MemberSignature Language="VB.NET" Value="SetDoubleLineSpacing" />
+      <MemberSignature Language="C++ CLI" Value="SetDoubleLineSpacing" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>41</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetFindReplaceOptionMatchCase">
+      <MemberSignature Language="C#" Value="SetFindReplaceOptionMatchCase" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetFindReplaceOptionMatchCase = int32(91)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetFindReplaceOptionMatchCase" />
+      <MemberSignature Language="VB.NET" Value="SetFindReplaceOptionMatchCase" />
+      <MemberSignature Language="C++ CLI" Value="SetFindReplaceOptionMatchCase" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>91</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetFindReplaceOptionSearchDirection">
+      <MemberSignature Language="C#" Value="SetFindReplaceOptionSearchDirection" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetFindReplaceOptionSearchDirection = int32(93)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetFindReplaceOptionSearchDirection" />
+      <MemberSignature Language="VB.NET" Value="SetFindReplaceOptionSearchDirection" />
+      <MemberSignature Language="C++ CLI" Value="SetFindReplaceOptionSearchDirection" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>93</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetFindReplaceOptionUseWildcards">
+      <MemberSignature Language="C#" Value="SetFindReplaceOptionUseWildcards" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetFindReplaceOptionUseWildcards = int32(92)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetFindReplaceOptionUseWildcards" />
+      <MemberSignature Language="VB.NET" Value="SetFindReplaceOptionUseWildcards" />
+      <MemberSignature Language="C++ CLI" Value="SetFindReplaceOptionUseWildcards" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>92</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetFindReplaceOptionWholeWordOnly">
+      <MemberSignature Language="C#" Value="SetFindReplaceOptionWholeWordOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetFindReplaceOptionWholeWordOnly = int32(90)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetFindReplaceOptionWholeWordOnly" />
+      <MemberSignature Language="VB.NET" Value="SetFindReplaceOptionWholeWordOnly" />
+      <MemberSignature Language="C++ CLI" Value="SetFindReplaceOptionWholeWordOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>90</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetFindString">
+      <MemberSignature Language="C#" Value="SetFindString" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetFindString = int32(86)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetFindString" />
+      <MemberSignature Language="VB.NET" Value="SetFindString" />
+      <MemberSignature Language="C++ CLI" Value="SetFindString" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>86</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetFontFormattingBold">
+      <MemberSignature Language="C#" Value="SetFontFormattingBold" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetFontFormattingBold = int32(26)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetFontFormattingBold" />
+      <MemberSignature Language="VB.NET" Value="SetFontFormattingBold" />
+      <MemberSignature Language="C++ CLI" Value="SetFontFormattingBold" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>26</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetFontFormattingHeading1">
+      <MemberSignature Language="C#" Value="SetFontFormattingHeading1" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetFontFormattingHeading1 = int32(110)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetFontFormattingHeading1" />
+      <MemberSignature Language="VB.NET" Value="SetFontFormattingHeading1" />
+      <MemberSignature Language="C++ CLI" Value="SetFontFormattingHeading1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>110</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetFontFormattingHeading2">
+      <MemberSignature Language="C#" Value="SetFontFormattingHeading2" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetFontFormattingHeading2 = int32(111)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetFontFormattingHeading2" />
+      <MemberSignature Language="VB.NET" Value="SetFontFormattingHeading2" />
+      <MemberSignature Language="C++ CLI" Value="SetFontFormattingHeading2" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>111</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetFontFormattingHeading3">
+      <MemberSignature Language="C#" Value="SetFontFormattingHeading3" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetFontFormattingHeading3 = int32(112)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetFontFormattingHeading3" />
+      <MemberSignature Language="VB.NET" Value="SetFontFormattingHeading3" />
+      <MemberSignature Language="C++ CLI" Value="SetFontFormattingHeading3" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>112</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetFontFormattingHeading4">
+      <MemberSignature Language="C#" Value="SetFontFormattingHeading4" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetFontFormattingHeading4 = int32(113)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetFontFormattingHeading4" />
+      <MemberSignature Language="VB.NET" Value="SetFontFormattingHeading4" />
+      <MemberSignature Language="C++ CLI" Value="SetFontFormattingHeading4" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>113</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetFontFormattingHeading5">
+      <MemberSignature Language="C#" Value="SetFontFormattingHeading5" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetFontFormattingHeading5 = int32(114)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetFontFormattingHeading5" />
+      <MemberSignature Language="VB.NET" Value="SetFontFormattingHeading5" />
+      <MemberSignature Language="C++ CLI" Value="SetFontFormattingHeading5" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>114</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetFontFormattingHeading6">
+      <MemberSignature Language="C#" Value="SetFontFormattingHeading6" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetFontFormattingHeading6 = int32(115)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetFontFormattingHeading6" />
+      <MemberSignature Language="VB.NET" Value="SetFontFormattingHeading6" />
+      <MemberSignature Language="C++ CLI" Value="SetFontFormattingHeading6" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>115</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetFontFormattingItalic">
+      <MemberSignature Language="C#" Value="SetFontFormattingItalic" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetFontFormattingItalic = int32(27)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetFontFormattingItalic" />
+      <MemberSignature Language="VB.NET" Value="SetFontFormattingItalic" />
+      <MemberSignature Language="C++ CLI" Value="SetFontFormattingItalic" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>27</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetFontFormattingNormal">
+      <MemberSignature Language="C#" Value="SetFontFormattingNormal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetFontFormattingNormal = int32(116)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetFontFormattingNormal" />
+      <MemberSignature Language="VB.NET" Value="SetFontFormattingNormal" />
+      <MemberSignature Language="C++ CLI" Value="SetFontFormattingNormal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>116</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetFontFormattingStrikethrough">
+      <MemberSignature Language="C#" Value="SetFontFormattingStrikethrough" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetFontFormattingStrikethrough = int32(31)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetFontFormattingStrikethrough" />
+      <MemberSignature Language="VB.NET" Value="SetFontFormattingStrikethrough" />
+      <MemberSignature Language="C++ CLI" Value="SetFontFormattingStrikethrough" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>31</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetFontFormattingSubscript">
+      <MemberSignature Language="C#" Value="SetFontFormattingSubscript" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetFontFormattingSubscript = int32(30)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetFontFormattingSubscript" />
+      <MemberSignature Language="VB.NET" Value="SetFontFormattingSubscript" />
+      <MemberSignature Language="C++ CLI" Value="SetFontFormattingSubscript" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>30</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetFontFormattingSuperscript">
+      <MemberSignature Language="C#" Value="SetFontFormattingSuperscript" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetFontFormattingSuperscript = int32(29)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetFontFormattingSuperscript" />
+      <MemberSignature Language="VB.NET" Value="SetFontFormattingSuperscript" />
+      <MemberSignature Language="C++ CLI" Value="SetFontFormattingSuperscript" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>29</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetFontFormattingUnderline">
+      <MemberSignature Language="C#" Value="SetFontFormattingUnderline" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetFontFormattingUnderline = int32(28)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetFontFormattingUnderline" />
+      <MemberSignature Language="VB.NET" Value="SetFontFormattingUnderline" />
+      <MemberSignature Language="C++ CLI" Value="SetFontFormattingUnderline" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>28</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetParaSpaceAfter">
+      <MemberSignature Language="C#" Value="SetParaSpaceAfter" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetParaSpaceAfter = int32(180)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetParaSpaceAfter" />
+      <MemberSignature Language="VB.NET" Value="SetParaSpaceAfter" />
+      <MemberSignature Language="C++ CLI" Value="SetParaSpaceAfter" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>180</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetParaSpaceBefore">
+      <MemberSignature Language="C#" Value="SetParaSpaceBefore" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetParaSpaceBefore = int32(179)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetParaSpaceBefore" />
+      <MemberSignature Language="VB.NET" Value="SetParaSpaceBefore" />
+      <MemberSignature Language="C++ CLI" Value="SetParaSpaceBefore" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>179</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetPictureAlternativeText">
+      <MemberSignature Language="C#" Value="SetPictureAlternativeText" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetPictureAlternativeText = int32(166)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetPictureAlternativeText" />
+      <MemberSignature Language="VB.NET" Value="SetPictureAlternativeText" />
+      <MemberSignature Language="C++ CLI" Value="SetPictureAlternativeText" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>166</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetPictureHeight">
+      <MemberSignature Language="C#" Value="SetPictureHeight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetPictureHeight = int32(164)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetPictureHeight" />
+      <MemberSignature Language="VB.NET" Value="SetPictureHeight" />
+      <MemberSignature Language="C++ CLI" Value="SetPictureHeight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>164</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetPictureInlineWithText">
+      <MemberSignature Language="C#" Value="SetPictureInlineWithText" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetPictureInlineWithText = int32(161)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetPictureInlineWithText" />
+      <MemberSignature Language="VB.NET" Value="SetPictureInlineWithText" />
+      <MemberSignature Language="C++ CLI" Value="SetPictureInlineWithText" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>161</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetPictureToLeftOfText">
+      <MemberSignature Language="C#" Value="SetPictureToLeftOfText" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetPictureToLeftOfText = int32(162)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetPictureToLeftOfText" />
+      <MemberSignature Language="VB.NET" Value="SetPictureToLeftOfText" />
+      <MemberSignature Language="C++ CLI" Value="SetPictureToLeftOfText" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>162</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetPictureToRightOfText">
+      <MemberSignature Language="C#" Value="SetPictureToRightOfText" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetPictureToRightOfText = int32(163)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetPictureToRightOfText" />
+      <MemberSignature Language="VB.NET" Value="SetPictureToRightOfText" />
+      <MemberSignature Language="C++ CLI" Value="SetPictureToRightOfText" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>163</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetPictureWidth">
+      <MemberSignature Language="C#" Value="SetPictureWidth" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetPictureWidth = int32(165)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetPictureWidth" />
+      <MemberSignature Language="VB.NET" Value="SetPictureWidth" />
+      <MemberSignature Language="C++ CLI" Value="SetPictureWidth" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>165</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetReplaceWithString">
+      <MemberSignature Language="C#" Value="SetReplaceWithString" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetReplaceWithString = int32(88)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetReplaceWithString" />
+      <MemberSignature Language="VB.NET" Value="SetReplaceWithString" />
+      <MemberSignature Language="C++ CLI" Value="SetReplaceWithString" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>88</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetSelectedCellAlignmentBottom">
+      <MemberSignature Language="C#" Value="SetSelectedCellAlignmentBottom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetSelectedCellAlignmentBottom = int32(156)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetSelectedCellAlignmentBottom" />
+      <MemberSignature Language="VB.NET" Value="SetSelectedCellAlignmentBottom" />
+      <MemberSignature Language="C++ CLI" Value="SetSelectedCellAlignmentBottom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>156</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetSelectedCellAlignmentMiddle">
+      <MemberSignature Language="C#" Value="SetSelectedCellAlignmentMiddle" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetSelectedCellAlignmentMiddle = int32(154)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetSelectedCellAlignmentMiddle" />
+      <MemberSignature Language="VB.NET" Value="SetSelectedCellAlignmentMiddle" />
+      <MemberSignature Language="C++ CLI" Value="SetSelectedCellAlignmentMiddle" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>154</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetSelectedCellAlignmentTop">
+      <MemberSignature Language="C#" Value="SetSelectedCellAlignmentTop" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetSelectedCellAlignmentTop = int32(155)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetSelectedCellAlignmentTop" />
+      <MemberSignature Language="VB.NET" Value="SetSelectedCellAlignmentTop" />
+      <MemberSignature Language="C++ CLI" Value="SetSelectedCellAlignmentTop" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>155</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetSelectedCellPadding">
+      <MemberSignature Language="C#" Value="SetSelectedCellPadding" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetSelectedCellPadding = int32(153)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetSelectedCellPadding" />
+      <MemberSignature Language="VB.NET" Value="SetSelectedCellPadding" />
+      <MemberSignature Language="C++ CLI" Value="SetSelectedCellPadding" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>153</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetSelectedColumnWidth">
+      <MemberSignature Language="C#" Value="SetSelectedColumnWidth" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetSelectedColumnWidth = int32(143)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetSelectedColumnWidth" />
+      <MemberSignature Language="VB.NET" Value="SetSelectedColumnWidth" />
+      <MemberSignature Language="C++ CLI" Value="SetSelectedColumnWidth" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>143</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetSelectedRowHeight">
+      <MemberSignature Language="C#" Value="SetSelectedRowHeight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetSelectedRowHeight = int32(141)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetSelectedRowHeight" />
+      <MemberSignature Language="VB.NET" Value="SetSelectedRowHeight" />
+      <MemberSignature Language="C++ CLI" Value="SetSelectedRowHeight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>141</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetSelectedTextBackgroundColor">
+      <MemberSignature Language="C#" Value="SetSelectedTextBackgroundColor" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetSelectedTextBackgroundColor = int32(122)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetSelectedTextBackgroundColor" />
+      <MemberSignature Language="VB.NET" Value="SetSelectedTextBackgroundColor" />
+      <MemberSignature Language="C++ CLI" Value="SetSelectedTextBackgroundColor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>122</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetSelectedTextFont">
+      <MemberSignature Language="C#" Value="SetSelectedTextFont" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetSelectedTextFont = int32(106)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetSelectedTextFont" />
+      <MemberSignature Language="VB.NET" Value="SetSelectedTextFont" />
+      <MemberSignature Language="C++ CLI" Value="SetSelectedTextFont" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>106</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetSelectedTextFontColor">
+      <MemberSignature Language="C#" Value="SetSelectedTextFontColor" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetSelectedTextFontColor = int32(121)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetSelectedTextFontColor" />
+      <MemberSignature Language="VB.NET" Value="SetSelectedTextFontColor" />
+      <MemberSignature Language="C++ CLI" Value="SetSelectedTextFontColor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>121</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetSelectedTextFontSize">
+      <MemberSignature Language="C#" Value="SetSelectedTextFontSize" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetSelectedTextFontSize = int32(105)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetSelectedTextFontSize" />
+      <MemberSignature Language="VB.NET" Value="SetSelectedTextFontSize" />
+      <MemberSignature Language="C++ CLI" Value="SetSelectedTextFontSize" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>105</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetSelectedTextHighlightColor">
+      <MemberSignature Language="C#" Value="SetSelectedTextHighlightColor" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetSelectedTextHighlightColor = int32(120)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetSelectedTextHighlightColor" />
+      <MemberSignature Language="VB.NET" Value="SetSelectedTextHighlightColor" />
+      <MemberSignature Language="C++ CLI" Value="SetSelectedTextHighlightColor" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>120</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetSingleLineSpacing">
+      <MemberSignature Language="C#" Value="SetSingleLineSpacing" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetSingleLineSpacing = int32(39)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetSingleLineSpacing" />
+      <MemberSignature Language="VB.NET" Value="SetSingleLineSpacing" />
+      <MemberSignature Language="C++ CLI" Value="SetSingleLineSpacing" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>39</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetSpellingOptionCheckAsYouType">
+      <MemberSignature Language="C#" Value="SetSpellingOptionCheckAsYouType" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetSpellingOptionCheckAsYouType = int32(136)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetSpellingOptionCheckAsYouType" />
+      <MemberSignature Language="VB.NET" Value="SetSpellingOptionCheckAsYouType" />
+      <MemberSignature Language="C++ CLI" Value="SetSpellingOptionCheckAsYouType" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>136</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetTableDirection">
+      <MemberSignature Language="C#" Value="SetTableDirection" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetTableDirection = int32(76)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetTableDirection" />
+      <MemberSignature Language="VB.NET" Value="SetTableDirection" />
+      <MemberSignature Language="C++ CLI" Value="SetTableDirection" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>76</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetTableHorizontalAlignment">
+      <MemberSignature Language="C#" Value="SetTableHorizontalAlignment" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetTableHorizontalAlignment = int32(74)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetTableHorizontalAlignment" />
+      <MemberSignature Language="VB.NET" Value="SetTableHorizontalAlignment" />
+      <MemberSignature Language="C++ CLI" Value="SetTableHorizontalAlignment" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>74</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetTextDirectionDefault">
+      <MemberSignature Language="C#" Value="SetTextDirectionDefault" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetTextDirectionDefault = int32(36)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetTextDirectionDefault" />
+      <MemberSignature Language="VB.NET" Value="SetTextDirectionDefault" />
+      <MemberSignature Language="C++ CLI" Value="SetTextDirectionDefault" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>36</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetTextDirectionLeftToRight">
+      <MemberSignature Language="C#" Value="SetTextDirectionLeftToRight" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetTextDirectionLeftToRight = int32(37)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetTextDirectionLeftToRight" />
+      <MemberSignature Language="VB.NET" Value="SetTextDirectionLeftToRight" />
+      <MemberSignature Language="C++ CLI" Value="SetTextDirectionLeftToRight" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>37</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetTextDirectionRightToLeft">
+      <MemberSignature Language="C#" Value="SetTextDirectionRightToLeft" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SetTextDirectionRightToLeft = int32(38)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SetTextDirectionRightToLeft" />
+      <MemberSignature Language="VB.NET" Value="SetTextDirectionRightToLeft" />
+      <MemberSignature Language="C++ CLI" Value="SetTextDirectionRightToLeft" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>38</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowBordersShadingDialog">
+      <MemberSignature Language="C#" Value="ShowBordersShadingDialog" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds ShowBordersShadingDialog = int32(18)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.ShowBordersShadingDialog" />
+      <MemberSignature Language="VB.NET" Value="ShowBordersShadingDialog" />
+      <MemberSignature Language="C++ CLI" Value="ShowBordersShadingDialog" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>18</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowCurrentErrorMessage">
+      <MemberSignature Language="C#" Value="ShowCurrentErrorMessage" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds ShowCurrentErrorMessage = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.ShowCurrentErrorMessage" />
+      <MemberSignature Language="VB.NET" Value="ShowCurrentErrorMessage" />
+      <MemberSignature Language="C++ CLI" Value="ShowCurrentErrorMessage" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowDigitalSignaturesDialog">
+      <MemberSignature Language="C#" Value="ShowDigitalSignaturesDialog" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds ShowDigitalSignaturesDialog = int32(108)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.ShowDigitalSignaturesDialog" />
+      <MemberSignature Language="VB.NET" Value="ShowDigitalSignaturesDialog" />
+      <MemberSignature Language="C++ CLI" Value="ShowDigitalSignaturesDialog" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>108</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowEditHyperlinkDialog">
+      <MemberSignature Language="C#" Value="ShowEditHyperlinkDialog" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds ShowEditHyperlinkDialog = int32(20)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.ShowEditHyperlinkDialog" />
+      <MemberSignature Language="VB.NET" Value="ShowEditHyperlinkDialog" />
+      <MemberSignature Language="C++ CLI" Value="ShowEditHyperlinkDialog" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>20</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowExportToExcelDialog">
+      <MemberSignature Language="C#" Value="ShowExportToExcelDialog" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds ShowExportToExcelDialog = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.ShowExportToExcelDialog" />
+      <MemberSignature Language="VB.NET" Value="ShowExportToExcelDialog" />
+      <MemberSignature Language="C++ CLI" Value="ShowExportToExcelDialog" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowExportToPDFXPSDialog">
+      <MemberSignature Language="C#" Value="ShowExportToPDFXPSDialog" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds ShowExportToPDFXPSDialog = int32(173)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.ShowExportToPDFXPSDialog" />
+      <MemberSignature Language="VB.NET" Value="ShowExportToPDFXPSDialog" />
+      <MemberSignature Language="C++ CLI" Value="ShowExportToPDFXPSDialog" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>173</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowExportToWebDialog">
+      <MemberSignature Language="C#" Value="ShowExportToWebDialog" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds ShowExportToWebDialog = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.ShowExportToWebDialog" />
+      <MemberSignature Language="VB.NET" Value="ShowExportToWebDialog" />
+      <MemberSignature Language="C++ CLI" Value="ShowExportToWebDialog" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowFormatPictureDialog">
+      <MemberSignature Language="C#" Value="ShowFormatPictureDialog" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds ShowFormatPictureDialog = int32(17)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.ShowFormatPictureDialog" />
+      <MemberSignature Language="VB.NET" Value="ShowFormatPictureDialog" />
+      <MemberSignature Language="C++ CLI" Value="ShowFormatPictureDialog" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>17</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowImportFormDataDialog">
+      <MemberSignature Language="C#" Value="ShowImportFormDataDialog" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds ShowImportFormDataDialog = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.ShowImportFormDataDialog" />
+      <MemberSignature Language="VB.NET" Value="ShowImportFormDataDialog" />
+      <MemberSignature Language="C++ CLI" Value="ShowImportFormDataDialog" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowInsertHyperlinkDialog">
+      <MemberSignature Language="C#" Value="ShowInsertHyperlinkDialog" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds ShowInsertHyperlinkDialog = int32(19)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.ShowInsertHyperlinkDialog" />
+      <MemberSignature Language="VB.NET" Value="ShowInsertHyperlinkDialog" />
+      <MemberSignature Language="C++ CLI" Value="ShowInsertHyperlinkDialog" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>19</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowInsertSymbolDialog">
+      <MemberSignature Language="C#" Value="ShowInsertSymbolDialog" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds ShowInsertSymbolDialog = int32(79)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.ShowInsertSymbolDialog" />
+      <MemberSignature Language="VB.NET" Value="ShowInsertSymbolDialog" />
+      <MemberSignature Language="C++ CLI" Value="ShowInsertSymbolDialog" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>79</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowInsertTableDialog">
+      <MemberSignature Language="C#" Value="ShowInsertTableDialog" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds ShowInsertTableDialog = int32(14)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.ShowInsertTableDialog" />
+      <MemberSignature Language="VB.NET" Value="ShowInsertTableDialog" />
+      <MemberSignature Language="C++ CLI" Value="ShowInsertTableDialog" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>14</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowMergeFormDialog">
+      <MemberSignature Language="C#" Value="ShowMergeFormDialog" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds ShowMergeFormDialog = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.ShowMergeFormDialog" />
+      <MemberSignature Language="VB.NET" Value="ShowMergeFormDialog" />
+      <MemberSignature Language="C++ CLI" Value="ShowMergeFormDialog" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowSetLanguageDialog">
+      <MemberSignature Language="C#" Value="ShowSetLanguageDialog" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds ShowSetLanguageDialog = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.ShowSetLanguageDialog" />
+      <MemberSignature Language="VB.NET" Value="ShowSetLanguageDialog" />
+      <MemberSignature Language="C++ CLI" Value="ShowSetLanguageDialog" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowSetSelectedTextFontColorDialog">
+      <MemberSignature Language="C#" Value="ShowSetSelectedTextFontColorDialog" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds ShowSetSelectedTextFontColorDialog = int32(99)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.ShowSetSelectedTextFontColorDialog" />
+      <MemberSignature Language="VB.NET" Value="ShowSetSelectedTextFontColorDialog" />
+      <MemberSignature Language="C++ CLI" Value="ShowSetSelectedTextFontColorDialog" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>99</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowSetSelectedTextHighlightColorDialog">
+      <MemberSignature Language="C#" Value="ShowSetSelectedTextHighlightColorDialog" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds ShowSetSelectedTextHighlightColorDialog = int32(100)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.ShowSetSelectedTextHighlightColorDialog" />
+      <MemberSignature Language="VB.NET" Value="ShowSetSelectedTextHighlightColorDialog" />
+      <MemberSignature Language="C++ CLI" Value="ShowSetSelectedTextHighlightColorDialog" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>100</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowSplitCellsDialog">
+      <MemberSignature Language="C#" Value="ShowSplitCellsDialog" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds ShowSplitCellsDialog = int32(15)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.ShowSplitCellsDialog" />
+      <MemberSignature Language="VB.NET" Value="ShowSplitCellsDialog" />
+      <MemberSignature Language="C++ CLI" Value="ShowSplitCellsDialog" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>15</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowTablePropertiesDialog">
+      <MemberSignature Language="C#" Value="ShowTablePropertiesDialog" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds ShowTablePropertiesDialog = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.ShowTablePropertiesDialog" />
+      <MemberSignature Language="VB.NET" Value="ShowTablePropertiesDialog" />
+      <MemberSignature Language="C++ CLI" Value="ShowTablePropertiesDialog" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SplitCells">
+      <MemberSignature Language="C#" Value="SplitCells" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds SplitCells = int32(157)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.SplitCells" />
+      <MemberSignature Language="VB.NET" Value="SplitCells" />
+      <MemberSignature Language="C++ CLI" Value="SplitCells" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>157</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Submit">
+      <MemberSignature Language="C#" Value="Submit" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds Submit = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.Submit" />
+      <MemberSignature Language="VB.NET" Value="Submit" />
+      <MemberSignature Language="C++ CLI" Value="Submit" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Undo">
+      <MemberSignature Language="C#" Value="Undo" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds Undo = int32(56)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.Undo" />
+      <MemberSignature Language="VB.NET" Value="Undo" />
+      <MemberSignature Language="C++ CLI" Value="Undo" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>56</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="WorkOffline">
+      <MemberSignature Language="C#" Value="WorkOffline" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.CommandIds WorkOffline = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.CommandIds.WorkOffline" />
+      <MemberSignature Language="VB.NET" Value="WorkOffline" />
+      <MemberSignature Language="C++ CLI" Value="WorkOffline" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.CommandIds</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

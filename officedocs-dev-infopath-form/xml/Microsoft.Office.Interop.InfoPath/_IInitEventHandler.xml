@@ -1,0 +1,61 @@
+<Type Name="_IInitEventHandler" FullName="Microsoft.Office.Interop.InfoPath._IInitEventHandler">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="707cf343188d9d7fa0d8e91117bf16da86c5b4ff" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21039294" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _IInitEventHandler" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _IInitEventHandler" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath._IInitEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _IInitEventHandler" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _IInitEventHandler" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("096CD73A-0786-11D1-95FA-0080C78EE3BB")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(1)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="InitEventHandler">
+      <MemberSignature Language="C#" Value="public void InitEventHandler (object punkSender, Microsoft.Office.Interop.InfoPath._XDocument pDocument, out Microsoft.Office.Interop.InfoPath.XdReadOnlyViewMode pROMode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void InitEventHandler([in]object punkSender, [in]class Microsoft.Office.Interop.InfoPath._XDocument pDocument, [out] valuetype Microsoft.Office.Interop.InfoPath.XdReadOnlyViewMode&amp; pROMode) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath._IInitEventHandler.InitEventHandler(System.Object,Microsoft.Office.Interop.InfoPath._XDocument,Microsoft.Office.Interop.InfoPath.XdReadOnlyViewMode@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub InitEventHandler (punkSender As Object, pDocument As _XDocument, ByRef pROMode As XdReadOnlyViewMode)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void InitEventHandler(System::Object ^ punkSender, Microsoft::Office::Interop::InfoPath::_XDocument ^ pDocument, [Runtime::InteropServices::Out] Microsoft::Office::Interop::InfoPath::XdReadOnlyViewMode % pROMode);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="punkSender" Type="System.Object" />
+        <Parameter Name="pDocument" Type="Microsoft.Office.Interop.InfoPath._XDocument" />
+        <Parameter Name="pROMode" Type="Microsoft.Office.Interop.InfoPath.XdReadOnlyViewMode&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="punkSender">To be added.</param>
+        <param name="pDocument">To be added.</param>
+        <param name="pROMode">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

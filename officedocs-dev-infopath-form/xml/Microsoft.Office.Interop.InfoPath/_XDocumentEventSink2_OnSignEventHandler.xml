@@ -1,0 +1,41 @@
+<Type Name="_XDocumentEventSink2_OnSignEventHandler" FullName="Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_OnSignEventHandler">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="68232c82cc50bfeb8fd646112ae9b3ceb696e37d" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21039364" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public delegate void _XDocumentEventSink2_OnSignEventHandler(SignEventObject pEvent);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed _XDocumentEventSink2_OnSignEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_OnSignEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub _XDocumentEventSink2_OnSignEventHandler(pEvent As SignEventObject)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void _XDocumentEventSink2_OnSignEventHandler(SignEventObject ^ pEvent);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="pEvent" Type="Microsoft.Office.Interop.InfoPath.SignEventObject" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="pEvent">To be added.</param>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

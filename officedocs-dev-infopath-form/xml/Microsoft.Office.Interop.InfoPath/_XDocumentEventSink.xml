@@ -1,0 +1,174 @@
+<Type Name="_XDocumentEventSink" FullName="Microsoft.Office.Interop.InfoPath._XDocumentEventSink">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e30dd9a801bdcf811a14b43b9ade87486d91d055" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21039700" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _XDocumentEventSink" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _XDocumentEventSink" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath._XDocumentEventSink" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _XDocumentEventSink" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _XDocumentEventSink" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("096CD551-0786-11D1-95FA-0080C78EE3BB")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="OnAfterImport">
+      <MemberSignature Language="C#" Value="public void OnAfterImport (Microsoft.Office.Interop.InfoPath.DocEvent pEvent);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnAfterImport([in]class Microsoft.Office.Interop.InfoPath.DocEvent pEvent) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath._XDocumentEventSink.OnAfterImport(Microsoft.Office.Interop.InfoPath.DocEvent)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OnAfterImport (pEvent As DocEvent)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void OnAfterImport(Microsoft::Office::Interop::InfoPath::DocEvent ^ pEvent);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pEvent" Type="Microsoft.Office.Interop.InfoPath.DocEvent" />
+      </Parameters>
+      <Docs>
+        <param name="pEvent">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnLoad">
+      <MemberSignature Language="C#" Value="public void OnLoad (Microsoft.Office.Interop.InfoPath.DocReturnEvent pEvent);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnLoad([in]class Microsoft.Office.Interop.InfoPath.DocReturnEvent pEvent) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath._XDocumentEventSink.OnLoad(Microsoft.Office.Interop.InfoPath.DocReturnEvent)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OnLoad (pEvent As DocReturnEvent)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void OnLoad(Microsoft::Office::Interop::InfoPath::DocReturnEvent ^ pEvent);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pEvent" Type="Microsoft.Office.Interop.InfoPath.DocReturnEvent" />
+      </Parameters>
+      <Docs>
+        <param name="pEvent">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnSubmitRequest">
+      <MemberSignature Language="C#" Value="public void OnSubmitRequest (Microsoft.Office.Interop.InfoPath.DocReturnEvent pEvent);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnSubmitRequest([in]class Microsoft.Office.Interop.InfoPath.DocReturnEvent pEvent) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath._XDocumentEventSink.OnSubmitRequest(Microsoft.Office.Interop.InfoPath.DocReturnEvent)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OnSubmitRequest (pEvent As DocReturnEvent)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void OnSubmitRequest(Microsoft::Office::Interop::InfoPath::DocReturnEvent ^ pEvent);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pEvent" Type="Microsoft.Office.Interop.InfoPath.DocReturnEvent" />
+      </Parameters>
+      <Docs>
+        <param name="pEvent">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnSwitchView">
+      <MemberSignature Language="C#" Value="public void OnSwitchView (Microsoft.Office.Interop.InfoPath.DocEvent pEvent);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnSwitchView([in]class Microsoft.Office.Interop.InfoPath.DocEvent pEvent) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath._XDocumentEventSink.OnSwitchView(Microsoft.Office.Interop.InfoPath.DocEvent)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OnSwitchView (pEvent As DocEvent)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void OnSwitchView(Microsoft::Office::Interop::InfoPath::DocEvent ^ pEvent);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pEvent" Type="Microsoft.Office.Interop.InfoPath.DocEvent" />
+      </Parameters>
+      <Docs>
+        <param name="pEvent">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnVersionUpgrade">
+      <MemberSignature Language="C#" Value="public void OnVersionUpgrade (Microsoft.Office.Interop.InfoPath.VersionUpgradeEventObject pEvent);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnVersionUpgrade([in]class Microsoft.Office.Interop.InfoPath.VersionUpgradeEventObject pEvent) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath._XDocumentEventSink.OnVersionUpgrade(Microsoft.Office.Interop.InfoPath.VersionUpgradeEventObject)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub OnVersionUpgrade (pEvent As VersionUpgradeEventObject)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void OnVersionUpgrade(Microsoft::Office::Interop::InfoPath::VersionUpgradeEventObject ^ pEvent);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pEvent" Type="Microsoft.Office.Interop.InfoPath.VersionUpgradeEventObject" />
+      </Parameters>
+      <Docs>
+        <param name="pEvent">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

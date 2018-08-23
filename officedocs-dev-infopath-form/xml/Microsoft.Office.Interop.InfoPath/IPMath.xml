@@ -1,0 +1,181 @@
+<Type Name="IPMath" FullName="Microsoft.Office.Interop.InfoPath.IPMath">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="3fcc81fa6e175251d31a00f0c1153aeae4432ca9" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21041737" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface IPMath" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IPMath" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.IPMath" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IPMath" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IPMath" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("096CD6A0-0786-11D1-95FA-0080C78EE3BB")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Avg">
+      <MemberSignature Language="C#" Value="public object Avg (Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNodeList pxmllistInput);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Avg([in]class Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNodeList pxmllistInput) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.IPMath.Avg(Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNodeList)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Avg (pxmllistInput As IXMLDOMNodeList) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Avg(Microsoft::Office::Interop::InfoPath::Xml::IXMLDOMNodeList ^ pxmllistInput);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pxmllistInput" Type="Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNodeList" />
+      </Parameters>
+      <Docs>
+        <param name="pxmllistInput">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Eval">
+      <MemberSignature Language="C#" Value="public object Eval (Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNodeList pxmllistContext, string bstrExpression);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Eval([in]class Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNodeList pxmllistContext, [in]string bstrExpression) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.IPMath.Eval(Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNodeList,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Eval (pxmllistContext As IXMLDOMNodeList, bstrExpression As String) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Eval(Microsoft::Office::Interop::InfoPath::Xml::IXMLDOMNodeList ^ pxmllistContext, System::String ^ bstrExpression);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pxmllistContext" Type="Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNodeList" />
+        <Parameter Name="bstrExpression" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="pxmllistContext">To be added.</param>
+        <param name="bstrExpression">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Max">
+      <MemberSignature Language="C#" Value="public object Max (Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNodeList pxmllistInput);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Max([in]class Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNodeList pxmllistInput) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.IPMath.Max(Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNodeList)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Max (pxmllistInput As IXMLDOMNodeList) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Max(Microsoft::Office::Interop::InfoPath::Xml::IXMLDOMNodeList ^ pxmllistInput);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pxmllistInput" Type="Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNodeList" />
+      </Parameters>
+      <Docs>
+        <param name="pxmllistInput">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Min">
+      <MemberSignature Language="C#" Value="public object Min (Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNodeList pxmllistInput);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Min([in]class Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNodeList pxmllistInput) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.IPMath.Min(Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNodeList)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Min (pxmllistInput As IXMLDOMNodeList) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Min(Microsoft::Office::Interop::InfoPath::Xml::IXMLDOMNodeList ^ pxmllistInput);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pxmllistInput" Type="Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNodeList" />
+      </Parameters>
+      <Docs>
+        <param name="pxmllistInput">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Nz">
+      <MemberSignature Language="C#" Value="public object Nz (Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNodeList pxmllistInput);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object Nz([in]class Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNodeList pxmllistInput) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.IPMath.Nz(Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNodeList)" />
+      <MemberSignature Language="VB.NET" Value="Public Function Nz (pxmllistInput As IXMLDOMNodeList) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ Nz(Microsoft::Office::Interop::InfoPath::Xml::IXMLDOMNodeList ^ pxmllistInput);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pxmllistInput" Type="Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNodeList" />
+      </Parameters>
+      <Docs>
+        <param name="pxmllistInput">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

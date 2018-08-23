@@ -1,0 +1,71 @@
+<Type Name="XdSignatureAppearanceType" FullName="Microsoft.Office.Interop.InfoPath.XdSignatureAppearanceType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e68d8af35fa594afba3be14143f64a60a8971421" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21039721" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum XdSignatureAppearanceType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XdSignatureAppearanceType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.XdSignatureAppearanceType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XdSignatureAppearanceType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XdSignatureAppearanceType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("482BF460-7DD2-4CE5-B053-7C9201E74132")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xdSignatureAppearanceTypeLine">
+      <MemberSignature Language="C#" Value="xdSignatureAppearanceTypeLine" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.XdSignatureAppearanceType xdSignatureAppearanceTypeLine = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.XdSignatureAppearanceType.xdSignatureAppearanceTypeLine" />
+      <MemberSignature Language="VB.NET" Value="xdSignatureAppearanceTypeLine" />
+      <MemberSignature Language="C++ CLI" Value="xdSignatureAppearanceTypeLine" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdSignatureAppearanceType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xdSignatureAppearanceTypeStamp">
+      <MemberSignature Language="C#" Value="xdSignatureAppearanceTypeStamp" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.XdSignatureAppearanceType xdSignatureAppearanceTypeStamp = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.XdSignatureAppearanceType.xdSignatureAppearanceTypeStamp" />
+      <MemberSignature Language="VB.NET" Value="xdSignatureAppearanceTypeStamp" />
+      <MemberSignature Language="C++ CLI" Value="xdSignatureAppearanceTypeStamp" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdSignatureAppearanceType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

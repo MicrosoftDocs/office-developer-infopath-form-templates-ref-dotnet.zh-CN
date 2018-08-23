@@ -1,0 +1,274 @@
+<Type Name="SignatureLineObjectClass" FullName="Microsoft.Office.Interop.InfoPath.SignatureLineObjectClass">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e6acdfa9f1a3724f4c4a615c6ac16be4e86e6360" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21040673" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class SignatureLineObjectClass : Microsoft.Office.Interop.InfoPath.SignatureLineObject" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi SignatureLineObjectClass extends System.Object implements class Microsoft.Office.Interop.InfoPath.SignatureLine, class Microsoft.Office.Interop.InfoPath.SignatureLineObject" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.SignatureLineObjectClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class SignatureLineObjectClass&#xA;Implements SignatureLineObject" />
+  <TypeSignature Language="C++ CLI" Value="public ref class SignatureLineObjectClass : Microsoft::Office::Interop::InfoPath::SignatureLineObject" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.SignatureLineObject</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(0)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("8075837A-5146-11D5-A672-00B0D022E945")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public virtual string Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SignatureLineObjectClass.Id" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Id As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ Id { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SignatureLine.Id</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sign">
+      <MemberSignature Language="C#" Value="public virtual bool Sign (string bstrImageURL, string bstrSuggestedSigner, string bstrSuggestedSignerTitle, string bstrSuggestedSignerEmailAddress);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Sign([in]string bstrImageURL, [in]string bstrSuggestedSigner, [in]string bstrSuggestedSignerTitle, [in]string bstrSuggestedSignerEmailAddress) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.SignatureLineObjectClass.Sign(System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Sign (bstrImageURL As String, bstrSuggestedSigner As String, bstrSuggestedSignerTitle As String, bstrSuggestedSignerEmailAddress As String) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool Sign(System::String ^ bstrImageURL, System::String ^ bstrSuggestedSigner, System::String ^ bstrSuggestedSignerTitle, System::String ^ bstrSuggestedSignerEmailAddress) = Microsoft::Office::Interop::InfoPath::SignatureLine::Sign;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.SignatureLine.Sign(System.String,System.String,System.String,System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrImageURL" Type="System.String" />
+        <Parameter Name="bstrSuggestedSigner" Type="System.String" />
+        <Parameter Name="bstrSuggestedSignerTitle" Type="System.String" />
+        <Parameter Name="bstrSuggestedSignerEmailAddress" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrImageURL">To be added.</param>
+        <param name="bstrSuggestedSigner">To be added.</param>
+        <param name="bstrSuggestedSignerTitle">To be added.</param>
+        <param name="bstrSuggestedSignerEmailAddress">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Signature">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.SignatureObject Signature { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.SignatureObject Signature" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SignatureLineObjectClass.Signature" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Signature As SignatureObject" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::InfoPath::SignatureObject ^ Signature { Microsoft::Office::Interop::InfoPath::SignatureObject ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SignatureLine.Signature</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SignatureObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SignatureAppearanceType">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.XdSignatureAppearanceType SignatureAppearanceType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.InfoPath.XdSignatureAppearanceType SignatureAppearanceType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SignatureLineObjectClass.SignatureAppearanceType" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property SignatureAppearanceType As XdSignatureAppearanceType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::InfoPath::XdSignatureAppearanceType SignatureAppearanceType { Microsoft::Office::Interop::InfoPath::XdSignatureAppearanceType get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SignatureLine.SignatureAppearanceType</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdSignatureAppearanceType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SuggestedSigner">
+      <MemberSignature Language="C#" Value="public virtual string SuggestedSigner { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SuggestedSigner" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SignatureLineObjectClass.SuggestedSigner" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property SuggestedSigner As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ SuggestedSigner { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SignatureLine.SuggestedSigner</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SuggestedSignerEmailAddress">
+      <MemberSignature Language="C#" Value="public virtual string SuggestedSignerEmailAddress { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SuggestedSignerEmailAddress" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SignatureLineObjectClass.SuggestedSignerEmailAddress" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property SuggestedSignerEmailAddress As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ SuggestedSignerEmailAddress { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SignatureLine.SuggestedSignerEmailAddress</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SuggestedSignerTitle">
+      <MemberSignature Language="C#" Value="public virtual string SuggestedSignerTitle { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SuggestedSignerTitle" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.SignatureLineObjectClass.SuggestedSignerTitle" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property SuggestedSignerTitle As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ SuggestedSignerTitle { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.SignatureLine.SuggestedSignerTitle</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

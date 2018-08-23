@@ -1,0 +1,501 @@
+<Type Name="BDCAdapterObjectClass" FullName="Microsoft.Office.Interop.InfoPath.BDCAdapterObjectClass">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="48728f6d416914770b7cd46115e0586892f927d5" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21040610" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class BDCAdapterObjectClass : Microsoft.Office.Interop.InfoPath.BDCAdapterObject, Microsoft.Office.Interop.InfoPath.IDataAdapterMOM" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi BDCAdapterObjectClass extends System.Object implements class Microsoft.Office.Interop.InfoPath.BDCAdapter, class Microsoft.Office.Interop.InfoPath.BDCAdapterObject, class Microsoft.Office.Interop.InfoPath.IDataAdapterMOM" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.BDCAdapterObjectClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class BDCAdapterObjectClass&#xA;Implements BDCAdapterObject, IDataAdapterMOM" />
+  <TypeSignature Language="C++ CLI" Value="public ref class BDCAdapterObjectClass : Microsoft::Office::Interop::InfoPath::BDCAdapterObject, Microsoft::Office::Interop::InfoPath::IDataAdapterMOM" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.BDCAdapterObject</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.IDataAdapterMOM</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(0)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("807583F3-5146-11D5-A672-00B0D022E945")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="EntityName">
+      <MemberSignature Language="C#" Value="public virtual string EntityName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string EntityName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.BDCAdapterObjectClass.EntityName" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property EntityName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ EntityName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.BDCAdapter.EntityName</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EntityNamespace">
+      <MemberSignature Language="C#" Value="public virtual string EntityNamespace { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string EntityNamespace" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.BDCAdapterObjectClass.EntityNamespace" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property EntityNamespace As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ EntityNamespace { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.BDCAdapter.EntityNamespace</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GenerateDataSetDiffGramInXml">
+      <MemberSignature Language="C#" Value="public virtual string GenerateDataSetDiffGramInXml ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GenerateDataSetDiffGramInXml() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.BDCAdapterObjectClass.GenerateDataSetDiffGramInXml" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GenerateDataSetDiffGramInXml () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ GenerateDataSetDiffGramInXml() = Microsoft::Office::Interop::InfoPath::IDataAdapterMOM::GenerateDataSetDiffGramInXml;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.IDataAdapterMOM.GenerateDataSetDiffGramInXml</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAdoSubmitName">
+      <MemberSignature Language="C#" Value="public virtual string GetAdoSubmitName ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetAdoSubmitName() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.BDCAdapterObjectClass.GetAdoSubmitName" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAdoSubmitName () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ GetAdoSubmitName() = Microsoft::Office::Interop::InfoPath::IDataAdapterMOM::GetAdoSubmitName;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.IDataAdapterMOM.GetAdoSubmitName</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetErrorXMLForMOM">
+      <MemberSignature Language="C#" Value="public virtual string GetErrorXMLForMOM ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetErrorXMLForMOM() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.BDCAdapterObjectClass.GetErrorXMLForMOM" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetErrorXMLForMOM () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ GetErrorXMLForMOM() = Microsoft::Office::Interop::InfoPath::IDataAdapterMOM::GetErrorXMLForMOM;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.IDataAdapterMOM.GetErrorXMLForMOM</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LOBSystemInstance">
+      <MemberSignature Language="C#" Value="public virtual string LOBSystemInstance { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string LOBSystemInstance" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.BDCAdapterObjectClass.LOBSystemInstance" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property LOBSystemInstance As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ LOBSystemInstance { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.BDCAdapter.LOBSystemInstance</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public virtual string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.BDCAdapterObjectClass.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ Name { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.BDCAdapter.Name</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Query">
+      <MemberSignature Language="C#" Value="public virtual void Query ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Query() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.BDCAdapterObjectClass.Query" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Query ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Query() = Microsoft::Office::Interop::InfoPath::BDCAdapter::Query;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.BDCAdapter.Query</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueryAllowed">
+      <MemberSignature Language="C#" Value="public virtual bool QueryAllowed { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool QueryAllowed" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.BDCAdapterObjectClass.QueryAllowed" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property QueryAllowed As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool QueryAllowed { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.BDCAdapter.QueryAllowed</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueryOrSubmitWithInputOutput">
+      <MemberSignature Language="C#" Value="public virtual string QueryOrSubmitWithInputOutput (bool fInputIsNull, string bstrInputXML, bool fOutputIsNull);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string QueryOrSubmitWithInputOutput([in]bool fInputIsNull, [in]string bstrInputXML, [in]bool fOutputIsNull) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.BDCAdapterObjectClass.QueryOrSubmitWithInputOutput(System.Boolean,System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function QueryOrSubmitWithInputOutput (fInputIsNull As Boolean, bstrInputXML As String, fOutputIsNull As Boolean) As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ QueryOrSubmitWithInputOutput(bool fInputIsNull, System::String ^ bstrInputXML, bool fOutputIsNull) = Microsoft::Office::Interop::InfoPath::IDataAdapterMOM::QueryOrSubmitWithInputOutput;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.IDataAdapterMOM.QueryOrSubmitWithInputOutput(System.Boolean,System.String,System.Boolean)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="fInputIsNull" Type="System.Boolean" />
+        <Parameter Name="bstrInputXML" Type="System.String" />
+        <Parameter Name="fOutputIsNull" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="fInputIsNull">To be added.</param>
+        <param name="bstrInputXML">To be added.</param>
+        <param name="fOutputIsNull">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueryWithOutput">
+      <MemberSignature Language="C#" Value="public virtual string QueryWithOutput ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string QueryWithOutput() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.BDCAdapterObjectClass.QueryWithOutput" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function QueryWithOutput () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ QueryWithOutput() = Microsoft::Office::Interop::InfoPath::IDataAdapterMOM::QueryWithOutput;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.IDataAdapterMOM.QueryWithOutput</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SpecificFinder">
+      <MemberSignature Language="C#" Value="public virtual string SpecificFinder { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SpecificFinder" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.BDCAdapterObjectClass.SpecificFinder" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property SpecificFinder As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ SpecificFinder { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.BDCAdapter.SpecificFinder</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Submit">
+      <MemberSignature Language="C#" Value="public virtual void Submit ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Submit() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.BDCAdapterObjectClass.Submit" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Submit ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Submit() = Microsoft::Office::Interop::InfoPath::BDCAdapter::Submit;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.BDCAdapter.Submit</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubmitAdapterName">
+      <MemberSignature Language="C#" Value="public virtual string SubmitAdapterName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SubmitAdapterName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.BDCAdapterObjectClass.SubmitAdapterName" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property SubmitAdapterName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ SubmitAdapterName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.BDCAdapter.SubmitAdapterName</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubmitAllowed">
+      <MemberSignature Language="C#" Value="public virtual bool SubmitAllowed { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SubmitAllowed" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.BDCAdapterObjectClass.SubmitAllowed" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property SubmitAllowed As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool SubmitAllowed { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.BDCAdapter.SubmitAllowed</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubmitWithInput">
+      <MemberSignature Language="C#" Value="public virtual void SubmitWithInput (string bstrInputXML);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SubmitWithInput([in]string bstrInputXML) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.BDCAdapterObjectClass.SubmitWithInput(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub SubmitWithInput (bstrInputXML As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void SubmitWithInput(System::String ^ bstrInputXML) = Microsoft::Office::Interop::InfoPath::IDataAdapterMOM::SubmitWithInput;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.IDataAdapterMOM.SubmitWithInput(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrInputXML" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrInputXML">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

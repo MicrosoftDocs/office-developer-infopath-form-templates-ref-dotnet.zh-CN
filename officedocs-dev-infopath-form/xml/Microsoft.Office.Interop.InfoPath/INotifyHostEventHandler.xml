@@ -1,0 +1,59 @@
+<Type Name="INotifyHostEventHandler" FullName="Microsoft.Office.Interop.InfoPath.INotifyHostEventHandler">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="2a1f56bc4a8b12dae47ce92fd5597a10e081672b" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21042549" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface INotifyHostEventHandler" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract INotifyHostEventHandler" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.INotifyHostEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Interface INotifyHostEventHandler" />
+  <TypeSignature Language="C++ CLI" Value="public interface class INotifyHostEventHandler" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("096CD764-0786-11D1-95FA-0080C78EE3BB")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(1)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="NotifyHostEventHandler">
+      <MemberSignature Language="C#" Value="public void NotifyHostEventHandler (object sender, string notification);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void NotifyHostEventHandler([in]object sender, [in]string notification) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.INotifyHostEventHandler.NotifyHostEventHandler(System.Object,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub NotifyHostEventHandler (sender As Object, notification As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void NotifyHostEventHandler(System::Object ^ sender, System::String ^ notification);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sender" Type="System.Object" />
+        <Parameter Name="notification" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="sender">To be added.</param>
+        <param name="notification">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,169 @@
+<Type Name="InfoPathEditorWithAppDomain" FullName="Microsoft.Office.Interop.InfoPath.InfoPathEditorWithAppDomain">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9085d64848ae85f97eb8efe5e4b6ed70e3e58ea3" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21041800" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface InfoPathEditorWithAppDomain" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract InfoPathEditorWithAppDomain" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.InfoPathEditorWithAppDomain" />
+  <TypeSignature Language="VB.NET" Value="Public Interface InfoPathEditorWithAppDomain" />
+  <TypeSignature Language="C++ CLI" Value="public interface class InfoPathEditorWithAppDomain" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("096CD774-0786-11D1-95FA-0080C78EE3BB")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(1)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(192)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Load">
+      <MemberSignature Language="C#" Value="public void Load (string bstrURL, object punkAppDomain, string bstrInputParameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Load([in]string bstrURL, [in]object punkAppDomain, [in]string bstrInputParameters) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.InfoPathEditorWithAppDomain.Load(System.String,System.Object,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Load (bstrURL As String, punkAppDomain As Object, bstrInputParameters As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Load(System::String ^ bstrURL, System::Object ^ punkAppDomain, System::String ^ bstrInputParameters);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610678274)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrURL" Type="System.String" />
+        <Parameter Name="punkAppDomain" Type="System.Object" />
+        <Parameter Name="bstrInputParameters" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrURL">To be added.</param>
+        <param name="punkAppDomain">To be added.</param>
+        <param name="bstrInputParameters">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadFromStream">
+      <MemberSignature Language="C#" Value="public void LoadFromStream (object punkStream, object punkAppDomain, string bstrInputParameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void LoadFromStream([in]object punkStream, [in]object punkAppDomain, [in]string bstrInputParameters) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.InfoPathEditorWithAppDomain.LoadFromStream(System.Object,System.Object,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub LoadFromStream (punkStream As Object, punkAppDomain As Object, bstrInputParameters As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void LoadFromStream(System::Object ^ punkStream, System::Object ^ punkAppDomain, System::String ^ bstrInputParameters);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610678275)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="punkStream" Type="System.Object" />
+        <Parameter Name="punkAppDomain" Type="System.Object" />
+        <Parameter Name="bstrInputParameters" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="punkStream">To be added.</param>
+        <param name="punkAppDomain">To be added.</param>
+        <param name="bstrInputParameters">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewFromSolution">
+      <MemberSignature Language="C#" Value="public void NewFromSolution (string bstrSolutionURI, object punkAppDomain, string bstrInputParameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void NewFromSolution([in]string bstrSolutionURI, [in]object punkAppDomain, [in]string bstrInputParameters) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.InfoPathEditorWithAppDomain.NewFromSolution(System.String,System.Object,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub NewFromSolution (bstrSolutionURI As String, punkAppDomain As Object, bstrInputParameters As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void NewFromSolution(System::String ^ bstrSolutionURI, System::Object ^ punkAppDomain, System::String ^ bstrInputParameters);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610678272)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrSolutionURI" Type="System.String" />
+        <Parameter Name="punkAppDomain" Type="System.Object" />
+        <Parameter Name="bstrInputParameters" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrSolutionURI">To be added.</param>
+        <param name="punkAppDomain">To be added.</param>
+        <param name="bstrInputParameters">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewFromSolutionWithData">
+      <MemberSignature Language="C#" Value="public void NewFromSolutionWithData (string bstrURLXSN, object punkStream, int dwBehavior, object punkAppDomain, string bstrInputParameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void NewFromSolutionWithData([in]string bstrURLXSN, [in]object punkStream, [in]int32 dwBehavior, [in]object punkAppDomain, [in]string bstrInputParameters) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.InfoPathEditorWithAppDomain.NewFromSolutionWithData(System.String,System.Object,System.Int32,System.Object,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub NewFromSolutionWithData (bstrURLXSN As String, punkStream As Object, dwBehavior As Integer, punkAppDomain As Object, bstrInputParameters As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void NewFromSolutionWithData(System::String ^ bstrURLXSN, System::Object ^ punkStream, int dwBehavior, System::Object ^ punkAppDomain, System::String ^ bstrInputParameters);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610678273)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrURLXSN" Type="System.String" />
+        <Parameter Name="punkStream" Type="System.Object" />
+        <Parameter Name="dwBehavior" Type="System.Int32" />
+        <Parameter Name="punkAppDomain" Type="System.Object" />
+        <Parameter Name="bstrInputParameters" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrURLXSN">To be added.</param>
+        <param name="punkStream">To be added.</param>
+        <param name="dwBehavior">To be added.</param>
+        <param name="punkAppDomain">To be added.</param>
+        <param name="bstrInputParameters">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

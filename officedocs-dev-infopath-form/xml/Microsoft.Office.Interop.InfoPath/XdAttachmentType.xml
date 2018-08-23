@@ -1,0 +1,90 @@
+<Type Name="XdAttachmentType" FullName="Microsoft.Office.Interop.InfoPath.XdAttachmentType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="abd6daec583b0c47c917c9b525404b50ea8f4124" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21041303" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum XdAttachmentType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XdAttachmentType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.XdAttachmentType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XdAttachmentType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XdAttachmentType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("27CBF5C9-3D8C-3C7E-A55F-E1B5A35FFCF0")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xdNone">
+      <MemberSignature Language="C#" Value="xdNone" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.XdAttachmentType xdNone = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.XdAttachmentType.xdNone" />
+      <MemberSignature Language="VB.NET" Value="xdNone" />
+      <MemberSignature Language="C++ CLI" Value="xdNone" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdAttachmentType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xdXml">
+      <MemberSignature Language="C#" Value="xdXml" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.XdAttachmentType xdXml = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.XdAttachmentType.xdXml" />
+      <MemberSignature Language="VB.NET" Value="xdXml" />
+      <MemberSignature Language="C++ CLI" Value="xdXml" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdAttachmentType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xdXmlXsn">
+      <MemberSignature Language="C#" Value="xdXmlXsn" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.XdAttachmentType xdXmlXsn = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.XdAttachmentType.xdXmlXsn" />
+      <MemberSignature Language="VB.NET" Value="xdXmlXsn" />
+      <MemberSignature Language="C++ CLI" Value="xdXmlXsn" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdAttachmentType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

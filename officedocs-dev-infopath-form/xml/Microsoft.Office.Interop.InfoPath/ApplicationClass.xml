@@ -1,0 +1,1631 @@
+<Type Name="ApplicationClass" FullName="Microsoft.Office.Interop.InfoPath.ApplicationClass">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="bca42e38b2470cb679c88b39f8989fee48b31dee" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21039812" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class ApplicationClass : Microsoft.Office.Interop.InfoPath._Application3, Microsoft.Office.Interop.InfoPath.Application" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi ApplicationClass extends System.Object implements class Microsoft.Office.Interop.InfoPath._Application, class Microsoft.Office.Interop.InfoPath._Application2, class Microsoft.Office.Interop.InfoPath._Application3, class Microsoft.Office.Interop.InfoPath.Application" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.ApplicationClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class ApplicationClass&#xA;Implements _Application3, Application" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ApplicationClass : Microsoft::Office::Interop::InfoPath::_Application3, Microsoft::Office::Interop::InfoPath::Application" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath._Application3</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.Application</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(0)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("8075835F-5146-11D5-A672-00B0D022E945")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(2)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ApplicationClass ();" />
+      <MemberSignature Language="ILAsm" Value=".method public specialname rtspecialname instance void .ctor() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ApplicationClass.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ApplicationClass();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application_ActiveWindow">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.WindowObject _Application_ActiveWindow { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.WindowObject _Application_ActiveWindow" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application_ActiveWindow" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property _Application_ActiveWindow As WindowObject" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::InfoPath::WindowObject ^ _Application_ActiveWindow { Microsoft::Office::Interop::InfoPath::WindowObject ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.WindowObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application_FormatString">
+      <MemberSignature Language="C#" Value="public virtual string _Application_FormatString (object varInput, string bstrCategory, string bstrOptions);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string _Application_FormatString([in]object varInput, [in]string bstrCategory, [in]string bstrOptions) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application_FormatString(System.Object,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function _Application_FormatString (varInput As Object, bstrCategory As String, bstrOptions As String) As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ _Application_FormatString(System::Object ^ varInput, System::String ^ bstrCategory, System::String ^ bstrOptions) = Microsoft::Office::Interop::InfoPath::_Application::FormatString;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varInput" Type="System.Object" />
+        <Parameter Name="bstrCategory" Type="System.String" />
+        <Parameter Name="bstrOptions" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="varInput">To be added.</param>
+        <param name="bstrCategory">To be added.</param>
+        <param name="bstrOptions">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application_get_ActiveWindow">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.WindowObject _Application_get_ActiveWindow ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance class Microsoft.Office.Interop.InfoPath.WindowObject _Application_get_ActiveWindow() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application_get_ActiveWindow" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function _Application_get_ActiveWindow () As WindowObject" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::WindowObject ^ _Application_get_ActiveWindow() = Microsoft::Office::Interop::InfoPath::_Application::get_ActiveWindow;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.WindowObject</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application_get_LanguageSettings">
+      <MemberSignature Language="C#" Value="public virtual object _Application_get_LanguageSettings ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance object _Application_get_LanguageSettings() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application_get_LanguageSettings" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function _Application_get_LanguageSettings () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Object ^ _Application_get_LanguageSettings() = Microsoft::Office::Interop::InfoPath::_Application::get_LanguageSettings;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application_get_Name">
+      <MemberSignature Language="C#" Value="public virtual string _Application_get_Name ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance string _Application_get_Name() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application_get_Name" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function _Application_get_Name () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ _Application_get_Name() = Microsoft::Office::Interop::InfoPath::_Application::get_Name;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application_get_Version">
+      <MemberSignature Language="C#" Value="public virtual string _Application_get_Version ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance string _Application_get_Version() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application_get_Version" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function _Application_get_Version () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ _Application_get_Version() = Microsoft::Office::Interop::InfoPath::_Application::get_Version;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application_get_Windows">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.WindowsCollection _Application_get_Windows ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance class Microsoft.Office.Interop.InfoPath.WindowsCollection _Application_get_Windows() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application_get_Windows" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function _Application_get_Windows () As WindowsCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::WindowsCollection ^ _Application_get_Windows() = Microsoft::Office::Interop::InfoPath::_Application::get_Windows;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.WindowsCollection</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application_get_XDocuments">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.XDocumentsCollection _Application_get_XDocuments ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance class Microsoft.Office.Interop.InfoPath.XDocumentsCollection _Application_get_XDocuments() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application_get_XDocuments" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function _Application_get_XDocuments () As XDocumentsCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::XDocumentsCollection ^ _Application_get_XDocuments() = Microsoft::Office::Interop::InfoPath::_Application::get_XDocuments;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XDocumentsCollection</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application_LanguageSettings">
+      <MemberSignature Language="C#" Value="public virtual object _Application_LanguageSettings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object _Application_LanguageSettings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application_LanguageSettings" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property _Application_LanguageSettings As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ _Application_LanguageSettings { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application_Name">
+      <MemberSignature Language="C#" Value="public virtual string _Application_Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string _Application_Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application_Name" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property _Application_Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ _Application_Name { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application_NewADODBConnection">
+      <MemberSignature Language="C#" Value="public virtual object _Application_NewADODBConnection ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object _Application_NewADODBConnection() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application_NewADODBConnection" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function _Application_NewADODBConnection () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Object ^ _Application_NewADODBConnection() = Microsoft::Office::Interop::InfoPath::_Application::NewADODBConnection;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application_NewADODBRecordset">
+      <MemberSignature Language="C#" Value="public virtual object _Application_NewADODBRecordset ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object _Application_NewADODBRecordset() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application_NewADODBRecordset" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function _Application_NewADODBRecordset () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Object ^ _Application_NewADODBRecordset() = Microsoft::Office::Interop::InfoPath::_Application::NewADODBRecordset;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application_Quit">
+      <MemberSignature Language="C#" Value="public virtual void _Application_Quit (bool bForce = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _Application_Quit([in]bool bForce) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application_Quit(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub _Application_Quit (Optional bForce As Boolean = false)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bForce" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="bForce">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application_Version">
+      <MemberSignature Language="C#" Value="public virtual string _Application_Version { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string _Application_Version" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application_Version" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property _Application_Version As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ _Application_Version { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application_Windows">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.WindowsCollection _Application_Windows { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.WindowsCollection _Application_Windows" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application_Windows" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property _Application_Windows As WindowsCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::InfoPath::WindowsCollection ^ _Application_Windows { Microsoft::Office::Interop::InfoPath::WindowsCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.WindowsCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application_XDocuments">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.XDocumentsCollection _Application_XDocuments { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.XDocumentsCollection _Application_XDocuments" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application_XDocuments" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property _Application_XDocuments As XDocumentsCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::InfoPath::XDocumentsCollection ^ _Application_XDocuments { Microsoft::Office::Interop::InfoPath::XDocumentsCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XDocumentsCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application3_ActiveWindow">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.WindowObject _Application3_ActiveWindow { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.WindowObject _Application3_ActiveWindow" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application3_ActiveWindow" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property _Application3_ActiveWindow As WindowObject" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::InfoPath::WindowObject ^ _Application3_ActiveWindow { Microsoft::Office::Interop::InfoPath::WindowObject ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.WindowObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application3_CacheSolution">
+      <MemberSignature Language="C#" Value="public virtual void _Application3_CacheSolution (string bstrSolutionURI);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _Application3_CacheSolution([in]string bstrSolutionURI) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application3_CacheSolution(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub _Application3_CacheSolution (bstrSolutionURI As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void _Application3_CacheSolution(System::String ^ bstrSolutionURI) = Microsoft::Office::Interop::InfoPath::_Application3::CacheSolution;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrSolutionURI" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrSolutionURI">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application3_FormatString">
+      <MemberSignature Language="C#" Value="public virtual string _Application3_FormatString (object varInput, string bstrCategory, string bstrOptions);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string _Application3_FormatString([in]object varInput, [in]string bstrCategory, [in]string bstrOptions) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application3_FormatString(System.Object,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function _Application3_FormatString (varInput As Object, bstrCategory As String, bstrOptions As String) As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ _Application3_FormatString(System::Object ^ varInput, System::String ^ bstrCategory, System::String ^ bstrOptions) = Microsoft::Office::Interop::InfoPath::_Application3::FormatString;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varInput" Type="System.Object" />
+        <Parameter Name="bstrCategory" Type="System.String" />
+        <Parameter Name="bstrOptions" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="varInput">To be added.</param>
+        <param name="bstrCategory">To be added.</param>
+        <param name="bstrOptions">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application3_get_ActiveWindow">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.WindowObject _Application3_get_ActiveWindow ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance class Microsoft.Office.Interop.InfoPath.WindowObject _Application3_get_ActiveWindow() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application3_get_ActiveWindow" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function _Application3_get_ActiveWindow () As WindowObject" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::WindowObject ^ _Application3_get_ActiveWindow() = Microsoft::Office::Interop::InfoPath::_Application3::get_ActiveWindow;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.WindowObject</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application3_get_LanguageSettings">
+      <MemberSignature Language="C#" Value="public virtual object _Application3_get_LanguageSettings ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance object _Application3_get_LanguageSettings() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application3_get_LanguageSettings" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function _Application3_get_LanguageSettings () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Object ^ _Application3_get_LanguageSettings() = Microsoft::Office::Interop::InfoPath::_Application3::get_LanguageSettings;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application3_get_MachineOnlineState">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.XdMachineOnlineState _Application3_get_MachineOnlineState ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance valuetype Microsoft.Office.Interop.InfoPath.XdMachineOnlineState _Application3_get_MachineOnlineState() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application3_get_MachineOnlineState" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function _Application3_get_MachineOnlineState () As XdMachineOnlineState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::XdMachineOnlineState _Application3_get_MachineOnlineState() = Microsoft::Office::Interop::InfoPath::_Application3::get_MachineOnlineState;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdMachineOnlineState</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application3_get_Name">
+      <MemberSignature Language="C#" Value="public virtual string _Application3_get_Name ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance string _Application3_get_Name() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application3_get_Name" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function _Application3_get_Name () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ _Application3_get_Name() = Microsoft::Office::Interop::InfoPath::_Application3::get_Name;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application3_get_UsableHeight">
+      <MemberSignature Language="C#" Value="public virtual int _Application3_get_UsableHeight ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance int32 _Application3_get_UsableHeight() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application3_get_UsableHeight" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function _Application3_get_UsableHeight () As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual int _Application3_get_UsableHeight() = Microsoft::Office::Interop::InfoPath::_Application3::get_UsableHeight;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application3_get_UsableWidth">
+      <MemberSignature Language="C#" Value="public virtual int _Application3_get_UsableWidth ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance int32 _Application3_get_UsableWidth() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application3_get_UsableWidth" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function _Application3_get_UsableWidth () As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual int _Application3_get_UsableWidth() = Microsoft::Office::Interop::InfoPath::_Application3::get_UsableWidth;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application3_get_User">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.UserObject _Application3_get_User ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance class Microsoft.Office.Interop.InfoPath.UserObject _Application3_get_User() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application3_get_User" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function _Application3_get_User () As UserObject" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::UserObject ^ _Application3_get_User() = Microsoft::Office::Interop::InfoPath::_Application3::get_User;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.UserObject</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application3_get_Version">
+      <MemberSignature Language="C#" Value="public virtual string _Application3_get_Version ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance string _Application3_get_Version() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application3_get_Version" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function _Application3_get_Version () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ _Application3_get_Version() = Microsoft::Office::Interop::InfoPath::_Application3::get_Version;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application3_get_Windows">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.WindowsCollection _Application3_get_Windows ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance class Microsoft.Office.Interop.InfoPath.WindowsCollection _Application3_get_Windows() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application3_get_Windows" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function _Application3_get_Windows () As WindowsCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::WindowsCollection ^ _Application3_get_Windows() = Microsoft::Office::Interop::InfoPath::_Application3::get_Windows;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.WindowsCollection</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application3_get_XDocuments">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.XDocumentsCollection _Application3_get_XDocuments ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance class Microsoft.Office.Interop.InfoPath.XDocumentsCollection _Application3_get_XDocuments() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application3_get_XDocuments" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function _Application3_get_XDocuments () As XDocumentsCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::XDocumentsCollection ^ _Application3_get_XDocuments() = Microsoft::Office::Interop::InfoPath::_Application3::get_XDocuments;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XDocumentsCollection</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application3_IsDestinationReachable">
+      <MemberSignature Language="C#" Value="public virtual bool _Application3_IsDestinationReachable (string bstrDestination);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool _Application3_IsDestinationReachable([in]string bstrDestination) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application3_IsDestinationReachable(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function _Application3_IsDestinationReachable (bstrDestination As String) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool _Application3_IsDestinationReachable(System::String ^ bstrDestination) = Microsoft::Office::Interop::InfoPath::_Application3::IsDestinationReachable;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrDestination" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrDestination">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application3_LanguageSettings">
+      <MemberSignature Language="C#" Value="public virtual object _Application3_LanguageSettings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object _Application3_LanguageSettings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application3_LanguageSettings" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property _Application3_LanguageSettings As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ _Application3_LanguageSettings { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application3_MachineOnlineState">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.XdMachineOnlineState _Application3_MachineOnlineState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.InfoPath.XdMachineOnlineState _Application3_MachineOnlineState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application3_MachineOnlineState" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property _Application3_MachineOnlineState As XdMachineOnlineState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::InfoPath::XdMachineOnlineState _Application3_MachineOnlineState { Microsoft::Office::Interop::InfoPath::XdMachineOnlineState get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdMachineOnlineState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application3_Name">
+      <MemberSignature Language="C#" Value="public virtual string _Application3_Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string _Application3_Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application3_Name" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property _Application3_Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ _Application3_Name { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application3_NewADODBConnection">
+      <MemberSignature Language="C#" Value="public virtual object _Application3_NewADODBConnection ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object _Application3_NewADODBConnection() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application3_NewADODBConnection" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function _Application3_NewADODBConnection () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Object ^ _Application3_NewADODBConnection() = Microsoft::Office::Interop::InfoPath::_Application3::NewADODBConnection;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application3_NewADODBRecordset">
+      <MemberSignature Language="C#" Value="public virtual object _Application3_NewADODBRecordset ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object _Application3_NewADODBRecordset() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application3_NewADODBRecordset" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function _Application3_NewADODBRecordset () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Object ^ _Application3_NewADODBRecordset() = Microsoft::Office::Interop::InfoPath::_Application3::NewADODBRecordset;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application3_Quit">
+      <MemberSignature Language="C#" Value="public virtual void _Application3_Quit (bool bForce = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _Application3_Quit([in]bool bForce) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application3_Quit(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub _Application3_Quit (Optional bForce As Boolean = false)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bForce" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="bForce">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application3_RegisterSolution">
+      <MemberSignature Language="C#" Value="public virtual void _Application3_RegisterSolution (string bstrSolutionURL, string bstrBehavior = &quot;overwrite&quot;);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _Application3_RegisterSolution([in]string bstrSolutionURL, [in]string bstrBehavior) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application3_RegisterSolution(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub _Application3_RegisterSolution (bstrSolutionURL As String, Optional bstrBehavior As String = &quot;overwrite&quot;)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrSolutionURL" Type="System.String" />
+        <Parameter Name="bstrBehavior" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrSolutionURL">To be added.</param>
+        <param name="bstrBehavior">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application3_UnregisterSolution">
+      <MemberSignature Language="C#" Value="public virtual void _Application3_UnregisterSolution (string bstrSolutionURI);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _Application3_UnregisterSolution([in]string bstrSolutionURI) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application3_UnregisterSolution(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub _Application3_UnregisterSolution (bstrSolutionURI As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void _Application3_UnregisterSolution(System::String ^ bstrSolutionURI) = Microsoft::Office::Interop::InfoPath::_Application3::UnregisterSolution;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrSolutionURI" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrSolutionURI">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application3_UsableHeight">
+      <MemberSignature Language="C#" Value="public virtual int _Application3_UsableHeight { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 _Application3_UsableHeight" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application3_UsableHeight" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property _Application3_UsableHeight As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int _Application3_UsableHeight { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application3_UsableWidth">
+      <MemberSignature Language="C#" Value="public virtual int _Application3_UsableWidth { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 _Application3_UsableWidth" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application3_UsableWidth" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property _Application3_UsableWidth As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int _Application3_UsableWidth { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application3_User">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.UserObject _Application3_User { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.UserObject _Application3_User" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application3_User" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property _Application3_User As UserObject" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::InfoPath::UserObject ^ _Application3_User { Microsoft::Office::Interop::InfoPath::UserObject ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.UserObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application3_Version">
+      <MemberSignature Language="C#" Value="public virtual string _Application3_Version { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string _Application3_Version" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application3_Version" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property _Application3_Version As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ _Application3_Version { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application3_Windows">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.WindowsCollection _Application3_Windows { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.WindowsCollection _Application3_Windows" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application3_Windows" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property _Application3_Windows As WindowsCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::InfoPath::WindowsCollection ^ _Application3_Windows { Microsoft::Office::Interop::InfoPath::WindowsCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.WindowsCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_Application3_XDocuments">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.XDocumentsCollection _Application3_XDocuments { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.XDocumentsCollection _Application3_XDocuments" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.ApplicationClass._Application3_XDocuments" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property _Application3_XDocuments As XDocumentsCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::InfoPath::XDocumentsCollection ^ _Application3_XDocuments { Microsoft::Office::Interop::InfoPath::XDocumentsCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XDocumentsCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActiveWindow">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.WindowObject ActiveWindow { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.WindowObject ActiveWindow" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.ApplicationClass.ActiveWindow" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property ActiveWindow As WindowObject" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::InfoPath::WindowObject ^ ActiveWindow { Microsoft::Office::Interop::InfoPath::WindowObject ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath._Application2.ActiveWindow</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.WindowObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CacheSolution">
+      <MemberSignature Language="C#" Value="public virtual void CacheSolution (string bstrSolutionURI);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CacheSolution([in]string bstrSolutionURI) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ApplicationClass.CacheSolution(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub CacheSolution (bstrSolutionURI As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void CacheSolution(System::String ^ bstrSolutionURI) = Microsoft::Office::Interop::InfoPath::_Application2::CacheSolution;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath._Application2.CacheSolution(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(14)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrSolutionURI" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrSolutionURI">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="COMAddIns">
+      <MemberSignature Language="C#" Value="public virtual object COMAddIns { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object COMAddIns" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.ApplicationClass.COMAddIns" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property COMAddIns As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ COMAddIns { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath._Application3.COMAddIns</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Events">
+      <MemberSignature Language="C#" Value="public virtual object Events { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Events" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.ApplicationClass.Events" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Events As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ Events { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath._Application3.Events</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FormatString">
+      <MemberSignature Language="C#" Value="public virtual string FormatString (object varInput, string bstrCategory, string bstrOptions);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string FormatString([in]object varInput, [in]string bstrCategory, [in]string bstrOptions) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ApplicationClass.FormatString(System.Object,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function FormatString (varInput As Object, bstrCategory As String, bstrOptions As String) As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ FormatString(System::Object ^ varInput, System::String ^ bstrCategory, System::String ^ bstrOptions) = Microsoft::Office::Interop::InfoPath::_Application2::FormatString;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath._Application2.FormatString(System.Object,System.String,System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varInput" Type="System.Object" />
+        <Parameter Name="bstrCategory" Type="System.String" />
+        <Parameter Name="bstrOptions" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="varInput">To be added.</param>
+        <param name="bstrCategory">To be added.</param>
+        <param name="bstrOptions">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSolutionURI">
+      <MemberSignature Language="C#" Value="public virtual string GetSolutionURI (string bstrCacheID);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetSolutionURI([in]string bstrCacheID) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ApplicationClass.GetSolutionURI(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetSolutionURI (bstrCacheID As String) As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ GetSolutionURI(System::String ^ bstrCacheID) = Microsoft::Office::Interop::InfoPath::_Application3::GetSolutionURI;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath._Application3.GetSolutionURI(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrCacheID" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrCacheID">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDestinationReachable">
+      <MemberSignature Language="C#" Value="public virtual bool IsDestinationReachable (string bstrDestination);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsDestinationReachable([in]string bstrDestination) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ApplicationClass.IsDestinationReachable(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function IsDestinationReachable (bstrDestination As String) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool IsDestinationReachable(System::String ^ bstrDestination) = Microsoft::Office::Interop::InfoPath::_Application2::IsDestinationReachable;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath._Application2.IsDestinationReachable(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(16)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrDestination" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrDestination">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LanguageSettings">
+      <MemberSignature Language="C#" Value="public virtual object LanguageSettings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object LanguageSettings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.ApplicationClass.LanguageSettings" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property LanguageSettings As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ LanguageSettings { System::Object ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath._Application2.LanguageSettings</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MachineOnlineState">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.XdMachineOnlineState MachineOnlineState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.InfoPath.XdMachineOnlineState MachineOnlineState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.ApplicationClass.MachineOnlineState" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property MachineOnlineState As XdMachineOnlineState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::InfoPath::XdMachineOnlineState MachineOnlineState { Microsoft::Office::Interop::InfoPath::XdMachineOnlineState get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath._Application2.MachineOnlineState</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(15)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(15)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdMachineOnlineState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public virtual string this { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.ApplicationClass.Name" />
+      <MemberSignature Language="VB.NET" Value="Default Public Overridable ReadOnly Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ default { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath._Application2.Name</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewADODBConnection">
+      <MemberSignature Language="C#" Value="public virtual object NewADODBConnection ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object NewADODBConnection() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ApplicationClass.NewADODBConnection" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function NewADODBConnection () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Object ^ NewADODBConnection() = Microsoft::Office::Interop::InfoPath::_Application2::NewADODBConnection;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath._Application2.NewADODBConnection</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewADODBRecordset">
+      <MemberSignature Language="C#" Value="public virtual object NewADODBRecordset ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object NewADODBRecordset() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ApplicationClass.NewADODBRecordset" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function NewADODBRecordset () As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Object ^ NewADODBRecordset() = Microsoft::Office::Interop::InfoPath::_Application2::NewADODBRecordset;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath._Application2.NewADODBRecordset</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Quit">
+      <MemberSignature Language="C#" Value="public virtual void Quit (bool bForce = false);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Quit([in]bool bForce) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ApplicationClass.Quit(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Quit (Optional bForce As Boolean = false)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath._Application2.Quit(System.Boolean)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bForce" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="bForce">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RegisterSolution">
+      <MemberSignature Language="C#" Value="public virtual void RegisterSolution (string bstrSolutionURL, string bstrBehavior = &quot;overwrite&quot;);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RegisterSolution([in]string bstrSolutionURL, [in]string bstrBehavior) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ApplicationClass.RegisterSolution(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub RegisterSolution (bstrSolutionURL As String, Optional bstrBehavior As String = &quot;overwrite&quot;)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath._Application2.RegisterSolution(System.String,System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrSolutionURL" Type="System.String" />
+        <Parameter Name="bstrBehavior" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrSolutionURL">To be added.</param>
+        <param name="bstrBehavior">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnregisterSolution">
+      <MemberSignature Language="C#" Value="public virtual void UnregisterSolution (string bstrSolutionURI);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void UnregisterSolution([in]string bstrSolutionURI) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ApplicationClass.UnregisterSolution(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub UnregisterSolution (bstrSolutionURI As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void UnregisterSolution(System::String ^ bstrSolutionURI) = Microsoft::Office::Interop::InfoPath::_Application2::UnregisterSolution;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath._Application2.UnregisterSolution(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(13)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrSolutionURI" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrSolutionURI">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UsableHeight">
+      <MemberSignature Language="C#" Value="public virtual int UsableHeight { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 UsableHeight" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.ApplicationClass.UsableHeight" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property UsableHeight As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int UsableHeight { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath._Application2.UsableHeight</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(18)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(18)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UsableWidth">
+      <MemberSignature Language="C#" Value="public virtual int UsableWidth { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 UsableWidth" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.ApplicationClass.UsableWidth" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property UsableWidth As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int UsableWidth { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath._Application2.UsableWidth</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(17)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(17)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="User">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.UserObject User { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.UserObject User" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.ApplicationClass.User" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property User As UserObject" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::InfoPath::UserObject ^ User { Microsoft::Office::Interop::InfoPath::UserObject ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath._Application2.User</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.UserObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Version">
+      <MemberSignature Language="C#" Value="public virtual string Version { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Version" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.ApplicationClass.Version" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Version As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ Version { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath._Application2.Version</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Windows">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.WindowsCollection Windows { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.WindowsCollection Windows" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.ApplicationClass.Windows" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Windows As WindowsCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::InfoPath::WindowsCollection ^ Windows { Microsoft::Office::Interop::InfoPath::WindowsCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath._Application2.Windows</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.WindowsCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XDocuments">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.XDocumentsCollection XDocuments { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.XDocumentsCollection XDocuments" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.ApplicationClass.XDocuments" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property XDocuments As XDocumentsCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::InfoPath::XDocumentsCollection ^ XDocuments { Microsoft::Office::Interop::InfoPath::XDocumentsCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath._Application2.XDocuments</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XDocumentsCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

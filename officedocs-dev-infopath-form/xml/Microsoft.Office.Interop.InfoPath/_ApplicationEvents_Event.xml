@@ -1,0 +1,227 @@
+<Type Name="_ApplicationEvents_Event" FullName="Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="bc5d9c6780feebfc43614969d7b47f7c44b1435c" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21040743" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _ApplicationEvents_Event" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _ApplicationEvents_Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _ApplicationEvents_Event" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _ApplicationEvents_Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComEventInterface(typeof(Microsoft.Office.Interop.InfoPath._ApplicationEvents), typeof(Microsoft.Office.Interop.InfoPath._ApplicationEvents_EventProvider))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="NewXDocument">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.InfoPath._ApplicationEvents_NewXDocumentEventHandler NewXDocument;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.InfoPath._ApplicationEvents_NewXDocumentEventHandler NewXDocument" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.NewXDocument" />
+      <MemberSignature Language="VB.NET" Value="Event NewXDocument As _ApplicationEvents_NewXDocumentEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::InfoPath::_ApplicationEvents_NewXDocumentEventHandler ^ NewXDocument;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath._ApplicationEvents_NewXDocumentEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Quit">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.InfoPath._ApplicationEvents_QuitEventHandler Quit;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.InfoPath._ApplicationEvents_QuitEventHandler Quit" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.Quit" />
+      <MemberSignature Language="VB.NET" Value="Event Quit As _ApplicationEvents_QuitEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::InfoPath::_ApplicationEvents_QuitEventHandler ^ Quit;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath._ApplicationEvents_QuitEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WindowActivate">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.InfoPath._ApplicationEvents_WindowActivateEventHandler WindowActivate;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.InfoPath._ApplicationEvents_WindowActivateEventHandler WindowActivate" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.WindowActivate" />
+      <MemberSignature Language="VB.NET" Value="Event WindowActivate As _ApplicationEvents_WindowActivateEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::InfoPath::_ApplicationEvents_WindowActivateEventHandler ^ WindowActivate;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath._ApplicationEvents_WindowActivateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WindowDeactivate">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.InfoPath._ApplicationEvents_WindowDeactivateEventHandler WindowDeactivate;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.InfoPath._ApplicationEvents_WindowDeactivateEventHandler WindowDeactivate" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.WindowDeactivate" />
+      <MemberSignature Language="VB.NET" Value="Event WindowDeactivate As _ApplicationEvents_WindowDeactivateEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::InfoPath::_ApplicationEvents_WindowDeactivateEventHandler ^ WindowDeactivate;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath._ApplicationEvents_WindowDeactivateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WindowSize">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.InfoPath._ApplicationEvents_WindowSizeEventHandler WindowSize;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.InfoPath._ApplicationEvents_WindowSizeEventHandler WindowSize" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.WindowSize" />
+      <MemberSignature Language="VB.NET" Value="Event WindowSize As _ApplicationEvents_WindowSizeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::InfoPath::_ApplicationEvents_WindowSizeEventHandler ^ WindowSize;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath._ApplicationEvents_WindowSizeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XDocumentBeforeClose">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.InfoPath._ApplicationEvents_XDocumentBeforeCloseEventHandler XDocumentBeforeClose;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.InfoPath._ApplicationEvents_XDocumentBeforeCloseEventHandler XDocumentBeforeClose" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.XDocumentBeforeClose" />
+      <MemberSignature Language="VB.NET" Value="Event XDocumentBeforeClose As _ApplicationEvents_XDocumentBeforeCloseEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::InfoPath::_ApplicationEvents_XDocumentBeforeCloseEventHandler ^ XDocumentBeforeClose;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath._ApplicationEvents_XDocumentBeforeCloseEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XDocumentBeforePrint">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.InfoPath._ApplicationEvents_XDocumentBeforePrintEventHandler XDocumentBeforePrint;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.InfoPath._ApplicationEvents_XDocumentBeforePrintEventHandler XDocumentBeforePrint" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.XDocumentBeforePrint" />
+      <MemberSignature Language="VB.NET" Value="Event XDocumentBeforePrint As _ApplicationEvents_XDocumentBeforePrintEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::InfoPath::_ApplicationEvents_XDocumentBeforePrintEventHandler ^ XDocumentBeforePrint;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath._ApplicationEvents_XDocumentBeforePrintEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XDocumentBeforeSave">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.InfoPath._ApplicationEvents_XDocumentBeforeSaveEventHandler XDocumentBeforeSave;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.InfoPath._ApplicationEvents_XDocumentBeforeSaveEventHandler XDocumentBeforeSave" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.XDocumentBeforeSave" />
+      <MemberSignature Language="VB.NET" Value="Event XDocumentBeforeSave As _ApplicationEvents_XDocumentBeforeSaveEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::InfoPath::_ApplicationEvents_XDocumentBeforeSaveEventHandler ^ XDocumentBeforeSave;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath._ApplicationEvents_XDocumentBeforeSaveEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XDocumentChange">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.InfoPath._ApplicationEvents_XDocumentChangeEventHandler XDocumentChange;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.InfoPath._ApplicationEvents_XDocumentChangeEventHandler XDocumentChange" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.XDocumentChange" />
+      <MemberSignature Language="VB.NET" Value="Event XDocumentChange As _ApplicationEvents_XDocumentChangeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::InfoPath::_ApplicationEvents_XDocumentChangeEventHandler ^ XDocumentChange;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath._ApplicationEvents_XDocumentChangeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XDocumentOpen">
+      <MemberSignature Language="C#" Value="event Microsoft.Office.Interop.InfoPath._ApplicationEvents_XDocumentOpenEventHandler XDocumentOpen;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.InfoPath._ApplicationEvents_XDocumentOpenEventHandler XDocumentOpen" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.InfoPath._ApplicationEvents_Event.XDocumentOpen" />
+      <MemberSignature Language="VB.NET" Value="Event XDocumentOpen As _ApplicationEvents_XDocumentOpenEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; event Microsoft::Office::Interop::InfoPath::_ApplicationEvents_XDocumentOpenEventHandler ^ XDocumentOpen;" />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath._ApplicationEvents_XDocumentOpenEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
