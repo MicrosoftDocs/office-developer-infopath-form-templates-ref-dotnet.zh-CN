@@ -1,0 +1,71 @@
+<Type Name="XdWindowType" FullName="Microsoft.Office.Interop.InfoPath.XdWindowType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="565a8c655408e79b9402695cb548cc8c4ec86942" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21042157" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum XdWindowType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XdWindowType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.XdWindowType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XdWindowType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XdWindowType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("BE47E97C-54B4-385D-8BAE-324B6A167680")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xdDesignerWindow">
+      <MemberSignature Language="C#" Value="xdDesignerWindow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.XdWindowType xdDesignerWindow = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.XdWindowType.xdDesignerWindow" />
+      <MemberSignature Language="VB.NET" Value="xdDesignerWindow" />
+      <MemberSignature Language="C++ CLI" Value="xdDesignerWindow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdWindowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xdEditorWindow">
+      <MemberSignature Language="C#" Value="xdEditorWindow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.XdWindowType xdEditorWindow = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.XdWindowType.xdEditorWindow" />
+      <MemberSignature Language="VB.NET" Value="xdEditorWindow" />
+      <MemberSignature Language="C++ CLI" Value="xdEditorWindow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdWindowType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

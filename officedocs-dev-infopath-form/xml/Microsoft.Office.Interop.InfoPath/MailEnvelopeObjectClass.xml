@@ -1,0 +1,603 @@
+<Type Name="MailEnvelopeObjectClass" FullName="Microsoft.Office.Interop.InfoPath.MailEnvelopeObjectClass">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="507da31b6b581c794d30b28522f313dcf89e9557" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21041870" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class MailEnvelopeObjectClass : Microsoft.Office.Interop.InfoPath.MailEnvelope2, Microsoft.Office.Interop.InfoPath.MailEnvelopeObject" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi MailEnvelopeObjectClass extends System.Object implements class Microsoft.Office.Interop.InfoPath.MailEnvelope, class Microsoft.Office.Interop.InfoPath.MailEnvelope2, class Microsoft.Office.Interop.InfoPath.MailEnvelopeObject" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.MailEnvelopeObjectClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class MailEnvelopeObjectClass&#xA;Implements MailEnvelope2, MailEnvelopeObject" />
+  <TypeSignature Language="C++ CLI" Value="public ref class MailEnvelopeObjectClass : Microsoft::Office::Interop::InfoPath::MailEnvelope2, Microsoft::Office::Interop::InfoPath::MailEnvelopeObject" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.MailEnvelope2</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.MailEnvelopeObject</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(0)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("807583C1-5146-11D5-A672-00B0D022E945")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AttachmentType">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.XdAttachmentType AttachmentType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.InfoPath.XdAttachmentType AttachmentType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.MailEnvelopeObjectClass.AttachmentType" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property AttachmentType As XdAttachmentType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::InfoPath::XdAttachmentType AttachmentType { Microsoft::Office::Interop::InfoPath::XdAttachmentType get(); void set(Microsoft::Office::Interop::InfoPath::XdAttachmentType value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.MailEnvelope2.AttachmentType</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdAttachmentType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Available">
+      <MemberSignature Language="C#" Value="public virtual bool Available { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Available" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.MailEnvelopeObjectClass.Available" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Available As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool Available { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.MailEnvelope2.Available</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BCC">
+      <MemberSignature Language="C#" Value="public virtual string BCC { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string BCC" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.MailEnvelopeObjectClass.BCC" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property BCC As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ BCC { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.MailEnvelope.BCC</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CC">
+      <MemberSignature Language="C#" Value="public virtual string CC { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string CC" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.MailEnvelopeObjectClass.CC" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property CC As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ CC { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.MailEnvelope.CC</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Intro">
+      <MemberSignature Language="C#" Value="public virtual string Intro { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Intro" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.MailEnvelopeObjectClass.Intro" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property Intro As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ Intro { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.MailEnvelope2.Intro</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailEnvelope2_BCC">
+      <MemberSignature Language="C#" Value="public virtual string MailEnvelope2_BCC { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MailEnvelope2_BCC" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.MailEnvelopeObjectClass.MailEnvelope2_BCC" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property MailEnvelope2_BCC As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ MailEnvelope2_BCC { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailEnvelope2_CC">
+      <MemberSignature Language="C#" Value="public virtual string MailEnvelope2_CC { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MailEnvelope2_CC" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.MailEnvelopeObjectClass.MailEnvelope2_CC" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property MailEnvelope2_CC As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ MailEnvelope2_CC { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailEnvelope2_get_BCC">
+      <MemberSignature Language="C#" Value="public virtual string MailEnvelope2_get_BCC ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance string MailEnvelope2_get_BCC() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.MailEnvelopeObjectClass.MailEnvelope2_get_BCC" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function MailEnvelope2_get_BCC () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ MailEnvelope2_get_BCC() = Microsoft::Office::Interop::InfoPath::MailEnvelope2::get_BCC;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailEnvelope2_get_CC">
+      <MemberSignature Language="C#" Value="public virtual string MailEnvelope2_get_CC ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance string MailEnvelope2_get_CC() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.MailEnvelopeObjectClass.MailEnvelope2_get_CC" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function MailEnvelope2_get_CC () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ MailEnvelope2_get_CC() = Microsoft::Office::Interop::InfoPath::MailEnvelope2::get_CC;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailEnvelope2_get_Subject">
+      <MemberSignature Language="C#" Value="public virtual string MailEnvelope2_get_Subject ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance string MailEnvelope2_get_Subject() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.MailEnvelopeObjectClass.MailEnvelope2_get_Subject" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function MailEnvelope2_get_Subject () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ MailEnvelope2_get_Subject() = Microsoft::Office::Interop::InfoPath::MailEnvelope2::get_Subject;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailEnvelope2_get_To">
+      <MemberSignature Language="C#" Value="public virtual string MailEnvelope2_get_To ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance string MailEnvelope2_get_To() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.MailEnvelopeObjectClass.MailEnvelope2_get_To" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function MailEnvelope2_get_To () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ MailEnvelope2_get_To() = Microsoft::Office::Interop::InfoPath::MailEnvelope2::get_To;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailEnvelope2_get_Visible">
+      <MemberSignature Language="C#" Value="public virtual bool MailEnvelope2_get_Visible ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance bool MailEnvelope2_get_Visible() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.MailEnvelopeObjectClass.MailEnvelope2_get_Visible" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function MailEnvelope2_get_Visible () As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool MailEnvelope2_get_Visible() = Microsoft::Office::Interop::InfoPath::MailEnvelope2::get_Visible;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailEnvelope2_set_BCC">
+      <MemberSignature Language="C#" Value="public virtual void MailEnvelope2_set_BCC (string pbstrBCC);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance void MailEnvelope2_set_BCC([in]string pbstrBCC) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.MailEnvelopeObjectClass.MailEnvelope2_set_BCC(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub MailEnvelope2_set_BCC (pbstrBCC As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void MailEnvelope2_set_BCC(System::String ^ pbstrBCC) = Microsoft::Office::Interop::InfoPath::MailEnvelope2::set_BCC;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pbstrBCC" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="pbstrBCC">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailEnvelope2_set_CC">
+      <MemberSignature Language="C#" Value="public virtual void MailEnvelope2_set_CC (string pbstrCC);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance void MailEnvelope2_set_CC([in]string pbstrCC) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.MailEnvelopeObjectClass.MailEnvelope2_set_CC(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub MailEnvelope2_set_CC (pbstrCC As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void MailEnvelope2_set_CC(System::String ^ pbstrCC) = Microsoft::Office::Interop::InfoPath::MailEnvelope2::set_CC;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pbstrCC" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="pbstrCC">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailEnvelope2_set_Subject">
+      <MemberSignature Language="C#" Value="public virtual void MailEnvelope2_set_Subject (string pbstrSubject);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance void MailEnvelope2_set_Subject([in]string pbstrSubject) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.MailEnvelopeObjectClass.MailEnvelope2_set_Subject(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub MailEnvelope2_set_Subject (pbstrSubject As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void MailEnvelope2_set_Subject(System::String ^ pbstrSubject) = Microsoft::Office::Interop::InfoPath::MailEnvelope2::set_Subject;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pbstrSubject" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="pbstrSubject">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailEnvelope2_set_To">
+      <MemberSignature Language="C#" Value="public virtual void MailEnvelope2_set_To (string pbstrTo);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance void MailEnvelope2_set_To([in]string pbstrTo) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.MailEnvelopeObjectClass.MailEnvelope2_set_To(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub MailEnvelope2_set_To (pbstrTo As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void MailEnvelope2_set_To(System::String ^ pbstrTo) = Microsoft::Office::Interop::InfoPath::MailEnvelope2::set_To;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pbstrTo" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="pbstrTo">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailEnvelope2_set_Visible">
+      <MemberSignature Language="C#" Value="public virtual void MailEnvelope2_set_Visible (bool pvfVisible);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance void MailEnvelope2_set_Visible([in]bool pvfVisible) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.MailEnvelopeObjectClass.MailEnvelope2_set_Visible(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub MailEnvelope2_set_Visible (pvfVisible As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void MailEnvelope2_set_Visible(bool pvfVisible) = Microsoft::Office::Interop::InfoPath::MailEnvelope2::set_Visible;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pvfVisible" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="pvfVisible">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailEnvelope2_Subject">
+      <MemberSignature Language="C#" Value="public virtual string MailEnvelope2_Subject { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MailEnvelope2_Subject" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.MailEnvelopeObjectClass.MailEnvelope2_Subject" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property MailEnvelope2_Subject As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ MailEnvelope2_Subject { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailEnvelope2_To">
+      <MemberSignature Language="C#" Value="public virtual string MailEnvelope2_To { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MailEnvelope2_To" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.MailEnvelopeObjectClass.MailEnvelope2_To" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property MailEnvelope2_To As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ MailEnvelope2_To { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MailEnvelope2_Visible">
+      <MemberSignature Language="C#" Value="public virtual bool MailEnvelope2_Visible { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool MailEnvelope2_Visible" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.MailEnvelopeObjectClass.MailEnvelope2_Visible" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property MailEnvelope2_Visible As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool MailEnvelope2_Visible { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Subject">
+      <MemberSignature Language="C#" Value="public virtual string Subject { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Subject" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.MailEnvelopeObjectClass.Subject" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property Subject As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ Subject { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.MailEnvelope.Subject</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="To">
+      <MemberSignature Language="C#" Value="public virtual string To { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string To" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.MailEnvelopeObjectClass.To" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property To As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ To { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.MailEnvelope.To</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Visible">
+      <MemberSignature Language="C#" Value="public virtual bool Visible { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Visible" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.MailEnvelopeObjectClass.Visible" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property Visible As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool Visible { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.MailEnvelope.Visible</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

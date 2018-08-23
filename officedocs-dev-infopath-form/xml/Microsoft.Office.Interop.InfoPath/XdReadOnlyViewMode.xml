@@ -1,0 +1,90 @@
+<Type Name="XdReadOnlyViewMode" FullName="Microsoft.Office.Interop.InfoPath.XdReadOnlyViewMode">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="d92e2cabb4cdc8fa25c44d15b27d7ad2b12b7033" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21041331" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum XdReadOnlyViewMode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XdReadOnlyViewMode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.XdReadOnlyViewMode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XdReadOnlyViewMode" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XdReadOnlyViewMode" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("EC2699AB-CD9B-3487-94DE-30D31EC987E7")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xdDefault">
+      <MemberSignature Language="C#" Value="xdDefault" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.XdReadOnlyViewMode xdDefault = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.XdReadOnlyViewMode.xdDefault" />
+      <MemberSignature Language="VB.NET" Value="xdDefault" />
+      <MemberSignature Language="C++ CLI" Value="xdDefault" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdReadOnlyViewMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xdFrozen">
+      <MemberSignature Language="C#" Value="xdFrozen" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.XdReadOnlyViewMode xdFrozen = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.XdReadOnlyViewMode.xdFrozen" />
+      <MemberSignature Language="VB.NET" Value="xdFrozen" />
+      <MemberSignature Language="C++ CLI" Value="xdFrozen" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdReadOnlyViewMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xdNonEditable">
+      <MemberSignature Language="C#" Value="xdNonEditable" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.XdReadOnlyViewMode xdNonEditable = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.XdReadOnlyViewMode.xdNonEditable" />
+      <MemberSignature Language="VB.NET" Value="xdNonEditable" />
+      <MemberSignature Language="C++ CLI" Value="xdNonEditable" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdReadOnlyViewMode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

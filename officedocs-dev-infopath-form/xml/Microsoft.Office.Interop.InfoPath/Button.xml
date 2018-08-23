@@ -1,0 +1,40 @@
+<Type Name="Button" FullName="Microsoft.Office.Interop.InfoPath.Button">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="2736ad15df8078e17439d18be76ae840ffe12ec6" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21043067" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface Button : Microsoft.Office.Interop.InfoPath._ButtonEventSink_Event, Microsoft.Office.Interop.InfoPath.ButtonEmpty" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract Button implements class Microsoft.Office.Interop.InfoPath._ButtonEventSink_Event, class Microsoft.Office.Interop.InfoPath.ButtonEmpty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.Button" />
+  <TypeSignature Language="VB.NET" Value="Public Interface Button&#xA;Implements _ButtonEventSink_Event, ButtonEmpty" />
+  <TypeSignature Language="C++ CLI" Value="public interface class Button : Microsoft::Office::Interop::InfoPath::_ButtonEventSink_Event, Microsoft::Office::Interop::InfoPath::ButtonEmpty" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath._ButtonEventSink_Event</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.ButtonEmpty</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.InfoPath.ButtonClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("096CD786-0786-11D1-95FA-0080C78EE3BB")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

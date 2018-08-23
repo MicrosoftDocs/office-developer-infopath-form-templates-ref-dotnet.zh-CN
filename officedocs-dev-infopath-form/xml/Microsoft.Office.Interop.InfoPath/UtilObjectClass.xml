@@ -1,0 +1,140 @@
+<Type Name="UtilObjectClass" FullName="Microsoft.Office.Interop.InfoPath.UtilObjectClass">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="92ebd858589d6192d92e180bbd9bcafce6af75c5" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21041198" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class UtilObjectClass : Microsoft.Office.Interop.InfoPath.UtilObject" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi UtilObjectClass extends System.Object implements class Microsoft.Office.Interop.InfoPath.Util, class Microsoft.Office.Interop.InfoPath.UtilObject" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.UtilObjectClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class UtilObjectClass&#xA;Implements UtilObject" />
+  <TypeSignature Language="C++ CLI" Value="public ref class UtilObjectClass : Microsoft::Office::Interop::InfoPath::UtilObject" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.UtilObject</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(0)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComConversionLoss</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("80758306-5146-11D5-A672-00B0D022E945")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Date">
+      <MemberSignature Language="C#" Value="public virtual IntPtr Date { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance native int Date" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.UtilObjectClass.Date" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Date As IntPtr" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property IntPtr Date { IntPtr get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.Util.Date</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Match">
+      <MemberSignature Language="C#" Value="public virtual bool Match (string bstrValue, string bstrPattern);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Match([in]string bstrValue, [in]string bstrPattern) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.UtilObjectClass.Match(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Match (bstrValue As String, bstrPattern As String) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool Match(System::String ^ bstrValue, System::String ^ bstrPattern) = Microsoft::Office::Interop::InfoPath::Util::Match;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.Util.Match(System.String,System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrValue" Type="System.String" />
+        <Parameter Name="bstrPattern" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrValue">To be added.</param>
+        <param name="bstrPattern">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Math">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.MathObject Math { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.MathObject Math" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.UtilObjectClass.Math" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Math As MathObject" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::InfoPath::MathObject ^ Math { Microsoft::Office::Interop::InfoPath::MathObject ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.Util.Math</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.MathObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

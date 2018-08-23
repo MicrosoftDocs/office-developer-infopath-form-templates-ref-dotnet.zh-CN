@@ -1,0 +1,156 @@
+<Type Name="InfoPathControl2" FullName="Microsoft.Office.Interop.InfoPath.InfoPathControl2">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="fbcfa746613a54c362614073e1b98230a50cd59c" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21042577" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface InfoPathControl2 : Microsoft.Office.Interop.InfoPath.InfoPathControl" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract InfoPathControl2 implements class Microsoft.Office.Interop.InfoPath.InfoPathControl" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.InfoPathControl2" />
+  <TypeSignature Language="VB.NET" Value="Public Interface InfoPathControl2&#xA;Implements InfoPathControl" />
+  <TypeSignature Language="C++ CLI" Value="public interface class InfoPathControl2 : Microsoft::Office::Interop::InfoPath::InfoPathControl" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.InfoPathControl</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("096CD77D-0786-11D1-95FA-0080C78EE3BB")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(1)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Enable">
+      <MemberSignature Language="C#" Value="public void Enable (bool vfEnabled);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Enable([in]bool vfEnabled) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.InfoPathControl2.Enable(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Enable (vfEnabled As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Enable(bool vfEnabled);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.InfoPathControl.Enable(System.Boolean)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="vfEnabled" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="vfEnabled">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Init">
+      <MemberSignature Language="C#" Value="public void Init (Microsoft.Office.Interop.InfoPath.InfoPathControlSite pControlSite);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Init([in]class Microsoft.Office.Interop.InfoPath.InfoPathControlSite pControlSite) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.InfoPathControl2.Init(Microsoft.Office.Interop.InfoPath.InfoPathControlSite)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Init (pControlSite As InfoPathControlSite)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Init(Microsoft::Office::Interop::InfoPath::InfoPathControlSite ^ pControlSite);" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.InfoPathControl.Init(Microsoft.Office.Interop.InfoPath.InfoPathControlSite)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pControlSite" Type="Microsoft.Office.Interop.InfoPath.InfoPathControlSite" />
+      </Parameters>
+      <Docs>
+        <param name="pControlSite">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RefreshState">
+      <MemberSignature Language="C#" Value="public void RefreshState ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RefreshState() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.InfoPathControl2.RefreshState" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RefreshState ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RefreshState();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SaveState">
+      <MemberSignature Language="C#" Value="public void SaveState ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SaveState() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.InfoPathControl2.SaveState" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SaveState ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SaveState();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.InfoPathControl.SaveState</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Uninit">
+      <MemberSignature Language="C#" Value="public void Uninit ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Uninit() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.InfoPathControl2.Uninit" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Uninit ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Uninit();" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.InfoPathControl.Uninit</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

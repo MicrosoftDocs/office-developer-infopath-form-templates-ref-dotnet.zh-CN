@@ -1,0 +1,90 @@
+<Type Name="IPropertyBag" FullName="Microsoft.Office.Interop.InfoPath.IPropertyBag">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a423820393a43f682eb5ca2d2a810704bd345542" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21042451" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface IPropertyBag" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IPropertyBag" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.IPropertyBag" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IPropertyBag" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IPropertyBag" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("55272A00-42CB-11CE-8135-00AA004BB851")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(1)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="RemoteRead">
+      <MemberSignature Language="C#" Value="public void RemoteRead (string pszPropName, out object pVar, Microsoft.Office.Interop.InfoPath.IErrorLog pErrorLog, uint varType, object pUnkObj);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RemoteRead([in]string pszPropName, [out] object&amp; pVar, [in]class Microsoft.Office.Interop.InfoPath.IErrorLog pErrorLog, [in]unsigned int32 varType, [in]object pUnkObj) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.IPropertyBag.RemoteRead(System.String,System.Object@,Microsoft.Office.Interop.InfoPath.IErrorLog,System.UInt32,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RemoteRead (pszPropName As String, ByRef pVar As Object, pErrorLog As IErrorLog, varType As UInteger, pUnkObj As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemoteRead(System::String ^ pszPropName, [Runtime::InteropServices::Out] System::Object ^ % pVar, Microsoft::Office::Interop::InfoPath::IErrorLog ^ pErrorLog, System::UInt32 varType, System::Object ^ pUnkObj);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pszPropName" Type="System.String" />
+        <Parameter Name="pVar" Type="System.Object&amp;" RefType="out" />
+        <Parameter Name="pErrorLog" Type="Microsoft.Office.Interop.InfoPath.IErrorLog" />
+        <Parameter Name="varType" Type="System.UInt32" />
+        <Parameter Name="pUnkObj" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="pszPropName">To be added.</param>
+        <param name="pVar">To be added.</param>
+        <param name="pErrorLog">To be added.</param>
+        <param name="varType">To be added.</param>
+        <param name="pUnkObj">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Write">
+      <MemberSignature Language="C#" Value="public void Write (string pszPropName, ref object pVar);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Write([in]string pszPropName, [in]object&amp; pVar) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.IPropertyBag.Write(System.String,System.Object@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Write (pszPropName As String, ByRef pVar As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Write(System::String ^ pszPropName, System::Object ^ % pVar);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pszPropName" Type="System.String" />
+        <Parameter Name="pVar" Type="System.Object&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="pszPropName">To be added.</param>
+        <param name="pVar">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

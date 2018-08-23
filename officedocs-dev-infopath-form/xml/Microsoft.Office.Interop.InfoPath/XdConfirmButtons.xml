@@ -1,0 +1,90 @@
+<Type Name="XdConfirmButtons" FullName="Microsoft.Office.Interop.InfoPath.XdConfirmButtons">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f5a55639356f7452bf8ab8a60d584cd67c047f9a" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21039252" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum XdConfirmButtons" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XdConfirmButtons extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.XdConfirmButtons" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XdConfirmButtons" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XdConfirmButtons" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("64D26BA1-2CD5-3BF8-8F2F-50327BF0CA23")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xdOKCancel">
+      <MemberSignature Language="C#" Value="xdOKCancel" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.XdConfirmButtons xdOKCancel = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.XdConfirmButtons.xdOKCancel" />
+      <MemberSignature Language="VB.NET" Value="xdOKCancel" />
+      <MemberSignature Language="C++ CLI" Value="xdOKCancel" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdConfirmButtons</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xdYesNo">
+      <MemberSignature Language="C#" Value="xdYesNo" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.XdConfirmButtons xdYesNo = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.XdConfirmButtons.xdYesNo" />
+      <MemberSignature Language="VB.NET" Value="xdYesNo" />
+      <MemberSignature Language="C++ CLI" Value="xdYesNo" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdConfirmButtons</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xdYesNoCancel">
+      <MemberSignature Language="C#" Value="xdYesNoCancel" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.XdConfirmButtons xdYesNoCancel = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.XdConfirmButtons.xdYesNoCancel" />
+      <MemberSignature Language="VB.NET" Value="xdYesNoCancel" />
+      <MemberSignature Language="C++ CLI" Value="xdYesNoCancel" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdConfirmButtons</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

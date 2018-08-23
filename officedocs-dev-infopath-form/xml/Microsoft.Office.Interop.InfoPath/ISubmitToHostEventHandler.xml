@@ -1,0 +1,62 @@
+<Type Name="ISubmitToHostEventHandler" FullName="Microsoft.Office.Interop.InfoPath.ISubmitToHostEventHandler">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="342e0b3ef7632bb4a63471d5f203239434d55099" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21041401" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface ISubmitToHostEventHandler" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ISubmitToHostEventHandler" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.ISubmitToHostEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ISubmitToHostEventHandler" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ISubmitToHostEventHandler" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("096CD738-0786-11D1-95FA-0080C78EE3BB")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(1)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="SubmitToHostEventHandler">
+      <MemberSignature Language="C#" Value="public int SubmitToHostEventHandler (object sender, string adapterName, out string errorMessage);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 SubmitToHostEventHandler([in]object sender, [in]string adapterName, [out] string&amp; errorMessage) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ISubmitToHostEventHandler.SubmitToHostEventHandler(System.Object,System.String,System.String@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function SubmitToHostEventHandler (sender As Object, adapterName As String, ByRef errorMessage As String) As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; int SubmitToHostEventHandler(System::Object ^ sender, System::String ^ adapterName, [Runtime::InteropServices::Out] System::String ^ % errorMessage);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sender" Type="System.Object" />
+        <Parameter Name="adapterName" Type="System.String" />
+        <Parameter Name="errorMessage" Type="System.String&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="sender">To be added.</param>
+        <param name="adapterName">To be added.</param>
+        <param name="errorMessage">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

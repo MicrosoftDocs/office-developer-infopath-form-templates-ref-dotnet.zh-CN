@@ -1,0 +1,526 @@
+<Type Name="ExternalApplicationClass" FullName="Microsoft.Office.Interop.InfoPath.ExternalApplicationClass">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="8e87293829ff6d997afff17cdf704d419e536b00" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21040848" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class ExternalApplicationClass : Microsoft.Office.Interop.InfoPath.ExternalApplication" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi ExternalApplicationClass extends System.Object implements class Microsoft.Office.Interop.InfoPath._ExternalApplication, class Microsoft.Office.Interop.InfoPath._ExternalApplication2, class Microsoft.Office.Interop.InfoPath.ExternalApplication" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.ExternalApplicationClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class ExternalApplicationClass&#xA;Implements ExternalApplication" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ExternalApplicationClass : Microsoft::Office::Interop::InfoPath::ExternalApplication" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.ExternalApplication</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(0)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("80758358-5146-11D5-A672-00B0D022E945")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(2)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ExternalApplicationClass ();" />
+      <MemberSignature Language="ILAsm" Value=".method public specialname rtspecialname instance void .ctor() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ExternalApplicationClass.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ExternalApplicationClass();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_ExternalApplication_CacheSolution">
+      <MemberSignature Language="C#" Value="public virtual void _ExternalApplication_CacheSolution (string bstrSolutionURI);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _ExternalApplication_CacheSolution([in]string bstrSolutionURI) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ExternalApplicationClass._ExternalApplication_CacheSolution(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub _ExternalApplication_CacheSolution (bstrSolutionURI As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void _ExternalApplication_CacheSolution(System::String ^ bstrSolutionURI) = Microsoft::Office::Interop::InfoPath::_ExternalApplication::CacheSolution;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrSolutionURI" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrSolutionURI">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_ExternalApplication_Close">
+      <MemberSignature Language="C#" Value="public virtual void _ExternalApplication_Close (string bstrDocumentURI);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _ExternalApplication_Close([in]string bstrDocumentURI) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ExternalApplicationClass._ExternalApplication_Close(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub _ExternalApplication_Close (bstrDocumentURI As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void _ExternalApplication_Close(System::String ^ bstrDocumentURI) = Microsoft::Office::Interop::InfoPath::_ExternalApplication::Close;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrDocumentURI" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrDocumentURI">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_ExternalApplication_New">
+      <MemberSignature Language="C#" Value="public virtual void _ExternalApplication_New (string bstrDocumentURI, int dwBehavior = 1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _ExternalApplication_New([in]string bstrDocumentURI, [in]int32 dwBehavior) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ExternalApplicationClass._ExternalApplication_New(System.String,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub _ExternalApplication_New (bstrDocumentURI As String, Optional dwBehavior As Integer = 1)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrDocumentURI" Type="System.String" />
+        <Parameter Name="dwBehavior" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="bstrDocumentURI">To be added.</param>
+        <param name="dwBehavior">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_ExternalApplication_NewFromSolution">
+      <MemberSignature Language="C#" Value="public virtual void _ExternalApplication_NewFromSolution (string bstrSolutionURI);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _ExternalApplication_NewFromSolution([in]string bstrSolutionURI) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ExternalApplicationClass._ExternalApplication_NewFromSolution(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub _ExternalApplication_NewFromSolution (bstrSolutionURI As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void _ExternalApplication_NewFromSolution(System::String ^ bstrSolutionURI) = Microsoft::Office::Interop::InfoPath::_ExternalApplication::NewFromSolution;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrSolutionURI" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrSolutionURI">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_ExternalApplication_Open">
+      <MemberSignature Language="C#" Value="public virtual void _ExternalApplication_Open (string bstrDocumentURI, int dwBehavior = 1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _ExternalApplication_Open([in]string bstrDocumentURI, [in]int32 dwBehavior) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ExternalApplicationClass._ExternalApplication_Open(System.String,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub _ExternalApplication_Open (bstrDocumentURI As String, Optional dwBehavior As Integer = 1)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrDocumentURI" Type="System.String" />
+        <Parameter Name="dwBehavior" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="bstrDocumentURI">To be added.</param>
+        <param name="dwBehavior">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_ExternalApplication_Quit">
+      <MemberSignature Language="C#" Value="public virtual void _ExternalApplication_Quit ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _ExternalApplication_Quit() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ExternalApplicationClass._ExternalApplication_Quit" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub _ExternalApplication_Quit ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void _ExternalApplication_Quit() = Microsoft::Office::Interop::InfoPath::_ExternalApplication::Quit;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_ExternalApplication_RegisterSolution">
+      <MemberSignature Language="C#" Value="public virtual void _ExternalApplication_RegisterSolution (string bstrSolutionURL, string bstrBehavior = &quot;overwrite&quot;);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _ExternalApplication_RegisterSolution([in]string bstrSolutionURL, [in]string bstrBehavior) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ExternalApplicationClass._ExternalApplication_RegisterSolution(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub _ExternalApplication_RegisterSolution (bstrSolutionURL As String, Optional bstrBehavior As String = &quot;overwrite&quot;)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrSolutionURL" Type="System.String" />
+        <Parameter Name="bstrBehavior" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrSolutionURL">To be added.</param>
+        <param name="bstrBehavior">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="_ExternalApplication_UnregisterSolution">
+      <MemberSignature Language="C#" Value="public virtual void _ExternalApplication_UnregisterSolution (string bstrSolutionURI);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void _ExternalApplication_UnregisterSolution([in]string bstrSolutionURI) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ExternalApplicationClass._ExternalApplication_UnregisterSolution(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub _ExternalApplication_UnregisterSolution (bstrSolutionURI As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void _ExternalApplication_UnregisterSolution(System::String ^ bstrSolutionURI) = Microsoft::Office::Interop::InfoPath::_ExternalApplication::UnregisterSolution;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrSolutionURI" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrSolutionURI">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CacheSolution">
+      <MemberSignature Language="C#" Value="public virtual void CacheSolution (string bstrSolutionURI);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CacheSolution([in]string bstrSolutionURI) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ExternalApplicationClass.CacheSolution(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub CacheSolution (bstrSolutionURI As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void CacheSolution(System::String ^ bstrSolutionURI) = Microsoft::Office::Interop::InfoPath::_ExternalApplication2::CacheSolution;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath._ExternalApplication2.CacheSolution(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrSolutionURI" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrSolutionURI">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Close">
+      <MemberSignature Language="C#" Value="public virtual void Close (string bstrDocumentURI);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Close([in]string bstrDocumentURI) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ExternalApplicationClass.Close(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Close (bstrDocumentURI As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Close(System::String ^ bstrDocumentURI) = Microsoft::Office::Interop::InfoPath::_ExternalApplication2::Close;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath._ExternalApplication2.Close(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrDocumentURI" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrDocumentURI">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="New">
+      <MemberSignature Language="C#" Value="public virtual void New (string bstrDocumentURI, int dwBehavior = 1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void New([in]string bstrDocumentURI, [in]int32 dwBehavior) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ExternalApplicationClass.New(System.String,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub New (bstrDocumentURI As String, Optional dwBehavior As Integer = 1)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath._ExternalApplication2.New(System.String,System.Int32)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrDocumentURI" Type="System.String" />
+        <Parameter Name="dwBehavior" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="bstrDocumentURI">To be added.</param>
+        <param name="dwBehavior">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewFromSolution">
+      <MemberSignature Language="C#" Value="public virtual void NewFromSolution (string bstrSolutionURI);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void NewFromSolution([in]string bstrSolutionURI) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ExternalApplicationClass.NewFromSolution(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub NewFromSolution (bstrSolutionURI As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void NewFromSolution(System::String ^ bstrSolutionURI) = Microsoft::Office::Interop::InfoPath::_ExternalApplication2::NewFromSolution;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath._ExternalApplication2.NewFromSolution(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrSolutionURI" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrSolutionURI">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewFromSolutionWithInputParameters">
+      <MemberSignature Language="C#" Value="public virtual void NewFromSolutionWithInputParameters (string bstrSolutionURI, string bstrInputParameters);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void NewFromSolutionWithInputParameters([in]string bstrSolutionURI, [in]string bstrInputParameters) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ExternalApplicationClass.NewFromSolutionWithInputParameters(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub NewFromSolutionWithInputParameters (bstrSolutionURI As String, bstrInputParameters As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void NewFromSolutionWithInputParameters(System::String ^ bstrSolutionURI, System::String ^ bstrInputParameters) = Microsoft::Office::Interop::InfoPath::_ExternalApplication2::NewFromSolutionWithInputParameters;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath._ExternalApplication2.NewFromSolutionWithInputParameters(System.String,System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrSolutionURI" Type="System.String" />
+        <Parameter Name="bstrInputParameters" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrSolutionURI">To be added.</param>
+        <param name="bstrInputParameters">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Open">
+      <MemberSignature Language="C#" Value="public virtual void Open (string bstrDocumentURI, int dwBehavior = 1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Open([in]string bstrDocumentURI, [in]int32 dwBehavior) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ExternalApplicationClass.Open(System.String,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Open (bstrDocumentURI As String, Optional dwBehavior As Integer = 1)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath._ExternalApplication2.Open(System.String,System.Int32)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrDocumentURI" Type="System.String" />
+        <Parameter Name="dwBehavior" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="bstrDocumentURI">To be added.</param>
+        <param name="dwBehavior">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Quit">
+      <MemberSignature Language="C#" Value="public virtual void Quit ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Quit() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ExternalApplicationClass.Quit" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Quit ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Quit() = Microsoft::Office::Interop::InfoPath::_ExternalApplication2::Quit;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath._ExternalApplication2.Quit</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RegisterSolution">
+      <MemberSignature Language="C#" Value="public virtual void RegisterSolution (string bstrSolutionURL, string bstrBehavior = &quot;overwrite&quot;);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RegisterSolution([in]string bstrSolutionURL, [in]string bstrBehavior) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ExternalApplicationClass.RegisterSolution(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub RegisterSolution (bstrSolutionURL As String, Optional bstrBehavior As String = &quot;overwrite&quot;)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath._ExternalApplication2.RegisterSolution(System.String,System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrSolutionURL" Type="System.String" />
+        <Parameter Name="bstrBehavior" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrSolutionURL">To be added.</param>
+        <param name="bstrBehavior">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnregisterSolution">
+      <MemberSignature Language="C#" Value="public virtual void UnregisterSolution (string bstrSolutionURI);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void UnregisterSolution([in]string bstrSolutionURI) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ExternalApplicationClass.UnregisterSolution(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub UnregisterSolution (bstrSolutionURI As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void UnregisterSolution(System::String ^ bstrSolutionURI) = Microsoft::Office::Interop::InfoPath::_ExternalApplication2::UnregisterSolution;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath._ExternalApplication2.UnregisterSolution(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrSolutionURI" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrSolutionURI">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

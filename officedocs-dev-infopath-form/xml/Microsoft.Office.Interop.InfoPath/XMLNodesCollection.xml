@@ -1,0 +1,37 @@
+<Type Name="XMLNodesCollection" FullName="Microsoft.Office.Interop.InfoPath.XMLNodesCollection">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c9dbf733be4707fa007da55a2dd09f4f32e125db" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21041247" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface XMLNodesCollection : Microsoft.Office.Interop.InfoPath.XMLNodes" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract XMLNodesCollection implements class Microsoft.Office.Interop.InfoPath.XMLNodes" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.XMLNodesCollection" />
+  <TypeSignature Language="VB.NET" Value="Public Interface XMLNodesCollection&#xA;Implements XMLNodes" />
+  <TypeSignature Language="C++ CLI" Value="public interface class XMLNodesCollection : Microsoft::Office::Interop::InfoPath::XMLNodes" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.XMLNodes</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.InfoPath.XMLNodesCollectionClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("096CD6C1-0786-11D1-95FA-0080C78EE3BB")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>

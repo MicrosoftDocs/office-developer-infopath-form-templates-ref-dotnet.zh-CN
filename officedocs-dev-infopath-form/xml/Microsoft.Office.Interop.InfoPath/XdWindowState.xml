@@ -1,0 +1,90 @@
+<Type Name="XdWindowState" FullName="Microsoft.Office.Interop.InfoPath.XdWindowState">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="ba2ce4d679e73a946070992787fb73a195f398e1" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21039434" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum XdWindowState" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XdWindowState extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.XdWindowState" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XdWindowState" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XdWindowState" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("ACAB4AD8-F8EB-33BC-B516-B49EAA3B3E62")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xdWindowStateMaximize">
+      <MemberSignature Language="C#" Value="xdWindowStateMaximize" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.XdWindowState xdWindowStateMaximize = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.XdWindowState.xdWindowStateMaximize" />
+      <MemberSignature Language="VB.NET" Value="xdWindowStateMaximize" />
+      <MemberSignature Language="C++ CLI" Value="xdWindowStateMaximize" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdWindowState</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xdWindowStateMinimize">
+      <MemberSignature Language="C#" Value="xdWindowStateMinimize" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.XdWindowState xdWindowStateMinimize = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.XdWindowState.xdWindowStateMinimize" />
+      <MemberSignature Language="VB.NET" Value="xdWindowStateMinimize" />
+      <MemberSignature Language="C++ CLI" Value="xdWindowStateMinimize" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdWindowState</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xdWindowStateNormal">
+      <MemberSignature Language="C#" Value="xdWindowStateNormal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.XdWindowState xdWindowStateNormal = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.XdWindowState.xdWindowStateNormal" />
+      <MemberSignature Language="VB.NET" Value="xdWindowStateNormal" />
+      <MemberSignature Language="C++ CLI" Value="xdWindowStateNormal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdWindowState</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

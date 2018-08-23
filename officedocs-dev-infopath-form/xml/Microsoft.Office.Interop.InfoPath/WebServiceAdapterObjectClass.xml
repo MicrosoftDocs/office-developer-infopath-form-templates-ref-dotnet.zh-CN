@@ -1,0 +1,742 @@
+<Type Name="WebServiceAdapterObjectClass" FullName="Microsoft.Office.Interop.InfoPath.WebServiceAdapterObjectClass">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="26e8ea5eb0acfe9e4cedd558f3c6dfbc5c65d629" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21039511" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class WebServiceAdapterObjectClass : Microsoft.Office.Interop.InfoPath.IDataAdapterMOM, Microsoft.Office.Interop.InfoPath.WebServiceAdapterObject" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi WebServiceAdapterObjectClass extends System.Object implements class Microsoft.Office.Interop.InfoPath.IDataAdapterMOM, class Microsoft.Office.Interop.InfoPath.WebServiceAdapter, class Microsoft.Office.Interop.InfoPath.WebServiceAdapter2, class Microsoft.Office.Interop.InfoPath.WebServiceAdapterObject" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.WebServiceAdapterObjectClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class WebServiceAdapterObjectClass&#xA;Implements IDataAdapterMOM, WebServiceAdapterObject" />
+  <TypeSignature Language="C++ CLI" Value="public ref class WebServiceAdapterObjectClass : Microsoft::Office::Interop::InfoPath::IDataAdapterMOM, Microsoft::Office::Interop::InfoPath::WebServiceAdapterObject" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.IDataAdapterMOM</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.WebServiceAdapterObject</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(0)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("8075838B-5146-11D5-A672-00B0D022E945")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ErrorsLocation">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNode ErrorsLocation { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNode ErrorsLocation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.WebServiceAdapterObjectClass.ErrorsLocation" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property ErrorsLocation As IXMLDOMNode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::InfoPath::Xml::IXMLDOMNode ^ ErrorsLocation { Microsoft::Office::Interop::InfoPath::Xml::IXMLDOMNode ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.WebServiceAdapter2.ErrorsLocation</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(15)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(15)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GenerateDataSetDiffGram">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNode GenerateDataSetDiffGram (Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNode pNode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNode GenerateDataSetDiffGram([in]class Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNode pNode) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.WebServiceAdapterObjectClass.GenerateDataSetDiffGram(Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNode)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GenerateDataSetDiffGram (pNode As IXMLDOMNode) As IXMLDOMNode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::Xml::IXMLDOMNode ^ GenerateDataSetDiffGram(Microsoft::Office::Interop::InfoPath::Xml::IXMLDOMNode ^ pNode) = Microsoft::Office::Interop::InfoPath::WebServiceAdapter2::GenerateDataSetDiffGram;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.WebServiceAdapter2.GenerateDataSetDiffGram(Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNode)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(13)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNode</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pNode" Type="Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNode" />
+      </Parameters>
+      <Docs>
+        <param name="pNode">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GenerateDataSetDiffGramInXml">
+      <MemberSignature Language="C#" Value="public virtual string GenerateDataSetDiffGramInXml ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GenerateDataSetDiffGramInXml() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.WebServiceAdapterObjectClass.GenerateDataSetDiffGramInXml" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GenerateDataSetDiffGramInXml () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ GenerateDataSetDiffGramInXml() = Microsoft::Office::Interop::InfoPath::IDataAdapterMOM::GenerateDataSetDiffGramInXml;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.IDataAdapterMOM.GenerateDataSetDiffGramInXml</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAdoSubmitName">
+      <MemberSignature Language="C#" Value="public virtual string GetAdoSubmitName ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetAdoSubmitName() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.WebServiceAdapterObjectClass.GetAdoSubmitName" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAdoSubmitName () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ GetAdoSubmitName() = Microsoft::Office::Interop::InfoPath::IDataAdapterMOM::GetAdoSubmitName;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.IDataAdapterMOM.GetAdoSubmitName</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetErrorXMLForMOM">
+      <MemberSignature Language="C#" Value="public virtual string GetErrorXMLForMOM ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetErrorXMLForMOM() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.WebServiceAdapterObjectClass.GetErrorXMLForMOM" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetErrorXMLForMOM () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ GetErrorXMLForMOM() = Microsoft::Office::Interop::InfoPath::IDataAdapterMOM::GetErrorXMLForMOM;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.IDataAdapterMOM.GetErrorXMLForMOM</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Input">
+      <MemberSignature Language="C#" Value="public virtual string Input { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Input" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.WebServiceAdapterObjectClass.Input" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property Input As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ Input { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.WebServiceAdapter2.Input</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public virtual string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.WebServiceAdapterObjectClass.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ Name { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.WebServiceAdapter2.Name</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Operation">
+      <MemberSignature Language="C#" Value="public virtual string Operation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Operation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.WebServiceAdapterObjectClass.Operation" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property Operation As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ Operation { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.WebServiceAdapter2.Operation</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OutputLocation">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNode OutputLocation { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNode OutputLocation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.WebServiceAdapterObjectClass.OutputLocation" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property OutputLocation As IXMLDOMNode" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::InfoPath::Xml::IXMLDOMNode ^ OutputLocation { Microsoft::Office::Interop::InfoPath::Xml::IXMLDOMNode ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.WebServiceAdapter2.OutputLocation</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(14)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(14)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNode</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Query">
+      <MemberSignature Language="C#" Value="public virtual void Query ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Query() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.WebServiceAdapterObjectClass.Query" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Query ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Query() = Microsoft::Office::Interop::InfoPath::WebServiceAdapter2::Query;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.WebServiceAdapter2.Query</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueryAllowed">
+      <MemberSignature Language="C#" Value="public virtual bool QueryAllowed { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool QueryAllowed" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.WebServiceAdapterObjectClass.QueryAllowed" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property QueryAllowed As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool QueryAllowed { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.WebServiceAdapter2.QueryAllowed</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueryOrSubmitWithInputOutput">
+      <MemberSignature Language="C#" Value="public virtual string QueryOrSubmitWithInputOutput (bool fInputIsNull, string bstrInputXML, bool fOutputIsNull);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string QueryOrSubmitWithInputOutput([in]bool fInputIsNull, [in]string bstrInputXML, [in]bool fOutputIsNull) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.WebServiceAdapterObjectClass.QueryOrSubmitWithInputOutput(System.Boolean,System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function QueryOrSubmitWithInputOutput (fInputIsNull As Boolean, bstrInputXML As String, fOutputIsNull As Boolean) As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ QueryOrSubmitWithInputOutput(bool fInputIsNull, System::String ^ bstrInputXML, bool fOutputIsNull) = Microsoft::Office::Interop::InfoPath::IDataAdapterMOM::QueryOrSubmitWithInputOutput;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.IDataAdapterMOM.QueryOrSubmitWithInputOutput(System.Boolean,System.String,System.Boolean)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="fInputIsNull" Type="System.Boolean" />
+        <Parameter Name="bstrInputXML" Type="System.String" />
+        <Parameter Name="fOutputIsNull" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="fInputIsNull">To be added.</param>
+        <param name="bstrInputXML">To be added.</param>
+        <param name="fOutputIsNull">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="QueryWithOutput">
+      <MemberSignature Language="C#" Value="public virtual string QueryWithOutput ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string QueryWithOutput() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.WebServiceAdapterObjectClass.QueryWithOutput" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function QueryWithOutput () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ QueryWithOutput() = Microsoft::Office::Interop::InfoPath::IDataAdapterMOM::QueryWithOutput;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.IDataAdapterMOM.QueryWithOutput</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Submit">
+      <MemberSignature Language="C#" Value="public virtual void Submit ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Submit() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.WebServiceAdapterObjectClass.Submit" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Submit ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Submit() = Microsoft::Office::Interop::InfoPath::WebServiceAdapter2::Submit;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.WebServiceAdapter2.Submit</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubmitAllowed">
+      <MemberSignature Language="C#" Value="public virtual bool SubmitAllowed { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SubmitAllowed" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.WebServiceAdapterObjectClass.SubmitAllowed" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property SubmitAllowed As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool SubmitAllowed { bool get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.WebServiceAdapter2.SubmitAllowed</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SubmitWithInput">
+      <MemberSignature Language="C#" Value="public virtual void SubmitWithInput (string bstrInputXML);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SubmitWithInput([in]string bstrInputXML) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.WebServiceAdapterObjectClass.SubmitWithInput(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub SubmitWithInput (bstrInputXML As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void SubmitWithInput(System::String ^ bstrInputXML) = Microsoft::Office::Interop::InfoPath::IDataAdapterMOM::SubmitWithInput;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.IDataAdapterMOM.SubmitWithInput(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrInputXML" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrInputXML">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Timeout">
+      <MemberSignature Language="C#" Value="public virtual int Timeout { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Timeout" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.WebServiceAdapterObjectClass.Timeout" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property Timeout As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int Timeout { int get(); void set(int value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.WebServiceAdapter2.Timeout</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(16)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(16)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(16)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WebServiceAdapter_get_Input">
+      <MemberSignature Language="C#" Value="public virtual string WebServiceAdapter_get_Input ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance string WebServiceAdapter_get_Input() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.WebServiceAdapterObjectClass.WebServiceAdapter_get_Input" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function WebServiceAdapter_get_Input () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ WebServiceAdapter_get_Input() = Microsoft::Office::Interop::InfoPath::WebServiceAdapter::get_Input;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WebServiceAdapter_get_Operation">
+      <MemberSignature Language="C#" Value="public virtual string WebServiceAdapter_get_Operation ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance string WebServiceAdapter_get_Operation() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.WebServiceAdapterObjectClass.WebServiceAdapter_get_Operation" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function WebServiceAdapter_get_Operation () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ WebServiceAdapter_get_Operation() = Microsoft::Office::Interop::InfoPath::WebServiceAdapter::get_Operation;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WebServiceAdapter_get_WSDLURL">
+      <MemberSignature Language="C#" Value="public virtual string WebServiceAdapter_get_WSDLURL ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance string WebServiceAdapter_get_WSDLURL() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.WebServiceAdapterObjectClass.WebServiceAdapter_get_WSDLURL" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function WebServiceAdapter_get_WSDLURL () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ WebServiceAdapter_get_WSDLURL() = Microsoft::Office::Interop::InfoPath::WebServiceAdapter::get_WSDLURL;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WebServiceAdapter_Input">
+      <MemberSignature Language="C#" Value="public virtual string WebServiceAdapter_Input { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string WebServiceAdapter_Input" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.WebServiceAdapterObjectClass.WebServiceAdapter_Input" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property WebServiceAdapter_Input As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ WebServiceAdapter_Input { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WebServiceAdapter_Operation">
+      <MemberSignature Language="C#" Value="public virtual string WebServiceAdapter_Operation { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string WebServiceAdapter_Operation" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.WebServiceAdapterObjectClass.WebServiceAdapter_Operation" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property WebServiceAdapter_Operation As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ WebServiceAdapter_Operation { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WebServiceAdapter_set_Input">
+      <MemberSignature Language="C#" Value="public virtual void WebServiceAdapter_set_Input (string pbstrInput);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance void WebServiceAdapter_set_Input([in]string pbstrInput) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.WebServiceAdapterObjectClass.WebServiceAdapter_set_Input(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub WebServiceAdapter_set_Input (pbstrInput As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void WebServiceAdapter_set_Input(System::String ^ pbstrInput) = Microsoft::Office::Interop::InfoPath::WebServiceAdapter::set_Input;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pbstrInput" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="pbstrInput">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WebServiceAdapter_set_Operation">
+      <MemberSignature Language="C#" Value="public virtual void WebServiceAdapter_set_Operation (string pbstrOperation);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance void WebServiceAdapter_set_Operation([in]string pbstrOperation) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.WebServiceAdapterObjectClass.WebServiceAdapter_set_Operation(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub WebServiceAdapter_set_Operation (pbstrOperation As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void WebServiceAdapter_set_Operation(System::String ^ pbstrOperation) = Microsoft::Office::Interop::InfoPath::WebServiceAdapter::set_Operation;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pbstrOperation" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="pbstrOperation">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WebServiceAdapter_WSDLURL">
+      <MemberSignature Language="C#" Value="public virtual string WebServiceAdapter_WSDLURL { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string WebServiceAdapter_WSDLURL" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.WebServiceAdapterObjectClass.WebServiceAdapter_WSDLURL" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property WebServiceAdapter_WSDLURL As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ WebServiceAdapter_WSDLURL { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WSDLURL">
+      <MemberSignature Language="C#" Value="public virtual string WSDLURL { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string WSDLURL" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.WebServiceAdapterObjectClass.WSDLURL" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property WSDLURL As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ WSDLURL { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.WebServiceAdapter2.WSDLURL</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

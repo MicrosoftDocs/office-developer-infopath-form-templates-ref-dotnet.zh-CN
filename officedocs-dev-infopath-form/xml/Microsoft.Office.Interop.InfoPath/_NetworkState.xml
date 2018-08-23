@@ -1,0 +1,91 @@
+<Type Name="_NetworkState" FullName="Microsoft.Office.Interop.InfoPath._NetworkState">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="5f900e3e6d4abe42d434527342dc735bbd64fba5" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21039259" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _NetworkState" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _NetworkState" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath._NetworkState" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _NetworkState" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _NetworkState" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("096CD754-0786-11D1-95FA-0080C78EE3BB")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="IsDestinationReachable">
+      <MemberSignature Language="C#" Value="public bool IsDestinationReachable (string bstrDestination);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsDestinationReachable([in]string bstrDestination) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath._NetworkState.IsDestinationReachable(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function IsDestinationReachable (bstrDestination As String) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool IsDestinationReachable(System::String ^ bstrDestination);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrDestination" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrDestination">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MachineOnlineState">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath.XdMachineOnlineState MachineOnlineState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.InfoPath.XdMachineOnlineState MachineOnlineState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath._NetworkState.MachineOnlineState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MachineOnlineState As XdMachineOnlineState" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; property Microsoft::Office::Interop::InfoPath::XdMachineOnlineState MachineOnlineState { Microsoft::Office::Interop::InfoPath::XdMachineOnlineState get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdMachineOnlineState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

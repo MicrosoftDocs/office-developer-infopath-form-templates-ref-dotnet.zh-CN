@@ -1,0 +1,59 @@
+<Type Name="IErrorLog" FullName="Microsoft.Office.Interop.InfoPath.IErrorLog">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="4b6e4dec327757ff7934a60f77b2543fe3c5e158" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21040827" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface IErrorLog" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IErrorLog" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.IErrorLog" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IErrorLog" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IErrorLog" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("3127CA40-446E-11CE-8135-00AA004BB851")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(1)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddError">
+      <MemberSignature Language="C#" Value="public void AddError (string pszPropName, ref stdole.EXCEPINFO pExcepInfo);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void AddError([in]string pszPropName, [in]valuetype stdole.EXCEPINFO&amp; pExcepInfo) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.IErrorLog.AddError(System.String,stdole.EXCEPINFO@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddError (pszPropName As String, ByRef pExcepInfo As EXCEPINFO)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddError(System::String ^ pszPropName, stdole::EXCEPINFO % pExcepInfo);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pszPropName" Type="System.String" />
+        <Parameter Name="pExcepInfo" Type="stdole.EXCEPINFO&amp;" RefType="ref" />
+      </Parameters>
+      <Docs>
+        <param name="pszPropName">To be added.</param>
+        <param name="pExcepInfo">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

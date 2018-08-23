@@ -1,0 +1,470 @@
+<Type Name="InfoPathEditorObjectClass" FullName="Microsoft.Office.Interop.InfoPath.InfoPathEditorObjectClass">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="414348c7915a8b392568a2bb87aee793f9093708" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21042570" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class InfoPathEditorObjectClass : Microsoft.Office.Interop.InfoPath.IInfoPathEditorProperties, Microsoft.Office.Interop.InfoPath.InfoPathEditorObject" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi InfoPathEditorObjectClass extends System.Object implements class Microsoft.Office.Interop.InfoPath.IInfoPathEditorProperties, class Microsoft.Office.Interop.InfoPath.InfoPathEditor, class Microsoft.Office.Interop.InfoPath.InfoPathEditorObject" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.InfoPathEditorObjectClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class InfoPathEditorObjectClass&#xA;Implements IInfoPathEditorProperties, InfoPathEditorObject" />
+  <TypeSignature Language="C++ CLI" Value="public ref class InfoPathEditorObjectClass : Microsoft::Office::Interop::InfoPath::IInfoPathEditorProperties, Microsoft::Office::Interop::InfoPath::InfoPathEditorObject" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.IInfoPathEditorProperties</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.InfoPathEditorObject</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(0)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("80758399-5146-11D5-A672-00B0D022E945")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(34)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public InfoPathEditorObjectClass ();" />
+      <MemberSignature Language="ILAsm" Value=".method public specialname rtspecialname instance void .ctor() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.InfoPathEditorObjectClass.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; InfoPathEditorObjectClass();" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CloseDocument">
+      <MemberSignature Language="C#" Value="public virtual void CloseDocument ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CloseDocument() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.InfoPathEditorObjectClass.CloseDocument" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub CloseDocument ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void CloseDocument() = Microsoft::Office::Interop::InfoPath::InfoPathEditor::CloseDocument;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.InfoPathEditor.CloseDocument</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataConnectionBaseUrl">
+      <MemberSignature Language="C#" Value="public virtual string DataConnectionBaseUrl { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DataConnectionBaseUrl" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.InfoPathEditorObjectClass.DataConnectionBaseUrl" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property DataConnectionBaseUrl As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ DataConnectionBaseUrl { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.InfoPathEditor.DataConnectionBaseUrl</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610678283)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Enabled">
+      <MemberSignature Language="C#" Value="public virtual bool Enabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Enabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.InfoPathEditorObjectClass.Enabled" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property Enabled As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool Enabled { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.IInfoPathEditorProperties.Enabled</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(12)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.TypeLibFunc(12)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FlushDocument">
+      <MemberSignature Language="C#" Value="public virtual void FlushDocument ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void FlushDocument() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.InfoPathEditorObjectClass.FlushDocument" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub FlushDocument ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void FlushDocument() = Microsoft::Office::Interop::InfoPath::InfoPathEditor::FlushDocument;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.InfoPathEditor.FlushDocument</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Host">
+      <MemberSignature Language="C#" Value="public virtual object Host { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object Host" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.InfoPathEditorObjectClass.Host" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property Host As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ Host { System::Object ^ get(); void set(System::Object ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.InfoPathEditor.Host</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610678277)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HostName">
+      <MemberSignature Language="C#" Value="public virtual string HostName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string HostName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.InfoPathEditorObjectClass.HostName" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property HostName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ HostName { System::String ^ get(); void set(System::String ^ value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.InfoPathEditor.HostName</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610678279)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HostTranslatesAcceleratorsFirst">
+      <MemberSignature Language="C#" Value="public virtual bool HostTranslatesAcceleratorsFirst { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool HostTranslatesAcceleratorsFirst" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.InfoPathEditorObjectClass.HostTranslatesAcceleratorsFirst" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property HostTranslatesAcceleratorsFirst As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool HostTranslatesAcceleratorsFirst { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.IInfoPathEditorProperties.HostTranslatesAcceleratorsFirst</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.TypeLibFunc(12)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.TypeLibFunc(12)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Load">
+      <MemberSignature Language="C#" Value="public virtual void Load (string bstrURL);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Load([in]string bstrURL) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.InfoPathEditorObjectClass.Load(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Load (bstrURL As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Load(System::String ^ bstrURL) = Microsoft::Office::Interop::InfoPath::InfoPathEditor::Load;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.InfoPathEditor.Load(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrURL" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrURL">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadFromStream">
+      <MemberSignature Language="C#" Value="public virtual void LoadFromStream (object punkStream);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void LoadFromStream([in]object punkStream) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.InfoPathEditorObjectClass.LoadFromStream(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub LoadFromStream (punkStream As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void LoadFromStream(System::Object ^ punkStream) = Microsoft::Office::Interop::InfoPath::InfoPathEditor::LoadFromStream;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.InfoPathEditor.LoadFromStream(System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="punkStream" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="punkStream">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewFromSolution">
+      <MemberSignature Language="C#" Value="public virtual void NewFromSolution (string bstrSolutionURI);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void NewFromSolution([in]string bstrSolutionURI) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.InfoPathEditorObjectClass.NewFromSolution(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub NewFromSolution (bstrSolutionURI As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void NewFromSolution(System::String ^ bstrSolutionURI) = Microsoft::Office::Interop::InfoPath::InfoPathEditor::NewFromSolution;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.InfoPathEditor.NewFromSolution(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrSolutionURI" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrSolutionURI">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewFromSolutionWithData">
+      <MemberSignature Language="C#" Value="public virtual void NewFromSolutionWithData (string bstrURLXSN, object punkStream, int dwBehavior);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void NewFromSolutionWithData([in]string bstrURLXSN, [in]object punkStream, [in]int32 dwBehavior) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.InfoPathEditorObjectClass.NewFromSolutionWithData(System.String,System.Object,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub NewFromSolutionWithData (bstrURLXSN As String, punkStream As Object, dwBehavior As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void NewFromSolutionWithData(System::String ^ bstrURLXSN, System::Object ^ punkStream, int dwBehavior) = Microsoft::Office::Interop::InfoPath::InfoPathEditor::NewFromSolutionWithData;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.InfoPathEditor.NewFromSolutionWithData(System.String,System.Object,System.Int32)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrURLXSN" Type="System.String" />
+        <Parameter Name="punkStream" Type="System.Object" />
+        <Parameter Name="dwBehavior" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="bstrURLXSN">To be added.</param>
+        <param name="punkStream">To be added.</param>
+        <param name="dwBehavior">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetInitEventHandler">
+      <MemberSignature Language="C#" Value="public virtual void SetInitEventHandler (Microsoft.Office.Interop.InfoPath._IInitEventHandler pHandler);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetInitEventHandler([in]class Microsoft.Office.Interop.InfoPath._IInitEventHandler pHandler) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.InfoPathEditorObjectClass.SetInitEventHandler(Microsoft.Office.Interop.InfoPath._IInitEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub SetInitEventHandler (pHandler As _IInitEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void SetInitEventHandler(Microsoft::Office::Interop::InfoPath::_IInitEventHandler ^ pHandler) = Microsoft::Office::Interop::InfoPath::InfoPathEditor::SetInitEventHandler;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.InfoPathEditor.SetInitEventHandler(Microsoft.Office.Interop.InfoPath._IInitEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pHandler" Type="Microsoft.Office.Interop.InfoPath._IInitEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="pHandler">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetNotifyHostEventHandler">
+      <MemberSignature Language="C#" Value="public virtual void SetNotifyHostEventHandler (Microsoft.Office.Interop.InfoPath.INotifyHostEventHandler pHandler);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetNotifyHostEventHandler([in]class Microsoft.Office.Interop.InfoPath.INotifyHostEventHandler pHandler) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.InfoPathEditorObjectClass.SetNotifyHostEventHandler(Microsoft.Office.Interop.InfoPath.INotifyHostEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub SetNotifyHostEventHandler (pHandler As INotifyHostEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void SetNotifyHostEventHandler(Microsoft::Office::Interop::InfoPath::INotifyHostEventHandler ^ pHandler) = Microsoft::Office::Interop::InfoPath::InfoPathEditor::SetNotifyHostEventHandler;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.InfoPathEditor.SetNotifyHostEventHandler(Microsoft.Office.Interop.InfoPath.INotifyHostEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pHandler" Type="Microsoft.Office.Interop.InfoPath.INotifyHostEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="pHandler">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetSubmitToHostEventHandler">
+      <MemberSignature Language="C#" Value="public virtual void SetSubmitToHostEventHandler (Microsoft.Office.Interop.InfoPath.ISubmitToHostEventHandler pHandler);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetSubmitToHostEventHandler([in]class Microsoft.Office.Interop.InfoPath.ISubmitToHostEventHandler pHandler) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.InfoPathEditorObjectClass.SetSubmitToHostEventHandler(Microsoft.Office.Interop.InfoPath.ISubmitToHostEventHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub SetSubmitToHostEventHandler (pHandler As ISubmitToHostEventHandler)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void SetSubmitToHostEventHandler(Microsoft::Office::Interop::InfoPath::ISubmitToHostEventHandler ^ pHandler) = Microsoft::Office::Interop::InfoPath::InfoPathEditor::SetSubmitToHostEventHandler;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.InfoPathEditor.SetSubmitToHostEventHandler(Microsoft.Office.Interop.InfoPath.ISubmitToHostEventHandler)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pHandler" Type="Microsoft.Office.Interop.InfoPath.ISubmitToHostEventHandler" />
+      </Parameters>
+      <Docs>
+        <param name="pHandler">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XDocument">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.XDocument XDocument { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.XDocument XDocument" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.InfoPathEditorObjectClass.XDocument" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property XDocument As XDocument" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::InfoPath::XDocument ^ XDocument { Microsoft::Office::Interop::InfoPath::XDocument ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.InfoPathEditor.XDocument</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1610678276)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XDocument</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

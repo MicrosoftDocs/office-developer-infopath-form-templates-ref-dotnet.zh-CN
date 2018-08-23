@@ -1,0 +1,161 @@
+<Type Name="UI" FullName="Microsoft.Office.Interop.InfoPath.UI">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="82317c9cbac7768927881ea68706e8074a340a38" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21041107" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface UI" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract UI" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.UI" />
+  <TypeSignature Language="VB.NET" Value="Public Interface UI" />
+  <TypeSignature Language="C++ CLI" Value="public interface class UI" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("096CD61F-0786-11D1-95FA-0080C78EE3BB")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4288)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Alert">
+      <MemberSignature Language="C#" Value="public void Alert (string bstrAlertString);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Alert([in]string bstrAlertString) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.UI.Alert(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Alert (bstrAlertString As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Alert(System::String ^ bstrAlertString);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrAlertString" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrAlertString">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowMailItem">
+      <MemberSignature Language="C#" Value="public void ShowMailItem (string bstrTo, string bstrCC, string bstrBCC, string bstrSubject, string bstrBody);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ShowMailItem([in]string bstrTo, [in]string bstrCC, [in]string bstrBCC, [in]string bstrSubject, [in]string bstrBody) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.UI.ShowMailItem(System.String,System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ShowMailItem (bstrTo As String, bstrCC As String, bstrBCC As String, bstrSubject As String, bstrBody As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ShowMailItem(System::String ^ bstrTo, System::String ^ bstrCC, System::String ^ bstrBCC, System::String ^ bstrSubject, System::String ^ bstrBody);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrTo" Type="System.String" />
+        <Parameter Name="bstrCC" Type="System.String" />
+        <Parameter Name="bstrBCC" Type="System.String" />
+        <Parameter Name="bstrSubject" Type="System.String" />
+        <Parameter Name="bstrBody" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrTo">To be added.</param>
+        <param name="bstrCC">To be added.</param>
+        <param name="bstrBCC">To be added.</param>
+        <param name="bstrSubject">To be added.</param>
+        <param name="bstrBody">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowModalDialog">
+      <MemberSignature Language="C#" Value="public object ShowModalDialog (string bstrName, object varArguments, object varHeight, object varWidth, object varTop, object varLeft);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object ShowModalDialog([in]string bstrName, [in]object varArguments, [in]object varHeight, [in]object varWidth, [in]object varTop, [in]object varLeft) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.UI.ShowModalDialog(System.String,System.Object,System.Object,System.Object,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ShowModalDialog (bstrName As String, Optional varArguments As Object, Optional varHeight As Object, Optional varWidth As Object, Optional varTop As Object, Optional varLeft As Object) As Object" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrName" Type="System.String" />
+        <Parameter Name="varArguments" Type="System.Object" />
+        <Parameter Name="varHeight" Type="System.Object" />
+        <Parameter Name="varWidth" Type="System.Object" />
+        <Parameter Name="varTop" Type="System.Object" />
+        <Parameter Name="varLeft" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="bstrName">To be added.</param>
+        <param name="varArguments">To be added.</param>
+        <param name="varHeight">To be added.</param>
+        <param name="varWidth">To be added.</param>
+        <param name="varTop">To be added.</param>
+        <param name="varLeft">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowSignatureDialog">
+      <MemberSignature Language="C#" Value="public void ShowSignatureDialog ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ShowSignatureDialog() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.UI.ShowSignatureDialog" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ShowSignatureDialog ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ShowSignatureDialog();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

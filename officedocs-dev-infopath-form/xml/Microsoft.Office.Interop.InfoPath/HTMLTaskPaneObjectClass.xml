@@ -1,0 +1,304 @@
+<Type Name="HTMLTaskPaneObjectClass" FullName="Microsoft.Office.Interop.InfoPath.HTMLTaskPaneObjectClass">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="bd794abfcb53e6d26045b53c4f0c883b0369fbcf" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21041457" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class HTMLTaskPaneObjectClass : Microsoft.Office.Interop.InfoPath.HTMLTaskPaneObject" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi HTMLTaskPaneObjectClass extends System.Object implements class Microsoft.Office.Interop.InfoPath.HTMLTaskPane, class Microsoft.Office.Interop.InfoPath.HTMLTaskPaneObject, class Microsoft.Office.Interop.InfoPath.TaskPane" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.HTMLTaskPaneObjectClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class HTMLTaskPaneObjectClass&#xA;Implements HTMLTaskPaneObject" />
+  <TypeSignature Language="C++ CLI" Value="public ref class HTMLTaskPaneObjectClass : Microsoft::Office::Interop::InfoPath::HTMLTaskPaneObject" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.HTMLTaskPaneObject</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(0)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("80758302-5146-11D5-A672-00B0D022E945")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="HTMLDocument">
+      <MemberSignature Language="C#" Value="public virtual mshtml.IHTMLDocument2 HTMLDocument { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class mshtml.IHTMLDocument2 HTMLDocument" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.HTMLTaskPaneObjectClass.HTMLDocument" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property HTMLDocument As IHTMLDocument2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property mshtml::IHTMLDocument2 ^ HTMLDocument { mshtml::IHTMLDocument2 ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.HTMLTaskPane.HTMLDocument</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>mshtml.IHTMLDocument2</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HTMLWindow">
+      <MemberSignature Language="C#" Value="public virtual mshtml.IHTMLWindow2 HTMLWindow { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class mshtml.IHTMLWindow2 HTMLWindow" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.HTMLTaskPaneObjectClass.HTMLWindow" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property HTMLWindow As IHTMLWindow2" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property mshtml::IHTMLWindow2 ^ HTMLWindow { mshtml::IHTMLWindow2 ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.HTMLTaskPane.HTMLWindow</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>mshtml.IHTMLWindow2</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Navigate">
+      <MemberSignature Language="C#" Value="public virtual void Navigate (string bstrURL);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Navigate([in]string bstrURL) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.HTMLTaskPaneObjectClass.Navigate(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Navigate (bstrURL As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Navigate(System::String ^ bstrURL) = Microsoft::Office::Interop::InfoPath::HTMLTaskPane::Navigate;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.HTMLTaskPane.Navigate(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrURL" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrURL">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TaskPane_get_TaskPaneType">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.XdTaskPaneType TaskPane_get_TaskPaneType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance valuetype Microsoft.Office.Interop.InfoPath.XdTaskPaneType TaskPane_get_TaskPaneType() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.HTMLTaskPaneObjectClass.TaskPane_get_TaskPaneType" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function TaskPane_get_TaskPaneType () As XdTaskPaneType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::XdTaskPaneType TaskPane_get_TaskPaneType() = Microsoft::Office::Interop::InfoPath::TaskPane::get_TaskPaneType;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdTaskPaneType</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TaskPane_get_Visible">
+      <MemberSignature Language="C#" Value="public virtual bool TaskPane_get_Visible ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance bool TaskPane_get_Visible() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.HTMLTaskPaneObjectClass.TaskPane_get_Visible" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function TaskPane_get_Visible () As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool TaskPane_get_Visible() = Microsoft::Office::Interop::InfoPath::TaskPane::get_Visible;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TaskPane_set_Visible">
+      <MemberSignature Language="C#" Value="public virtual void TaskPane_set_Visible (bool pfVisible);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance void TaskPane_set_Visible([in]bool pfVisible) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.HTMLTaskPaneObjectClass.TaskPane_set_Visible(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub TaskPane_set_Visible (pfVisible As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void TaskPane_set_Visible(bool pfVisible) = Microsoft::Office::Interop::InfoPath::TaskPane::set_Visible;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pfVisible" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="pfVisible">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TaskPane_TaskPaneType">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.XdTaskPaneType TaskPane_TaskPaneType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.InfoPath.XdTaskPaneType TaskPane_TaskPaneType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.HTMLTaskPaneObjectClass.TaskPane_TaskPaneType" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property TaskPane_TaskPaneType As XdTaskPaneType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::InfoPath::XdTaskPaneType TaskPane_TaskPaneType { Microsoft::Office::Interop::InfoPath::XdTaskPaneType get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdTaskPaneType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TaskPane_Visible">
+      <MemberSignature Language="C#" Value="public virtual bool TaskPane_Visible { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool TaskPane_Visible" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.HTMLTaskPaneObjectClass.TaskPane_Visible" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property TaskPane_Visible As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool TaskPane_Visible { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TaskPaneType">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.XdTaskPaneType TaskPaneType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.Office.Interop.InfoPath.XdTaskPaneType TaskPaneType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.HTMLTaskPaneObjectClass.TaskPaneType" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property TaskPaneType As XdTaskPaneType" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::InfoPath::XdTaskPaneType TaskPaneType { Microsoft::Office::Interop::InfoPath::XdTaskPaneType get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.HTMLTaskPane.TaskPaneType</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdTaskPaneType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Visible">
+      <MemberSignature Language="C#" Value="public virtual bool Visible { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool Visible" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.HTMLTaskPaneObjectClass.Visible" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Property Visible As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool Visible { bool get(); void set(bool value); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.HTMLTaskPane.Visible</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>set: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

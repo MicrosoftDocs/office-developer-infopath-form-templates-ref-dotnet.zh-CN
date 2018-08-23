@@ -1,0 +1,90 @@
+<Type Name="XdMachineOnlineState" FullName="Microsoft.Office.Interop.InfoPath.XdMachineOnlineState">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="7d4f3be35fbd6bb8ed21d7da1200cf6739c5d95e" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21041289" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum XdMachineOnlineState" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XdMachineOnlineState extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.XdMachineOnlineState" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XdMachineOnlineState" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XdMachineOnlineState" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("48110F4E-588F-35CE-903D-5427377801C4")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xdIEIsInOfflineMode">
+      <MemberSignature Language="C#" Value="xdIEIsInOfflineMode" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.XdMachineOnlineState xdIEIsInOfflineMode = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.XdMachineOnlineState.xdIEIsInOfflineMode" />
+      <MemberSignature Language="VB.NET" Value="xdIEIsInOfflineMode" />
+      <MemberSignature Language="C++ CLI" Value="xdIEIsInOfflineMode" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdMachineOnlineState</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xdOffline">
+      <MemberSignature Language="C#" Value="xdOffline" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.XdMachineOnlineState xdOffline = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.XdMachineOnlineState.xdOffline" />
+      <MemberSignature Language="VB.NET" Value="xdOffline" />
+      <MemberSignature Language="C++ CLI" Value="xdOffline" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdMachineOnlineState</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xdOnline">
+      <MemberSignature Language="C#" Value="xdOnline" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.XdMachineOnlineState xdOnline = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.XdMachineOnlineState.xdOnline" />
+      <MemberSignature Language="VB.NET" Value="xdOnline" />
+      <MemberSignature Language="C++ CLI" Value="xdOnline" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdMachineOnlineState</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

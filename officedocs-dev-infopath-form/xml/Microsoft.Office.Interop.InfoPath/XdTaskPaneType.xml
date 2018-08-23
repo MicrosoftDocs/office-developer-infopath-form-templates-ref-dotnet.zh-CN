@@ -1,0 +1,280 @@
+<Type Name="XdTaskPaneType" FullName="Microsoft.Office.Interop.InfoPath.XdTaskPaneType">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e686d22836f7bb524e571cdabc5b609248c1661f" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21039679" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum XdTaskPaneType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XdTaskPaneType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.XdTaskPaneType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XdTaskPaneType" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XdTaskPaneType" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("F3960AA8-0A2E-3D24-A603-5B30981A45C5")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xdTaskPaneBulletsNumbering">
+      <MemberSignature Language="C#" Value="xdTaskPaneBulletsNumbering" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.XdTaskPaneType xdTaskPaneBulletsNumbering = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.XdTaskPaneType.xdTaskPaneBulletsNumbering" />
+      <MemberSignature Language="VB.NET" Value="xdTaskPaneBulletsNumbering" />
+      <MemberSignature Language="C++ CLI" Value="xdTaskPaneBulletsNumbering" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdTaskPaneType</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xdTaskPaneClipArt">
+      <MemberSignature Language="C#" Value="xdTaskPaneClipArt" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.XdTaskPaneType xdTaskPaneClipArt = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.XdTaskPaneType.xdTaskPaneClipArt" />
+      <MemberSignature Language="VB.NET" Value="xdTaskPaneClipArt" />
+      <MemberSignature Language="C++ CLI" Value="xdTaskPaneClipArt" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdTaskPaneType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xdTaskPaneDesignerNew">
+      <MemberSignature Language="C#" Value="xdTaskPaneDesignerNew" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.XdTaskPaneType xdTaskPaneDesignerNew = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.XdTaskPaneType.xdTaskPaneDesignerNew" />
+      <MemberSignature Language="VB.NET" Value="xdTaskPaneDesignerNew" />
+      <MemberSignature Language="C++ CLI" Value="xdTaskPaneDesignerNew" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdTaskPaneType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xdTaskPaneFillOutAForm">
+      <MemberSignature Language="C#" Value="xdTaskPaneFillOutAForm" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.XdTaskPaneType xdTaskPaneFillOutAForm = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.XdTaskPaneType.xdTaskPaneFillOutAForm" />
+      <MemberSignature Language="VB.NET" Value="xdTaskPaneFillOutAForm" />
+      <MemberSignature Language="C++ CLI" Value="xdTaskPaneFillOutAForm" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdTaskPaneType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xdTaskPaneFind">
+      <MemberSignature Language="C#" Value="xdTaskPaneFind" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.XdTaskPaneType xdTaskPaneFind = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.XdTaskPaneType.xdTaskPaneFind" />
+      <MemberSignature Language="VB.NET" Value="xdTaskPaneFind" />
+      <MemberSignature Language="C++ CLI" Value="xdTaskPaneFind" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdTaskPaneType</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xdTaskPaneFormatting">
+      <MemberSignature Language="C#" Value="xdTaskPaneFormatting" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.XdTaskPaneType xdTaskPaneFormatting = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.XdTaskPaneType.xdTaskPaneFormatting" />
+      <MemberSignature Language="VB.NET" Value="xdTaskPaneFormatting" />
+      <MemberSignature Language="C++ CLI" Value="xdTaskPaneFormatting" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdTaskPaneType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xdTaskPaneHelp">
+      <MemberSignature Language="C#" Value="xdTaskPaneHelp" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.XdTaskPaneType xdTaskPaneHelp = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.XdTaskPaneType.xdTaskPaneHelp" />
+      <MemberSignature Language="VB.NET" Value="xdTaskPaneHelp" />
+      <MemberSignature Language="C++ CLI" Value="xdTaskPaneHelp" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdTaskPaneType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xdTaskPaneHTML">
+      <MemberSignature Language="C#" Value="xdTaskPaneHTML" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.XdTaskPaneType xdTaskPaneHTML = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.XdTaskPaneType.xdTaskPaneHTML" />
+      <MemberSignature Language="VB.NET" Value="xdTaskPaneHTML" />
+      <MemberSignature Language="C++ CLI" Value="xdTaskPaneHTML" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdTaskPaneType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xdTaskPaneHWSWorkflow">
+      <MemberSignature Language="C#" Value="xdTaskPaneHWSWorkflow" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.XdTaskPaneType xdTaskPaneHWSWorkflow = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.XdTaskPaneType.xdTaskPaneHWSWorkflow" />
+      <MemberSignature Language="VB.NET" Value="xdTaskPaneHWSWorkflow" />
+      <MemberSignature Language="C++ CLI" Value="xdTaskPaneHWSWorkflow" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdTaskPaneType</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xdTaskPaneParaFormatting">
+      <MemberSignature Language="C#" Value="xdTaskPaneParaFormatting" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.XdTaskPaneType xdTaskPaneParaFormatting = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.XdTaskPaneType.xdTaskPaneParaFormatting" />
+      <MemberSignature Language="VB.NET" Value="xdTaskPaneParaFormatting" />
+      <MemberSignature Language="C++ CLI" Value="xdTaskPaneParaFormatting" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdTaskPaneType</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xdTaskPaneReplace">
+      <MemberSignature Language="C#" Value="xdTaskPaneReplace" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.XdTaskPaneType xdTaskPaneReplace = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.XdTaskPaneType.xdTaskPaneReplace" />
+      <MemberSignature Language="VB.NET" Value="xdTaskPaneReplace" />
+      <MemberSignature Language="C++ CLI" Value="xdTaskPaneReplace" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdTaskPaneType</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xdTaskPaneSearchResults">
+      <MemberSignature Language="C#" Value="xdTaskPaneSearchResults" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.XdTaskPaneType xdTaskPaneSearchResults = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.XdTaskPaneType.xdTaskPaneSearchResults" />
+      <MemberSignature Language="VB.NET" Value="xdTaskPaneSearchResults" />
+      <MemberSignature Language="C++ CLI" Value="xdTaskPaneSearchResults" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdTaskPaneType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xdTaskPaneSpelling">
+      <MemberSignature Language="C#" Value="xdTaskPaneSpelling" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.XdTaskPaneType xdTaskPaneSpelling = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.XdTaskPaneType.xdTaskPaneSpelling" />
+      <MemberSignature Language="VB.NET" Value="xdTaskPaneSpelling" />
+      <MemberSignature Language="C++ CLI" Value="xdTaskPaneSpelling" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdTaskPaneType</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,534 @@
+<Type Name="ICLRExtensions" FullName="Microsoft.Office.Interop.InfoPath.ICLRExtensions">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="a4b14c9369d3a2237ad9baa044e3eab33e1008a0" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21041814" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface ICLRExtensions" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ICLRExtensions" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.ICLRExtensions" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ICLRExtensions" />
+  <TypeSignature Language="C++ CLI" Value="public interface class ICLRExtensions" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("096CD6A9-0786-11D1-95FA-0080C78EE3BB")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(1)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CloseDocument">
+      <MemberSignature Language="C#" Value="public void CloseDocument ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void CloseDocument() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ICLRExtensions.CloseDocument" />
+      <MemberSignature Language="VB.NET" Value="Public Sub CloseDocument ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void CloseDocument();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ForceAppDomainUnload">
+      <MemberSignature Language="C#" Value="public void ForceAppDomainUnload (string bstrAssemblyName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ForceAppDomainUnload([in]string bstrAssemblyName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ICLRExtensions.ForceAppDomainUnload(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ForceAppDomainUnload (bstrAssemblyName As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ForceAppDomainUnload(System::String ^ bstrAssemblyName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrAssemblyName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrAssemblyName">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCacheDirectory">
+      <MemberSignature Language="C#" Value="public string GetCacheDirectory ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetCacheDirectory() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ICLRExtensions.GetCacheDirectory" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetCacheDirectory () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ GetCacheDirectory();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCachedProperty">
+      <MemberSignature Language="C#" Value="public bool GetCachedProperty (int propId, out string Value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool GetCachedProperty([in]int32 propId, [out] string&amp; Value) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ICLRExtensions.GetCachedProperty(System.Int32,System.String@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetCachedProperty (propId As Integer, ByRef Value As String) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool GetCachedProperty(int propId, [Runtime::InteropServices::Out] System::String ^ % Value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="propId" Type="System.Int32" />
+        <Parameter Name="Value" Type="System.String&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="propId">To be added.</param>
+        <param name="Value">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEventSource">
+      <MemberSignature Language="C#" Value="public object GetEventSource (string bstrContext, string bstrEventID, string bstrDataObjectName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetEventSource([in]string bstrContext, [in]string bstrEventID, [in]string bstrDataObjectName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ICLRExtensions.GetEventSource(System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEventSource (bstrContext As String, bstrEventID As String, bstrDataObjectName As String) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetEventSource(System::String ^ bstrContext, System::String ^ bstrEventID, System::String ^ bstrDataObjectName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrContext" Type="System.String" />
+        <Parameter Name="bstrEventID" Type="System.String" />
+        <Parameter Name="bstrDataObjectName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrContext">To be added.</param>
+        <param name="bstrEventID">To be added.</param>
+        <param name="bstrDataObjectName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEventSourceNoPostProcess">
+      <MemberSignature Language="C#" Value="public object GetEventSourceNoPostProcess (string bstrContext, string bstrEventID, string bstrDataObjectName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetEventSourceNoPostProcess([in]string bstrContext, [in]string bstrEventID, [in]string bstrDataObjectName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ICLRExtensions.GetEventSourceNoPostProcess(System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetEventSourceNoPostProcess (bstrContext As String, bstrEventID As String, bstrDataObjectName As String) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetEventSourceNoPostProcess(System::String ^ bstrContext, System::String ^ bstrEventID, System::String ^ bstrDataObjectName);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrContext" Type="System.String" />
+        <Parameter Name="bstrEventID" Type="System.String" />
+        <Parameter Name="bstrDataObjectName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrContext">To be added.</param>
+        <param name="bstrEventID">To be added.</param>
+        <param name="bstrDataObjectName">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetIntPtr">
+      <MemberSignature Language="C#" Value="public IntPtr GetIntPtr (object pdispNode);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance native int GetIntPtr([in]object pdispNode) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ICLRExtensions.GetIntPtr(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetIntPtr (pdispNode As Object) As IntPtr" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; IntPtr GetIntPtr(System::Object ^ pdispNode);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IntPtr</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pdispNode" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="pdispNode">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetInvokeHelper">
+      <MemberSignature Language="C#" Value="public object GetInvokeHelper (object pdispTarget);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetInvokeHelper([in]object pdispTarget) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ICLRExtensions.GetInvokeHelper(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetInvokeHelper (pdispTarget As Object) As Object" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetInvokeHelper(System::Object ^ pdispTarget);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pdispTarget" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="pdispTarget">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetLocalizedDesignOnceErrorString">
+      <MemberSignature Language="C#" Value="public string GetLocalizedDesignOnceErrorString (string bstrErrorId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetLocalizedDesignOnceErrorString([in]string bstrErrorId) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ICLRExtensions.GetLocalizedDesignOnceErrorString(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetLocalizedDesignOnceErrorString (bstrErrorId As String) As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ GetLocalizedDesignOnceErrorString(System::String ^ bstrErrorId);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrErrorId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrErrorId">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetLocalizedErrorString">
+      <MemberSignature Language="C#" Value="public string GetLocalizedErrorString (int idError);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetLocalizedErrorString([in]int32 idError) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ICLRExtensions.GetLocalizedErrorString(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetLocalizedErrorString (idError As Integer) As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ GetLocalizedErrorString(int idError);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="idError" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="idError">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetLocalizedMsxmlInteropErrorString">
+      <MemberSignature Language="C#" Value="public string GetLocalizedMsxmlInteropErrorString (int idError);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetLocalizedMsxmlInteropErrorString([in]int32 idError) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ICLRExtensions.GetLocalizedMsxmlInteropErrorString(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetLocalizedMsxmlInteropErrorString (idError As Integer) As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ GetLocalizedMsxmlInteropErrorString(int idError);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="idError" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="idError">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetMomXmlEventInfo">
+      <MemberSignature Language="C#" Value="public int GetMomXmlEventInfo ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 GetMomXmlEventInfo() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ICLRExtensions.GetMomXmlEventInfo" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetMomXmlEventInfo () As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; int GetMomXmlEventInfo();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IncrementSqmPoint">
+      <MemberSignature Language="C#" Value="public void IncrementSqmPoint (int idDataPt);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void IncrementSqmPoint([in]int32 idDataPt) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ICLRExtensions.IncrementSqmPoint(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub IncrementSqmPoint (idDataPt As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void IncrementSqmPoint(int idDataPt);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="idDataPt" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="idDataPt">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsCrossDomainSafe">
+      <MemberSignature Language="C#" Value="public bool IsCrossDomainSafe (object punkCallee);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsCrossDomainSafe([in]object punkCallee) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ICLRExtensions.IsCrossDomainSafe(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Function IsCrossDomainSafe (punkCallee As Object) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool IsCrossDomainSafe(System::Object ^ punkCallee);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="punkCallee" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="punkCallee">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PostProcessEventListeners">
+      <MemberSignature Language="C#" Value="public void PostProcessEventListeners ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PostProcessEventListeners() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ICLRExtensions.PostProcessEventListeners" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PostProcessEventListeners ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void PostProcessEventListeners();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PrintWithDialog">
+      <MemberSignature Language="C#" Value="public void PrintWithDialog ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PrintWithDialog() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ICLRExtensions.PrintWithDialog" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PrintWithDialog ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void PrintWithDialog();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PutCancellationInfo">
+      <MemberSignature Language="C#" Value="public void PutCancellationInfo (bool vfSuppressUI, string bstrMessage, string bstrDetails);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void PutCancellationInfo([in]bool vfSuppressUI, [in]string bstrMessage, [in]string bstrDetails) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ICLRExtensions.PutCancellationInfo(System.Boolean,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub PutCancellationInfo (vfSuppressUI As Boolean, bstrMessage As String, bstrDetails As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void PutCancellationInfo(bool vfSuppressUI, System::String ^ bstrMessage, System::String ^ bstrDetails);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="vfSuppressUI" Type="System.Boolean" />
+        <Parameter Name="bstrMessage" Type="System.String" />
+        <Parameter Name="bstrDetails" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="vfSuppressUI">To be added.</param>
+        <param name="bstrMessage">To be added.</param>
+        <param name="bstrDetails">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetCachedProperty">
+      <MemberSignature Language="C#" Value="public void SetCachedProperty (int propId, string Value);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetCachedProperty([in]int32 propId, [in]string Value) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ICLRExtensions.SetCachedProperty(System.Int32,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetCachedProperty (propId As Integer, Value As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetCachedProperty(int propId, System::String ^ Value);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="propId" Type="System.Int32" />
+        <Parameter Name="Value" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="propId">To be added.</param>
+        <param name="Value">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetCanUnloadAppDomain">
+      <MemberSignature Language="C#" Value="public void SetCanUnloadAppDomain (bool vfCanUnload);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetCanUnloadAppDomain([in]bool vfCanUnload) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ICLRExtensions.SetCanUnloadAppDomain(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetCanUnloadAppDomain (vfCanUnload As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetCanUnloadAppDomain(bool vfCanUnload);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="vfCanUnload" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="vfCanUnload">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetDocumentSqmValue">
+      <MemberSignature Language="C#" Value="public void SetDocumentSqmValue (int idDataPt);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetDocumentSqmValue([in]int32 idDataPt) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ICLRExtensions.SetDocumentSqmValue(System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetDocumentSqmValue (idDataPt As Integer)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetDocumentSqmValue(int idDataPt);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="idDataPt" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="idDataPt">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ShowExceptionDialog">
+      <MemberSignature Language="C#" Value="public void ShowExceptionDialog (string bstrMessage, string bstrDetails);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ShowExceptionDialog([in]string bstrMessage, [in]string bstrDetails) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ICLRExtensions.ShowExceptionDialog(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ShowExceptionDialog (bstrMessage As String, bstrDetails As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ShowExceptionDialog(System::String ^ bstrMessage, System::String ^ bstrDetails);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrMessage" Type="System.String" />
+        <Parameter Name="bstrDetails" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrMessage">To be added.</param>
+        <param name="bstrDetails">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

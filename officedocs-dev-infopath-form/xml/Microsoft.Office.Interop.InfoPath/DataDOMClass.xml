@@ -1,0 +1,110 @@
+<Type Name="DataDOMClass" FullName="Microsoft.Office.Interop.InfoPath.DataDOMClass">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="1481fdd4808f8390c7e523ff7f24b25d561c8f7c" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21040778" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class DataDOMClass : Microsoft.Office.Interop.InfoPath.DataDOM" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi DataDOMClass extends System.Object implements class Microsoft.Office.Interop.InfoPath._DataDOMEventSink_Event, class Microsoft.Office.Interop.InfoPath.DataDOM, class Microsoft.Office.Interop.InfoPath.DataDOMEmpty" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.DataDOMClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class DataDOMClass&#xA;Implements DataDOM" />
+  <TypeSignature Language="C++ CLI" Value="public ref class DataDOMClass : Microsoft::Office::Interop::InfoPath::DataDOM" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.DataDOM</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(0)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComSourceInterfaces("Microsoft.Office.Interop.InfoPath._DataDOMEventSink\0")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("807583C2-5146-11D5-A672-00B0D022E945")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="OnAfterChange">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.InfoPath._DataDOMEventSink_OnAfterChangeEventHandler OnAfterChange;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.InfoPath._DataDOMEventSink_OnAfterChangeEventHandler OnAfterChange" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.InfoPath.DataDOMClass.OnAfterChange" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event OnAfterChange As _DataDOMEventSink_OnAfterChangeEventHandler Implements OnAfterChange" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::InfoPath::_DataDOMEventSink_OnAfterChangeEventHandler ^ OnAfterChange;" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Office.Interop.InfoPath._DataDOMEventSink_Event.OnAfterChange</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath._DataDOMEventSink_OnAfterChangeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnBeforeChange">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.InfoPath._DataDOMEventSink_OnBeforeChangeEventHandler OnBeforeChange;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.InfoPath._DataDOMEventSink_OnBeforeChangeEventHandler OnBeforeChange" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.InfoPath.DataDOMClass.OnBeforeChange" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event OnBeforeChange As _DataDOMEventSink_OnBeforeChangeEventHandler Implements OnBeforeChange" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::InfoPath::_DataDOMEventSink_OnBeforeChangeEventHandler ^ OnBeforeChange;" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Office.Interop.InfoPath._DataDOMEventSink_Event.OnBeforeChange</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath._DataDOMEventSink_OnBeforeChangeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnValidate">
+      <MemberSignature Language="C#" Value="public virtual event Microsoft.Office.Interop.InfoPath._DataDOMEventSink_OnValidateEventHandler OnValidate;" />
+      <MemberSignature Language="ILAsm" Value=".event class Microsoft.Office.Interop.InfoPath._DataDOMEventSink_OnValidateEventHandler OnValidate" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.Office.Interop.InfoPath.DataDOMClass.OnValidate" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Custom Event OnValidate As _DataDOMEventSink_OnValidateEventHandler Implements OnValidate" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event Microsoft::Office::Interop::InfoPath::_DataDOMEventSink_OnValidateEventHandler ^ OnValidate;" />
+      <MemberType>Event</MemberType>
+      <Implements>
+        <InterfaceMember>E:Microsoft.Office.Interop.InfoPath._DataDOMEventSink_Event.OnValidate</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath._DataDOMEventSink_OnValidateEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

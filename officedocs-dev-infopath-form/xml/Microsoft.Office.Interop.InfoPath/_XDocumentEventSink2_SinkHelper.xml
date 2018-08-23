@@ -1,0 +1,465 @@
+<Type Name="_XDocumentEventSink2_SinkHelper" FullName="Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_SinkHelper">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="e457b1aa570b03041748a8f0af3f920feead71c2" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21039798" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class _XDocumentEventSink2_SinkHelper : Microsoft.Office.Interop.InfoPath._XDocumentEventSink2" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed _XDocumentEventSink2_SinkHelper extends System.Object implements class Microsoft.Office.Interop.InfoPath._XDocumentEventSink2" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_SinkHelper" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class _XDocumentEventSink2_SinkHelper&#xA;Implements _XDocumentEventSink2" />
+  <TypeSignature Language="C++ CLI" Value="public ref class _XDocumentEventSink2_SinkHelper sealed : Microsoft::Office::Interop::InfoPath::_XDocumentEventSink2" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath._XDocumentEventSink2</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(System.Runtime.InteropServices.ClassInterfaceType.None)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(System.Runtime.InteropServices.TypeLibTypeFlags.FHidden)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="m_dwCookie">
+      <MemberSignature Language="C#" Value="public int m_dwCookie;" />
+      <MemberSignature Language="ILAsm" Value=".field public int32 m_dwCookie" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_SinkHelper.m_dwCookie" />
+      <MemberSignature Language="VB.NET" Value="Public m_dwCookie As Integer " />
+      <MemberSignature Language="C++ CLI" Value="public: int m_dwCookie;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_OnAfterImportDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_OnAfterImportEventHandler m_OnAfterImportDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_OnAfterImportEventHandler m_OnAfterImportDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_SinkHelper.m_OnAfterImportDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_OnAfterImportDelegate As _XDocumentEventSink2_OnAfterImportEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::InfoPath::_XDocumentEventSink2_OnAfterImportEventHandler ^ m_OnAfterImportDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_OnAfterImportEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_OnContextChangeDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_OnContextChangeEventHandler m_OnContextChangeDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_OnContextChangeEventHandler m_OnContextChangeDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_SinkHelper.m_OnContextChangeDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_OnContextChangeDelegate As _XDocumentEventSink2_OnContextChangeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::InfoPath::_XDocumentEventSink2_OnContextChangeEventHandler ^ m_OnContextChangeDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_OnContextChangeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_OnLoadDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_OnLoadEventHandler m_OnLoadDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_OnLoadEventHandler m_OnLoadDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_SinkHelper.m_OnLoadDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_OnLoadDelegate As _XDocumentEventSink2_OnLoadEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::InfoPath::_XDocumentEventSink2_OnLoadEventHandler ^ m_OnLoadDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_OnLoadEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_OnMergeRequestDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_OnMergeRequestEventHandler m_OnMergeRequestDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_OnMergeRequestEventHandler m_OnMergeRequestDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_SinkHelper.m_OnMergeRequestDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_OnMergeRequestDelegate As _XDocumentEventSink2_OnMergeRequestEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::InfoPath::_XDocumentEventSink2_OnMergeRequestEventHandler ^ m_OnMergeRequestDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_OnMergeRequestEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_OnSaveRequestDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_OnSaveRequestEventHandler m_OnSaveRequestDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_OnSaveRequestEventHandler m_OnSaveRequestDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_SinkHelper.m_OnSaveRequestDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_OnSaveRequestDelegate As _XDocumentEventSink2_OnSaveRequestEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::InfoPath::_XDocumentEventSink2_OnSaveRequestEventHandler ^ m_OnSaveRequestDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_OnSaveRequestEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_OnSignDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_OnSignEventHandler m_OnSignDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_OnSignEventHandler m_OnSignDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_SinkHelper.m_OnSignDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_OnSignDelegate As _XDocumentEventSink2_OnSignEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::InfoPath::_XDocumentEventSink2_OnSignEventHandler ^ m_OnSignDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_OnSignEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_OnSubmitRequestDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_OnSubmitRequestEventHandler m_OnSubmitRequestDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_OnSubmitRequestEventHandler m_OnSubmitRequestDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_SinkHelper.m_OnSubmitRequestDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_OnSubmitRequestDelegate As _XDocumentEventSink2_OnSubmitRequestEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::InfoPath::_XDocumentEventSink2_OnSubmitRequestEventHandler ^ m_OnSubmitRequestDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_OnSubmitRequestEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_OnSwitchViewDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_OnSwitchViewEventHandler m_OnSwitchViewDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_OnSwitchViewEventHandler m_OnSwitchViewDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_SinkHelper.m_OnSwitchViewDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_OnSwitchViewDelegate As _XDocumentEventSink2_OnSwitchViewEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::InfoPath::_XDocumentEventSink2_OnSwitchViewEventHandler ^ m_OnSwitchViewDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_OnSwitchViewEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_OnVersionUpgradeDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_OnVersionUpgradeEventHandler m_OnVersionUpgradeDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_OnVersionUpgradeEventHandler m_OnVersionUpgradeDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_SinkHelper.m_OnVersionUpgradeDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_OnVersionUpgradeDelegate As _XDocumentEventSink2_OnVersionUpgradeEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::InfoPath::_XDocumentEventSink2_OnVersionUpgradeEventHandler ^ m_OnVersionUpgradeDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_OnVersionUpgradeEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnAfterImport">
+      <MemberSignature Language="C#" Value="public override void OnAfterImport (Microsoft.Office.Interop.InfoPath.DocEvent );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void OnAfterImport(class Microsoft.Office.Interop.InfoPath.DocEvent ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_SinkHelper.OnAfterImport(Microsoft.Office.Interop.InfoPath.DocEvent)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub OnAfterImport ( As DocEvent)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void OnAfterImport(Microsoft::Office::Interop::InfoPath::DocEvent ^ );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath._XDocumentEventSink2.OnAfterImport(Microsoft.Office.Interop.InfoPath.DocEvent)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.InfoPath.DocEvent" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnContextChange">
+      <MemberSignature Language="C#" Value="public override void OnContextChange (Microsoft.Office.Interop.InfoPath.DocContextChangeEventObject );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void OnContextChange(class Microsoft.Office.Interop.InfoPath.DocContextChangeEventObject ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_SinkHelper.OnContextChange(Microsoft.Office.Interop.InfoPath.DocContextChangeEventObject)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub OnContextChange ( As DocContextChangeEventObject)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void OnContextChange(Microsoft::Office::Interop::InfoPath::DocContextChangeEventObject ^ );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath._XDocumentEventSink2.OnContextChange(Microsoft.Office.Interop.InfoPath.DocContextChangeEventObject)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.InfoPath.DocContextChangeEventObject" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnLoad">
+      <MemberSignature Language="C#" Value="public override void OnLoad (Microsoft.Office.Interop.InfoPath.DocReturnEvent );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void OnLoad(class Microsoft.Office.Interop.InfoPath.DocReturnEvent ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_SinkHelper.OnLoad(Microsoft.Office.Interop.InfoPath.DocReturnEvent)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub OnLoad ( As DocReturnEvent)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void OnLoad(Microsoft::Office::Interop::InfoPath::DocReturnEvent ^ );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath._XDocumentEventSink2.OnLoad(Microsoft.Office.Interop.InfoPath.DocReturnEvent)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.InfoPath.DocReturnEvent" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnMergeRequest">
+      <MemberSignature Language="C#" Value="public override void OnMergeRequest (Microsoft.Office.Interop.InfoPath.MergeEventObject );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void OnMergeRequest(class Microsoft.Office.Interop.InfoPath.MergeEventObject ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_SinkHelper.OnMergeRequest(Microsoft.Office.Interop.InfoPath.MergeEventObject)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub OnMergeRequest ( As MergeEventObject)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void OnMergeRequest(Microsoft::Office::Interop::InfoPath::MergeEventObject ^ );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath._XDocumentEventSink2.OnMergeRequest(Microsoft.Office.Interop.InfoPath.MergeEventObject)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.InfoPath.MergeEventObject" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnSaveRequest">
+      <MemberSignature Language="C#" Value="public override void OnSaveRequest (Microsoft.Office.Interop.InfoPath.SaveEventObject );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void OnSaveRequest(class Microsoft.Office.Interop.InfoPath.SaveEventObject ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_SinkHelper.OnSaveRequest(Microsoft.Office.Interop.InfoPath.SaveEventObject)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub OnSaveRequest ( As SaveEventObject)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void OnSaveRequest(Microsoft::Office::Interop::InfoPath::SaveEventObject ^ );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath._XDocumentEventSink2.OnSaveRequest(Microsoft.Office.Interop.InfoPath.SaveEventObject)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.InfoPath.SaveEventObject" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnSign">
+      <MemberSignature Language="C#" Value="public override void OnSign (Microsoft.Office.Interop.InfoPath.SignEventObject );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void OnSign(class Microsoft.Office.Interop.InfoPath.SignEventObject ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_SinkHelper.OnSign(Microsoft.Office.Interop.InfoPath.SignEventObject)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub OnSign ( As SignEventObject)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void OnSign(Microsoft::Office::Interop::InfoPath::SignEventObject ^ );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath._XDocumentEventSink2.OnSign(Microsoft.Office.Interop.InfoPath.SignEventObject)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.InfoPath.SignEventObject" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnSubmitRequest">
+      <MemberSignature Language="C#" Value="public override void OnSubmitRequest (Microsoft.Office.Interop.InfoPath.DocReturnEvent );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void OnSubmitRequest(class Microsoft.Office.Interop.InfoPath.DocReturnEvent ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_SinkHelper.OnSubmitRequest(Microsoft.Office.Interop.InfoPath.DocReturnEvent)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub OnSubmitRequest ( As DocReturnEvent)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void OnSubmitRequest(Microsoft::Office::Interop::InfoPath::DocReturnEvent ^ );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath._XDocumentEventSink2.OnSubmitRequest(Microsoft.Office.Interop.InfoPath.DocReturnEvent)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.InfoPath.DocReturnEvent" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnSwitchView">
+      <MemberSignature Language="C#" Value="public override void OnSwitchView (Microsoft.Office.Interop.InfoPath.DocEvent );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void OnSwitchView(class Microsoft.Office.Interop.InfoPath.DocEvent ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_SinkHelper.OnSwitchView(Microsoft.Office.Interop.InfoPath.DocEvent)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub OnSwitchView ( As DocEvent)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void OnSwitchView(Microsoft::Office::Interop::InfoPath::DocEvent ^ );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath._XDocumentEventSink2.OnSwitchView(Microsoft.Office.Interop.InfoPath.DocEvent)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.InfoPath.DocEvent" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnVersionUpgrade">
+      <MemberSignature Language="C#" Value="public override void OnVersionUpgrade (Microsoft.Office.Interop.InfoPath.VersionUpgradeEventObject );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void OnVersionUpgrade(class Microsoft.Office.Interop.InfoPath.VersionUpgradeEventObject ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_SinkHelper.OnVersionUpgrade(Microsoft.Office.Interop.InfoPath.VersionUpgradeEventObject)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub OnVersionUpgrade ( As VersionUpgradeEventObject)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void OnVersionUpgrade(Microsoft::Office::Interop::InfoPath::VersionUpgradeEventObject ^ );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath._XDocumentEventSink2.OnVersionUpgrade(Microsoft.Office.Interop.InfoPath.VersionUpgradeEventObject)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.InfoPath.VersionUpgradeEventObject" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

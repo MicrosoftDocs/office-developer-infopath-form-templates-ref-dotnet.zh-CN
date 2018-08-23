@@ -1,0 +1,105 @@
+<Type Name="_ButtonEventSink_SinkHelper" FullName="Microsoft.Office.Interop.InfoPath._ButtonEventSink_SinkHelper">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="f926210ff0a36d05df632a7f6edd7cc30b2fa0d3" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21039455" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public sealed class _ButtonEventSink_SinkHelper : Microsoft.Office.Interop.InfoPath._ButtonEventSink" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed _ButtonEventSink_SinkHelper extends System.Object implements class Microsoft.Office.Interop.InfoPath._ButtonEventSink" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath._ButtonEventSink_SinkHelper" />
+  <TypeSignature Language="VB.NET" Value="Public NotInheritable Class _ButtonEventSink_SinkHelper&#xA;Implements _ButtonEventSink" />
+  <TypeSignature Language="C++ CLI" Value="public ref class _ButtonEventSink_SinkHelper sealed : Microsoft::Office::Interop::InfoPath::_ButtonEventSink" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath._ButtonEventSink</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(System.Runtime.InteropServices.ClassInterfaceType.None)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(System.Runtime.InteropServices.TypeLibTypeFlags.FHidden)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="m_dwCookie">
+      <MemberSignature Language="C#" Value="public int m_dwCookie;" />
+      <MemberSignature Language="ILAsm" Value=".field public int32 m_dwCookie" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath._ButtonEventSink_SinkHelper.m_dwCookie" />
+      <MemberSignature Language="VB.NET" Value="Public m_dwCookie As Integer " />
+      <MemberSignature Language="C++ CLI" Value="public: int m_dwCookie;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="m_OnClickDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.Office.Interop.InfoPath._ButtonEventSink_OnClickEventHandler m_OnClickDelegate;" />
+      <MemberSignature Language="ILAsm" Value=".field public class Microsoft.Office.Interop.InfoPath._ButtonEventSink_OnClickEventHandler m_OnClickDelegate" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath._ButtonEventSink_SinkHelper.m_OnClickDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public m_OnClickDelegate As _ButtonEventSink_OnClickEventHandler " />
+      <MemberSignature Language="C++ CLI" Value="public: Microsoft::Office::Interop::InfoPath::_ButtonEventSink_OnClickEventHandler ^ m_OnClickDelegate;" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath._ButtonEventSink_OnClickEventHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnClick">
+      <MemberSignature Language="C#" Value="public override void OnClick (Microsoft.Office.Interop.InfoPath.DocActionEventObject );" />
+      <MemberSignature Language="ILAsm" Value=".method public virtual instance void OnClick(class Microsoft.Office.Interop.InfoPath.DocActionEventObject ) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath._ButtonEventSink_SinkHelper.OnClick(Microsoft.Office.Interop.InfoPath.DocActionEventObject)" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Sub OnClick ( As DocActionEventObject)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override void OnClick(Microsoft::Office::Interop::InfoPath::DocActionEventObject ^ );" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath._ButtonEventSink.OnClick(Microsoft.Office.Interop.InfoPath.DocActionEventObject)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="" Type="Microsoft.Office.Interop.InfoPath.DocActionEventObject" />
+      </Parameters>
+      <Docs>
+        <param name="">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

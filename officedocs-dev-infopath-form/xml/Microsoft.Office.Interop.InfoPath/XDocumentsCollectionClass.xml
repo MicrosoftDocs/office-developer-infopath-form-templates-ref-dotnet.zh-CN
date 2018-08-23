@@ -1,0 +1,786 @@
+<Type Name="XDocumentsCollectionClass" FullName="Microsoft.Office.Interop.InfoPath.XDocumentsCollectionClass">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="1e0ba8e1b6bd3022632326d1fe278b7604ce549c" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21042199" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class XDocumentsCollectionClass : Microsoft.Office.Interop.InfoPath.XDocuments3, Microsoft.Office.Interop.InfoPath.XDocumentsCollection" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi XDocumentsCollectionClass extends System.Object implements class Microsoft.Office.Interop.InfoPath.XDocuments, class Microsoft.Office.Interop.InfoPath.XDocuments2, class Microsoft.Office.Interop.InfoPath.XDocuments3, class Microsoft.Office.Interop.InfoPath.XDocumentsCollection" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.XDocumentsCollectionClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class XDocumentsCollectionClass&#xA;Implements XDocuments3, XDocumentsCollection" />
+  <TypeSignature Language="C++ CLI" Value="public ref class XDocumentsCollectionClass : Microsoft::Office::Interop::InfoPath::XDocuments3, Microsoft::Office::Interop::InfoPath::XDocumentsCollection" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.XDocuments3</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.XDocumentsCollection</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(0)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("80758336-5146-11D5-A672-00B0D022E945")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Close">
+      <MemberSignature Language="C#" Value="public virtual void Close (object varIndex);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Close([in]object varIndex) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.XDocumentsCollectionClass.Close(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Close (varIndex As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Close(System::Object ^ varIndex) = Microsoft::Office::Interop::InfoPath::XDocuments2::Close;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.XDocuments2.Close(System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varIndex" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="varIndex">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Count">
+      <MemberSignature Language="C#" Value="public virtual int Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.XDocumentsCollectionClass.Count" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.XDocuments2.Count</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetEnumerator">
+      <MemberSignature Language="C#" Value="public virtual System.Collections.IEnumerator GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.IEnumerator GetEnumerator() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.XDocumentsCollectionClass.GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetEnumerator () As IEnumerator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Collections::IEnumerator ^ GetEnumerator() = Microsoft::Office::Interop::InfoPath::XDocuments2::GetEnumerator;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.XDocuments2.GetEnumerator</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(-4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Item">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.XDocument this[object varIndex] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.XDocument Item(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.XDocumentsCollectionClass.Item(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Default Public Overridable ReadOnly Property Item(varIndex As Object) As XDocument" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::InfoPath::XDocument ^ default[System::Object ^] { Microsoft::Office::Interop::InfoPath::XDocument ^ get(System::Object ^ varIndex); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.XDocuments2.Item(System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(0)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XDocument</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varIndex" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="varIndex">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="New">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.XDocument New (object varURI, int dwBehavior = 1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.XDocument New([in]object varURI, [in]int32 dwBehavior) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.XDocumentsCollectionClass.New(System.Object,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function New (varURI As Object, Optional dwBehavior As Integer = 1) As XDocument" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.XDocuments2.New(System.Object,System.Int32)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XDocument</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varURI" Type="System.Object" />
+        <Parameter Name="dwBehavior" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="varURI">To be added.</param>
+        <param name="dwBehavior">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewFromSolution">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.XDocument NewFromSolution (object varURI);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.XDocument NewFromSolution([in]object varURI) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.XDocumentsCollectionClass.NewFromSolution(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function NewFromSolution (varURI As Object) As XDocument" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::XDocument ^ NewFromSolution(System::Object ^ varURI) = Microsoft::Office::Interop::InfoPath::XDocuments2::NewFromSolution;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.XDocuments2.NewFromSolution(System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XDocument</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varURI" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="varURI">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewFromSolutionWithData">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.XDocument NewFromSolutionWithData (object varXMLData, object varSolutionURI, int dwBehavior = 1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.XDocument NewFromSolutionWithData([in]object varXMLData, [in]object varSolutionURI, [in]int32 dwBehavior) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.XDocumentsCollectionClass.NewFromSolutionWithData(System.Object,System.Object,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function NewFromSolutionWithData (varXMLData As Object, varSolutionURI As Object, Optional dwBehavior As Integer = 1) As XDocument" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.XDocuments2.NewFromSolutionWithData(System.Object,System.Object,System.Int32)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XDocument</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varXMLData" Type="System.Object" />
+        <Parameter Name="varSolutionURI" Type="System.Object" />
+        <Parameter Name="dwBehavior" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="varXMLData">To be added.</param>
+        <param name="varSolutionURI">To be added.</param>
+        <param name="dwBehavior">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewFromSolutionWithInputParameters">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.XDocument NewFromSolutionWithInputParameters (object varSolutionURI, object varInputParams);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.XDocument NewFromSolutionWithInputParameters([in]object varSolutionURI, [in]object varInputParams) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.XDocumentsCollectionClass.NewFromSolutionWithInputParameters(System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function NewFromSolutionWithInputParameters (varSolutionURI As Object, varInputParams As Object) As XDocument" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::XDocument ^ NewFromSolutionWithInputParameters(System::Object ^ varSolutionURI, System::Object ^ varInputParams) = Microsoft::Office::Interop::InfoPath::XDocuments3::NewFromSolutionWithInputParameters;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.XDocuments3.NewFromSolutionWithInputParameters(System.Object,System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XDocument</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varSolutionURI" Type="System.Object" />
+        <Parameter Name="varInputParams" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="varSolutionURI">To be added.</param>
+        <param name="varInputParams">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Open">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.XDocument Open (object varURI, int dwBehavior = 1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.XDocument Open([in]object varURI, [in]int32 dwBehavior) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.XDocumentsCollectionClass.Open(System.Object,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Open (varURI As Object, Optional dwBehavior As Integer = 1) As XDocument" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.XDocuments2.Open(System.Object,System.Int32)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XDocument</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varURI" Type="System.Object" />
+        <Parameter Name="dwBehavior" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="varURI">To be added.</param>
+        <param name="dwBehavior">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XDocuments_Close">
+      <MemberSignature Language="C#" Value="public virtual void XDocuments_Close (object varIndex);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void XDocuments_Close([in]object varIndex) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.XDocumentsCollectionClass.XDocuments_Close(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub XDocuments_Close (varIndex As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void XDocuments_Close(System::Object ^ varIndex) = Microsoft::Office::Interop::InfoPath::XDocuments::Close;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varIndex" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="varIndex">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XDocuments_Count">
+      <MemberSignature Language="C#" Value="public virtual int XDocuments_Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 XDocuments_Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.XDocumentsCollectionClass.XDocuments_Count" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property XDocuments_Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int XDocuments_Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XDocuments_get_Count">
+      <MemberSignature Language="C#" Value="public virtual int XDocuments_get_Count ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance int32 XDocuments_get_Count() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.XDocumentsCollectionClass.XDocuments_get_Count" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function XDocuments_get_Count () As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual int XDocuments_get_Count() = Microsoft::Office::Interop::InfoPath::XDocuments::get_Count;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XDocuments_get_Item">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.XDocument XDocuments_get_Item (object varIndex);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance class Microsoft.Office.Interop.InfoPath.XDocument XDocuments_get_Item([in]object varIndex) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.XDocumentsCollectionClass.XDocuments_get_Item(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function XDocuments_get_Item (varIndex As Object) As XDocument" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::XDocument ^ XDocuments_get_Item(System::Object ^ varIndex) = Microsoft::Office::Interop::InfoPath::XDocuments::get_Item;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XDocument</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varIndex" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="varIndex">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XDocuments_GetEnumerator">
+      <MemberSignature Language="C#" Value="public virtual System.Collections.IEnumerator XDocuments_GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.IEnumerator XDocuments_GetEnumerator() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.XDocumentsCollectionClass.XDocuments_GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function XDocuments_GetEnumerator () As IEnumerator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Collections::IEnumerator ^ XDocuments_GetEnumerator() = Microsoft::Office::Interop::InfoPath::XDocuments::GetEnumerator;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XDocuments_Item">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.XDocument XDocuments_Item[object varIndex] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.XDocument XDocuments_Item(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.XDocumentsCollectionClass.XDocuments_Item(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property XDocuments_Item(varIndex As Object) As XDocument" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::InfoPath::XDocument ^ XDocuments_Item[System::Object ^] { Microsoft::Office::Interop::InfoPath::XDocument ^ get(System::Object ^ varIndex); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XDocument</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varIndex" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="varIndex">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XDocuments_New">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.XDocument XDocuments_New (object varURI, int dwBehavior = 1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.XDocument XDocuments_New([in]object varURI, [in]int32 dwBehavior) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.XDocumentsCollectionClass.XDocuments_New(System.Object,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function XDocuments_New (varURI As Object, Optional dwBehavior As Integer = 1) As XDocument" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XDocument</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varURI" Type="System.Object" />
+        <Parameter Name="dwBehavior" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="varURI">To be added.</param>
+        <param name="dwBehavior">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XDocuments_NewFromSolution">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.XDocument XDocuments_NewFromSolution (object varURI);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.XDocument XDocuments_NewFromSolution([in]object varURI) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.XDocumentsCollectionClass.XDocuments_NewFromSolution(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function XDocuments_NewFromSolution (varURI As Object) As XDocument" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::XDocument ^ XDocuments_NewFromSolution(System::Object ^ varURI) = Microsoft::Office::Interop::InfoPath::XDocuments::NewFromSolution;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XDocument</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varURI" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="varURI">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XDocuments_Open">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.XDocument XDocuments_Open (object varURI, int dwBehavior = 1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.XDocument XDocuments_Open([in]object varURI, [in]int32 dwBehavior) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.XDocumentsCollectionClass.XDocuments_Open(System.Object,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function XDocuments_Open (varURI As Object, Optional dwBehavior As Integer = 1) As XDocument" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XDocument</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varURI" Type="System.Object" />
+        <Parameter Name="dwBehavior" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="varURI">To be added.</param>
+        <param name="dwBehavior">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XDocuments3_Close">
+      <MemberSignature Language="C#" Value="public virtual void XDocuments3_Close (object varIndex);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void XDocuments3_Close([in]object varIndex) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.XDocumentsCollectionClass.XDocuments3_Close(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub XDocuments3_Close (varIndex As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void XDocuments3_Close(System::Object ^ varIndex) = Microsoft::Office::Interop::InfoPath::XDocuments3::Close;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varIndex" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="varIndex">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XDocuments3_Count">
+      <MemberSignature Language="C#" Value="public virtual int XDocuments3_Count { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 XDocuments3_Count" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.XDocumentsCollectionClass.XDocuments3_Count" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property XDocuments3_Count As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property int XDocuments3_Count { int get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XDocuments3_get_Count">
+      <MemberSignature Language="C#" Value="public virtual int XDocuments3_get_Count ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance int32 XDocuments3_get_Count() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.XDocumentsCollectionClass.XDocuments3_get_Count" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function XDocuments3_get_Count () As Integer" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual int XDocuments3_get_Count() = Microsoft::Office::Interop::InfoPath::XDocuments3::get_Count;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XDocuments3_get_Item">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.XDocument XDocuments3_get_Item (object varIndex);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance class Microsoft.Office.Interop.InfoPath.XDocument XDocuments3_get_Item([in]object varIndex) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.XDocumentsCollectionClass.XDocuments3_get_Item(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function XDocuments3_get_Item (varIndex As Object) As XDocument" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::XDocument ^ XDocuments3_get_Item(System::Object ^ varIndex) = Microsoft::Office::Interop::InfoPath::XDocuments3::get_Item;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XDocument</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varIndex" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="varIndex">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XDocuments3_GetEnumerator">
+      <MemberSignature Language="C#" Value="public virtual System.Collections.IEnumerator XDocuments3_GetEnumerator ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.IEnumerator XDocuments3_GetEnumerator() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.XDocumentsCollectionClass.XDocuments3_GetEnumerator" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function XDocuments3_GetEnumerator () As IEnumerator" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Collections::IEnumerator ^ XDocuments3_GetEnumerator() = Microsoft::Office::Interop::InfoPath::XDocuments3::GetEnumerator;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.TypeLibFunc(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Collections.IEnumerator</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XDocuments3_Item">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.XDocument XDocuments3_Item[object varIndex] { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.XDocument XDocuments3_Item(object)" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.XDocumentsCollectionClass.XDocuments3_Item(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property XDocuments3_Item(varIndex As Object) As XDocument" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::InfoPath::XDocument ^ XDocuments3_Item[System::Object ^] { Microsoft::Office::Interop::InfoPath::XDocument ^ get(System::Object ^ varIndex); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XDocument</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varIndex" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="varIndex">To be added.</param>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XDocuments3_New">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.XDocument XDocuments3_New (object varURI, int dwBehavior = 1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.XDocument XDocuments3_New([in]object varURI, [in]int32 dwBehavior) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.XDocumentsCollectionClass.XDocuments3_New(System.Object,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function XDocuments3_New (varURI As Object, Optional dwBehavior As Integer = 1) As XDocument" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XDocument</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varURI" Type="System.Object" />
+        <Parameter Name="dwBehavior" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="varURI">To be added.</param>
+        <param name="dwBehavior">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XDocuments3_NewFromSolution">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.XDocument XDocuments3_NewFromSolution (object varURI);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.XDocument XDocuments3_NewFromSolution([in]object varURI) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.XDocumentsCollectionClass.XDocuments3_NewFromSolution(System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function XDocuments3_NewFromSolution (varURI As Object) As XDocument" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::XDocument ^ XDocuments3_NewFromSolution(System::Object ^ varURI) = Microsoft::Office::Interop::InfoPath::XDocuments3::NewFromSolution;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XDocument</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varURI" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="varURI">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XDocuments3_NewFromSolutionWithData">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.XDocument XDocuments3_NewFromSolutionWithData (object varXMLData, object varSolutionURI, int dwBehavior = 1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.XDocument XDocuments3_NewFromSolutionWithData([in]object varXMLData, [in]object varSolutionURI, [in]int32 dwBehavior) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.XDocumentsCollectionClass.XDocuments3_NewFromSolutionWithData(System.Object,System.Object,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function XDocuments3_NewFromSolutionWithData (varXMLData As Object, varSolutionURI As Object, Optional dwBehavior As Integer = 1) As XDocument" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XDocument</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varXMLData" Type="System.Object" />
+        <Parameter Name="varSolutionURI" Type="System.Object" />
+        <Parameter Name="dwBehavior" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="varXMLData">To be added.</param>
+        <param name="varSolutionURI">To be added.</param>
+        <param name="dwBehavior">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XDocuments3_Open">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.XDocument XDocuments3_Open (object varURI, int dwBehavior = 1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.XDocument XDocuments3_Open([in]object varURI, [in]int32 dwBehavior) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.XDocumentsCollectionClass.XDocuments3_Open(System.Object,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function XDocuments3_Open (varURI As Object, Optional dwBehavior As Integer = 1) As XDocument" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XDocument</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varURI" Type="System.Object" />
+        <Parameter Name="dwBehavior" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="varURI">To be added.</param>
+        <param name="dwBehavior">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,323 @@
+<Type Name="_ApplicationEvents" FullName="Microsoft.Office.Interop.InfoPath._ApplicationEvents">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="0ae71f4d7f35bb957c744cfd70ee4bddb58786f3" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21040575" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface _ApplicationEvents" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract _ApplicationEvents" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath._ApplicationEvents" />
+  <TypeSignature Language="VB.NET" Value="Public Interface _ApplicationEvents" />
+  <TypeSignature Language="C++ CLI" Value="public interface class _ApplicationEvents" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("096CD72D-0786-11D1-95FA-0080C78EE3BB")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(2)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(4096)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="NewXDocument">
+      <MemberSignature Language="C#" Value="public void NewXDocument (Microsoft.Office.Interop.InfoPath._XDocument pDocument);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void NewXDocument([in]class Microsoft.Office.Interop.InfoPath._XDocument pDocument) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath._ApplicationEvents.NewXDocument(Microsoft.Office.Interop.InfoPath._XDocument)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub NewXDocument (pDocument As _XDocument)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void NewXDocument(Microsoft::Office::Interop::InfoPath::_XDocument ^ pDocument);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pDocument" Type="Microsoft.Office.Interop.InfoPath._XDocument" />
+      </Parameters>
+      <Docs>
+        <param name="pDocument">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Quit">
+      <MemberSignature Language="C#" Value="public void Quit ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Quit() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath._ApplicationEvents.Quit" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Quit ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Quit();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WindowActivate">
+      <MemberSignature Language="C#" Value="public void WindowActivate (Microsoft.Office.Interop.InfoPath._XDocument pDocument, Microsoft.Office.Interop.InfoPath.Window pWindow);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void WindowActivate([in]class Microsoft.Office.Interop.InfoPath._XDocument pDocument, [in]class Microsoft.Office.Interop.InfoPath.Window pWindow) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath._ApplicationEvents.WindowActivate(Microsoft.Office.Interop.InfoPath._XDocument,Microsoft.Office.Interop.InfoPath.Window)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WindowActivate (pDocument As _XDocument, pWindow As Window)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void WindowActivate(Microsoft::Office::Interop::InfoPath::_XDocument ^ pDocument, Microsoft::Office::Interop::InfoPath::Window ^ pWindow);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pDocument" Type="Microsoft.Office.Interop.InfoPath._XDocument" />
+        <Parameter Name="pWindow" Type="Microsoft.Office.Interop.InfoPath.Window" />
+      </Parameters>
+      <Docs>
+        <param name="pDocument">To be added.</param>
+        <param name="pWindow">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WindowDeactivate">
+      <MemberSignature Language="C#" Value="public void WindowDeactivate (Microsoft.Office.Interop.InfoPath._XDocument pDocument, Microsoft.Office.Interop.InfoPath.Window pWindow);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void WindowDeactivate([in]class Microsoft.Office.Interop.InfoPath._XDocument pDocument, [in]class Microsoft.Office.Interop.InfoPath.Window pWindow) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath._ApplicationEvents.WindowDeactivate(Microsoft.Office.Interop.InfoPath._XDocument,Microsoft.Office.Interop.InfoPath.Window)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WindowDeactivate (pDocument As _XDocument, pWindow As Window)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void WindowDeactivate(Microsoft::Office::Interop::InfoPath::_XDocument ^ pDocument, Microsoft::Office::Interop::InfoPath::Window ^ pWindow);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pDocument" Type="Microsoft.Office.Interop.InfoPath._XDocument" />
+        <Parameter Name="pWindow" Type="Microsoft.Office.Interop.InfoPath.Window" />
+      </Parameters>
+      <Docs>
+        <param name="pDocument">To be added.</param>
+        <param name="pWindow">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WindowSize">
+      <MemberSignature Language="C#" Value="public void WindowSize (Microsoft.Office.Interop.InfoPath._XDocument pDocument, Microsoft.Office.Interop.InfoPath.Window pWindow);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void WindowSize([in]class Microsoft.Office.Interop.InfoPath._XDocument pDocument, [in]class Microsoft.Office.Interop.InfoPath.Window pWindow) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath._ApplicationEvents.WindowSize(Microsoft.Office.Interop.InfoPath._XDocument,Microsoft.Office.Interop.InfoPath.Window)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WindowSize (pDocument As _XDocument, pWindow As Window)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void WindowSize(Microsoft::Office::Interop::InfoPath::_XDocument ^ pDocument, Microsoft::Office::Interop::InfoPath::Window ^ pWindow);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(3)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pDocument" Type="Microsoft.Office.Interop.InfoPath._XDocument" />
+        <Parameter Name="pWindow" Type="Microsoft.Office.Interop.InfoPath.Window" />
+      </Parameters>
+      <Docs>
+        <param name="pDocument">To be added.</param>
+        <param name="pWindow">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XDocumentBeforeClose">
+      <MemberSignature Language="C#" Value="public void XDocumentBeforeClose (Microsoft.Office.Interop.InfoPath._XDocument pDocument, out bool pfCancel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void XDocumentBeforeClose([in]class Microsoft.Office.Interop.InfoPath._XDocument pDocument, [out] bool&amp; pfCancel) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath._ApplicationEvents.XDocumentBeforeClose(Microsoft.Office.Interop.InfoPath._XDocument,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub XDocumentBeforeClose (pDocument As _XDocument, ByRef pfCancel As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void XDocumentBeforeClose(Microsoft::Office::Interop::InfoPath::_XDocument ^ pDocument, [Runtime::InteropServices::Out] bool % pfCancel);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pDocument" Type="Microsoft.Office.Interop.InfoPath._XDocument" />
+        <Parameter Name="pfCancel" Type="System.Boolean&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="pDocument">To be added.</param>
+        <param name="pfCancel">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XDocumentBeforePrint">
+      <MemberSignature Language="C#" Value="public void XDocumentBeforePrint (Microsoft.Office.Interop.InfoPath._XDocument pDocument, out bool pfCancel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void XDocumentBeforePrint([in]class Microsoft.Office.Interop.InfoPath._XDocument pDocument, [out] bool&amp; pfCancel) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath._ApplicationEvents.XDocumentBeforePrint(Microsoft.Office.Interop.InfoPath._XDocument,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub XDocumentBeforePrint (pDocument As _XDocument, ByRef pfCancel As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void XDocumentBeforePrint(Microsoft::Office::Interop::InfoPath::_XDocument ^ pDocument, [Runtime::InteropServices::Out] bool % pfCancel);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(5)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pDocument" Type="Microsoft.Office.Interop.InfoPath._XDocument" />
+        <Parameter Name="pfCancel" Type="System.Boolean&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="pDocument">To be added.</param>
+        <param name="pfCancel">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XDocumentBeforeSave">
+      <MemberSignature Language="C#" Value="public void XDocumentBeforeSave (Microsoft.Office.Interop.InfoPath._XDocument pDocument, out bool pfCancel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void XDocumentBeforeSave([in]class Microsoft.Office.Interop.InfoPath._XDocument pDocument, [out] bool&amp; pfCancel) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath._ApplicationEvents.XDocumentBeforeSave(Microsoft.Office.Interop.InfoPath._XDocument,System.Boolean@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub XDocumentBeforeSave (pDocument As _XDocument, ByRef pfCancel As Boolean)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void XDocumentBeforeSave(Microsoft::Office::Interop::InfoPath::_XDocument ^ pDocument, [Runtime::InteropServices::Out] bool % pfCancel);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pDocument" Type="Microsoft.Office.Interop.InfoPath._XDocument" />
+        <Parameter Name="pfCancel" Type="System.Boolean&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="pDocument">To be added.</param>
+        <param name="pfCancel">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XDocumentChange">
+      <MemberSignature Language="C#" Value="public void XDocumentChange ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void XDocumentChange() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath._ApplicationEvents.XDocumentChange" />
+      <MemberSignature Language="VB.NET" Value="Public Sub XDocumentChange ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void XDocumentChange();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="XDocumentOpen">
+      <MemberSignature Language="C#" Value="public void XDocumentOpen (Microsoft.Office.Interop.InfoPath._XDocument pDocument);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void XDocumentOpen([in]class Microsoft.Office.Interop.InfoPath._XDocument pDocument) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath._ApplicationEvents.XDocumentOpen(Microsoft.Office.Interop.InfoPath._XDocument)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub XDocumentOpen (pDocument As _XDocument)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void XDocumentOpen(Microsoft::Office::Interop::InfoPath::_XDocument ^ pDocument);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pDocument" Type="Microsoft.Office.Interop.InfoPath._XDocument" />
+      </Parameters>
+      <Docs>
+        <param name="pDocument">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

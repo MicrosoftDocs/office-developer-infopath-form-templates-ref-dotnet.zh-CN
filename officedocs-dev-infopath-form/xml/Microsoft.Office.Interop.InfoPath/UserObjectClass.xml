@@ -1,0 +1,202 @@
+<Type Name="UserObjectClass" FullName="Microsoft.Office.Interop.InfoPath.UserObjectClass">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="7f46cc92e2eff7d92b6a8f33643be2b02d87d15c" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21039714" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class UserObjectClass : Microsoft.Office.Interop.InfoPath.User2, Microsoft.Office.Interop.InfoPath.UserObject" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi UserObjectClass extends System.Object implements class Microsoft.Office.Interop.InfoPath.User, class Microsoft.Office.Interop.InfoPath.User2, class Microsoft.Office.Interop.InfoPath.UserObject" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.UserObjectClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class UserObjectClass&#xA;Implements User2, UserObject" />
+  <TypeSignature Language="C++ CLI" Value="public ref class UserObjectClass : Microsoft::Office::Interop::InfoPath::User2, Microsoft::Office::Interop::InfoPath::UserObject" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.User2</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.UserObject</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(0)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("8075830D-5146-11D5-A672-00B0D022E945")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="IsCurrentUser">
+      <MemberSignature Language="C#" Value="public virtual bool IsCurrentUser (string bstrUsername);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsCurrentUser([in]string bstrUsername) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.UserObjectClass.IsCurrentUser(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function IsCurrentUser (bstrUsername As String) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool IsCurrentUser(System::String ^ bstrUsername) = Microsoft::Office::Interop::InfoPath::User::IsCurrentUser;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.User.IsCurrentUser(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrUsername" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrUsername">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsUserMemberOf">
+      <MemberSignature Language="C#" Value="public virtual bool IsUserMemberOf (string bstrGroupname);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsUserMemberOf([in]string bstrGroupname) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.UserObjectClass.IsUserMemberOf(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function IsUserMemberOf (bstrGroupname As String) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool IsUserMemberOf(System::String ^ bstrGroupname) = Microsoft::Office::Interop::InfoPath::User::IsUserMemberOf;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.User.IsUserMemberOf(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrGroupname" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrGroupname">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoginName">
+      <MemberSignature Language="C#" Value="public virtual string LoginName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string LoginName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.UserObjectClass.LoginName" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property LoginName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ LoginName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.User2.LoginName</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="User2_IsCurrentUser">
+      <MemberSignature Language="C#" Value="public virtual bool User2_IsCurrentUser (string bstrUsername);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool User2_IsCurrentUser([in]string bstrUsername) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.UserObjectClass.User2_IsCurrentUser(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function User2_IsCurrentUser (bstrUsername As String) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool User2_IsCurrentUser(System::String ^ bstrUsername) = Microsoft::Office::Interop::InfoPath::User2::IsCurrentUser;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrUsername" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrUsername">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="User2_IsUserMemberOf">
+      <MemberSignature Language="C#" Value="public virtual bool User2_IsUserMemberOf (string bstrGroupname);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool User2_IsUserMemberOf([in]string bstrGroupname) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.UserObjectClass.User2_IsUserMemberOf(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function User2_IsUserMemberOf (bstrGroupname As String) As Boolean" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool User2_IsUserMemberOf(System::String ^ bstrGroupname) = Microsoft::Office::Interop::InfoPath::User2::IsUserMemberOf;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrGroupname" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrGroupname">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserName">
+      <MemberSignature Language="C#" Value="public virtual string UserName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string UserName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.UserObjectClass.UserName" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property UserName As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ UserName { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.User2.UserName</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

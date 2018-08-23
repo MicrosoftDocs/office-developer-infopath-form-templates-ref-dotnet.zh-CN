@@ -1,0 +1,128 @@
+<Type Name="XdCertificateStatus" FullName="Microsoft.Office.Interop.InfoPath.XdCertificateStatus">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="b863754879c077dcc05c56a8aff34dd5761d1d9a" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21041282" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public enum XdCertificateStatus" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed XdCertificateStatus extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.XdCertificateStatus" />
+  <TypeSignature Language="VB.NET" Value="Public Enum XdCertificateStatus" />
+  <TypeSignature Language="C++ CLI" Value="public enum class XdCertificateStatus" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("31BB2F32-759A-350D-A723-6D2154AC9ABC")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="xdCertificateStatusError">
+      <MemberSignature Language="C#" Value="xdCertificateStatusError" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.XdCertificateStatus xdCertificateStatusError = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.XdCertificateStatus.xdCertificateStatusError" />
+      <MemberSignature Language="VB.NET" Value="xdCertificateStatusError" />
+      <MemberSignature Language="C++ CLI" Value="xdCertificateStatusError" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdCertificateStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xdCertificateStatusExpired">
+      <MemberSignature Language="C#" Value="xdCertificateStatusExpired" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.XdCertificateStatus xdCertificateStatusExpired = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.XdCertificateStatus.xdCertificateStatusExpired" />
+      <MemberSignature Language="VB.NET" Value="xdCertificateStatusExpired" />
+      <MemberSignature Language="C++ CLI" Value="xdCertificateStatusExpired" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdCertificateStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xdCertificateStatusNotTrusted">
+      <MemberSignature Language="C#" Value="xdCertificateStatusNotTrusted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.XdCertificateStatus xdCertificateStatusNotTrusted = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.XdCertificateStatus.xdCertificateStatusNotTrusted" />
+      <MemberSignature Language="VB.NET" Value="xdCertificateStatusNotTrusted" />
+      <MemberSignature Language="C++ CLI" Value="xdCertificateStatusNotTrusted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdCertificateStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xdCertificateStatusRevoked">
+      <MemberSignature Language="C#" Value="xdCertificateStatusRevoked" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.XdCertificateStatus xdCertificateStatusRevoked = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.XdCertificateStatus.xdCertificateStatusRevoked" />
+      <MemberSignature Language="VB.NET" Value="xdCertificateStatusRevoked" />
+      <MemberSignature Language="C++ CLI" Value="xdCertificateStatusRevoked" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdCertificateStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="xdCertificateStatusValid">
+      <MemberSignature Language="C#" Value="xdCertificateStatusValid" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.Office.Interop.InfoPath.XdCertificateStatus xdCertificateStatusValid = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.Office.Interop.InfoPath.XdCertificateStatus.xdCertificateStatusValid" />
+      <MemberSignature Language="VB.NET" Value="xdCertificateStatusValid" />
+      <MemberSignature Language="C++ CLI" Value="xdCertificateStatusValid" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XdCertificateStatus</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

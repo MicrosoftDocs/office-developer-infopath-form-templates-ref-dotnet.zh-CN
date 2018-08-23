@@ -1,0 +1,43 @@
+<Type Name="_ApplicationEvents_XDocumentBeforeCloseEventHandler" FullName="Microsoft.Office.Interop.InfoPath._ApplicationEvents_XDocumentBeforeCloseEventHandler">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="aa1a7caf59ee87aabb98189dc7c3ee2d7f211f5f" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21043074" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public delegate void _ApplicationEvents_XDocumentBeforeCloseEventHandler(_XDocument pDocument, out bool pfCancel);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed _ApplicationEvents_XDocumentBeforeCloseEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath._ApplicationEvents_XDocumentBeforeCloseEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub _ApplicationEvents_XDocumentBeforeCloseEventHandler(pDocument As _XDocument, ByRef pfCancel As Boolean)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void _ApplicationEvents_XDocumentBeforeCloseEventHandler(_XDocument ^ pDocument, [Runtime::InteropServices::Out] bool % pfCancel);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="pDocument" Type="Microsoft.Office.Interop.InfoPath._XDocument" />
+    <Parameter Name="pfCancel" Type="System.Boolean&amp;" RefType="out" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="pDocument">To be added.</param>
+    <param name="pfCancel">To be added.</param>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

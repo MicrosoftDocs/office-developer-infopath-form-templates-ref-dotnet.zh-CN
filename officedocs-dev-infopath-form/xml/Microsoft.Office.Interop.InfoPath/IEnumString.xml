@@ -1,0 +1,127 @@
+<Type Name="IEnumString" FullName="Microsoft.Office.Interop.InfoPath.IEnumString">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="9eee56ddfbb08fafd366d97510c9212b3d945317" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21041681" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface IEnumString" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IEnumString" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.IEnumString" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IEnumString" />
+  <TypeSignature Language="C++ CLI" Value="public interface class IEnumString" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("00000101-0000-0000-C000-000000000046")</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.InterfaceType(1)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Clone">
+      <MemberSignature Language="C#" Value="public void Clone (out Microsoft.Office.Interop.InfoPath.IEnumString ppenum);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Clone([out] class Microsoft.Office.Interop.InfoPath.IEnumString&amp; ppenum) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.IEnumString.Clone(Microsoft.Office.Interop.InfoPath.IEnumString@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Clone (ByRef ppenum As IEnumString)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Clone([Runtime::InteropServices::Out] Microsoft::Office::Interop::InfoPath::IEnumString ^ % ppenum);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="ppenum" Type="Microsoft.Office.Interop.InfoPath.IEnumString&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="ppenum">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoteNext">
+      <MemberSignature Language="C#" Value="public void RemoteNext (uint celt, out string rgelt, out uint pceltFetched);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RemoteNext([in]unsigned int32 celt, [out] string&amp; rgelt, [out] unsigned int32&amp; pceltFetched) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.IEnumString.RemoteNext(System.UInt32,System.String@,System.UInt32@)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RemoteNext (celt As UInteger, ByRef rgelt As String, ByRef pceltFetched As UInteger)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemoteNext(System::UInt32 celt, [Runtime::InteropServices::Out] System::String ^ % rgelt, [Runtime::InteropServices::Out] System::UInt32 % pceltFetched);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="celt" Type="System.UInt32" />
+        <Parameter Name="rgelt" Type="System.String&amp;" RefType="out" />
+        <Parameter Name="pceltFetched" Type="System.UInt32&amp;" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="celt">To be added.</param>
+        <param name="rgelt">To be added.</param>
+        <param name="pceltFetched">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Reset">
+      <MemberSignature Language="C#" Value="public void Reset ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Reset() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.IEnumString.Reset" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Reset ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Reset();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Skip">
+      <MemberSignature Language="C#" Value="public void Skip (uint celt);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Skip([in]unsigned int32 celt) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.IEnumString.Skip(System.UInt32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Skip (celt As UInteger)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Skip(System::UInt32 celt);" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="celt" Type="System.UInt32" />
+      </Parameters>
+      <Docs>
+        <param name="celt">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

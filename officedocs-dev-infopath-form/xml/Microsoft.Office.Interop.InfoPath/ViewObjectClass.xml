@@ -1,0 +1,1114 @@
+<Type Name="ViewObjectClass" FullName="Microsoft.Office.Interop.InfoPath.ViewObjectClass">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="c368fb451813111df2763fb16f66899a7482b5c5" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21042255" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public class ViewObjectClass : Microsoft.Office.Interop.InfoPath.View3, Microsoft.Office.Interop.InfoPath.ViewObject" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi ViewObjectClass extends System.Object implements class Microsoft.Office.Interop.InfoPath.View, class Microsoft.Office.Interop.InfoPath.View2, class Microsoft.Office.Interop.InfoPath.View3, class Microsoft.Office.Interop.InfoPath.ViewObject" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.ViewObjectClass" />
+  <TypeSignature Language="VB.NET" Value="Public Class ViewObjectClass&#xA;Implements View3, ViewObject" />
+  <TypeSignature Language="C++ CLI" Value="public ref class ViewObjectClass : Microsoft::Office::Interop::InfoPath::View3, Microsoft::Office::Interop::InfoPath::ViewObject" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.View3</InterfaceName>
+    </Interface>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.ViewObject</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ClassInterface(0)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("80758392-5146-11D5-A672-00B0D022E945")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DisableAutoUpdate">
+      <MemberSignature Language="C#" Value="public virtual void DisableAutoUpdate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DisableAutoUpdate() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ViewObjectClass.DisableAutoUpdate" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub DisableAutoUpdate ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void DisableAutoUpdate() = Microsoft::Office::Interop::InfoPath::View::DisableAutoUpdate;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.View.DisableAutoUpdate</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(7)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableAutoUpdate">
+      <MemberSignature Language="C#" Value="public virtual void EnableAutoUpdate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void EnableAutoUpdate() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ViewObjectClass.EnableAutoUpdate" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub EnableAutoUpdate ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void EnableAutoUpdate() = Microsoft::Office::Interop::InfoPath::View::EnableAutoUpdate;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.View.EnableAutoUpdate</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(8)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExecuteAction">
+      <MemberSignature Language="C#" Value="public virtual void ExecuteAction (string bstrAction, object varXmlToEdit);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ExecuteAction([in]string bstrAction, [in]object varXmlToEdit) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ViewObjectClass.ExecuteAction(System.String,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub ExecuteAction (bstrAction As String, Optional varXmlToEdit As Object)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.View.ExecuteAction(System.String,System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(14)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrAction" Type="System.String" />
+        <Parameter Name="varXmlToEdit" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="bstrAction">To be added.</param>
+        <param name="varXmlToEdit">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Export">
+      <MemberSignature Language="C#" Value="public virtual void Export (string bstrURL, string bstrFormat);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Export([in]string bstrURL, [in]string bstrFormat) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ViewObjectClass.Export(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub Export (bstrURL As String, bstrFormat As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Export(System::String ^ bstrURL, System::String ^ bstrFormat) = Microsoft::Office::Interop::InfoPath::View::Export;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.View.Export(System.String,System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(9)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrURL" Type="System.String" />
+        <Parameter Name="bstrFormat" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrURL">To be added.</param>
+        <param name="bstrFormat">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExportAsFixedFormat">
+      <MemberSignature Language="C#" Value="public virtual void ExportAsFixedFormat (string bstrURL, string bstrFormat, object varExporter);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ExportAsFixedFormat([in]string bstrURL, [in]string bstrFormat, [in]object varExporter) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ViewObjectClass.ExportAsFixedFormat(System.String,System.String,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub ExportAsFixedFormat (bstrURL As String, bstrFormat As String, varExporter As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void ExportAsFixedFormat(System::String ^ bstrURL, System::String ^ bstrFormat, System::Object ^ varExporter) = Microsoft::Office::Interop::InfoPath::View3::ExportAsFixedFormat;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.View3.ExportAsFixedFormat(System.String,System.String,System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrURL" Type="System.String" />
+        <Parameter Name="bstrFormat" Type="System.String" />
+        <Parameter Name="varExporter" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="bstrURL">To be added.</param>
+        <param name="bstrFormat">To be added.</param>
+        <param name="varExporter">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ForceUpdate">
+      <MemberSignature Language="C#" Value="public virtual void ForceUpdate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ForceUpdate() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ViewObjectClass.ForceUpdate" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub ForceUpdate ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void ForceUpdate() = Microsoft::Office::Interop::InfoPath::View::ForceUpdate;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.View.ForceUpdate</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(6)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetContextNodes">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.XMLNodesCollection GetContextNodes (object varNode, object varViewContext);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.XMLNodesCollection GetContextNodes([in]object varNode, [in]object varViewContext) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ViewObjectClass.GetContextNodes(System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetContextNodes (Optional varNode As Object, Optional varViewContext As Object) As XMLNodesCollection" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.View.GetContextNodes(System.Object,System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(11)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XMLNodesCollection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varNode" Type="System.Object" />
+        <Parameter Name="varViewContext" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="varNode">To be added.</param>
+        <param name="varViewContext">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSelectedNodes">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.XMLNodesCollection GetSelectedNodes ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.XMLNodesCollection GetSelectedNodes() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ViewObjectClass.GetSelectedNodes" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetSelectedNodes () As XMLNodesCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::XMLNodesCollection ^ GetSelectedNodes() = Microsoft::Office::Interop::InfoPath::View::GetSelectedNodes;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.View.GetSelectedNodes</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(10)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XMLNodesCollection</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public virtual string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.ViewObjectClass.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ Name { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.View.Name</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(1)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectNodes">
+      <MemberSignature Language="C#" Value="public virtual void SelectNodes (Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNode pxnStartNode, object varEndNode, object varViewContext);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SelectNodes([in]class Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNode pxnStartNode, [in]object varEndNode, [in]object varViewContext) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ViewObjectClass.SelectNodes(Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNode,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub SelectNodes (pxnStartNode As IXMLDOMNode, Optional varEndNode As Object, Optional varViewContext As Object)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.View.SelectNodes(Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNode,System.Object,System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(12)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pxnStartNode" Type="Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNode" />
+        <Parameter Name="varEndNode" Type="System.Object" />
+        <Parameter Name="varViewContext" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="pxnStartNode">To be added.</param>
+        <param name="varEndNode">To be added.</param>
+        <param name="varViewContext">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SelectText">
+      <MemberSignature Language="C#" Value="public virtual void SelectText (Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNode pxnField, object varViewContext);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SelectText([in]class Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNode pxnField, [in]object varViewContext) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ViewObjectClass.SelectText(Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNode,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub SelectText (pxnField As IXMLDOMNode, Optional varViewContext As Object)" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.View.SelectText(Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNode,System.Object)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(13)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pxnField" Type="Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNode" />
+        <Parameter Name="varViewContext" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="pxnField">To be added.</param>
+        <param name="varViewContext">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SignatureLines">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.SignatureLinesCollection SignatureLines { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.SignatureLinesCollection SignatureLines" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.ViewObjectClass.SignatureLines" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property SignatureLines As SignatureLinesCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::InfoPath::SignatureLinesCollection ^ SignatureLines { Microsoft::Office::Interop::InfoPath::SignatureLinesCollection ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.View3.SignatureLines</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.SignatureLinesCollection</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SwitchView">
+      <MemberSignature Language="C#" Value="public virtual void SwitchView (string bstrName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SwitchView([in]string bstrName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ViewObjectClass.SwitchView(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub SwitchView (bstrName As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void SwitchView(System::String ^ bstrName) = Microsoft::Office::Interop::InfoPath::View::SwitchView;" />
+      <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:Microsoft.Office.Interop.InfoPath.View.SwitchView(System.String)</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(2)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrName">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="View2_DisableAutoUpdate">
+      <MemberSignature Language="C#" Value="public virtual void View2_DisableAutoUpdate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void View2_DisableAutoUpdate() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ViewObjectClass.View2_DisableAutoUpdate" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub View2_DisableAutoUpdate ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void View2_DisableAutoUpdate() = Microsoft::Office::Interop::InfoPath::View2::DisableAutoUpdate;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="View2_EnableAutoUpdate">
+      <MemberSignature Language="C#" Value="public virtual void View2_EnableAutoUpdate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void View2_EnableAutoUpdate() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ViewObjectClass.View2_EnableAutoUpdate" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub View2_EnableAutoUpdate ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void View2_EnableAutoUpdate() = Microsoft::Office::Interop::InfoPath::View2::EnableAutoUpdate;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="View2_ExecuteAction">
+      <MemberSignature Language="C#" Value="public virtual void View2_ExecuteAction (string bstrAction, object varXmlToEdit);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void View2_ExecuteAction([in]string bstrAction, [in]object varXmlToEdit) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ViewObjectClass.View2_ExecuteAction(System.String,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub View2_ExecuteAction (bstrAction As String, Optional varXmlToEdit As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrAction" Type="System.String" />
+        <Parameter Name="varXmlToEdit" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="bstrAction">To be added.</param>
+        <param name="varXmlToEdit">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="View2_Export">
+      <MemberSignature Language="C#" Value="public virtual void View2_Export (string bstrURL, string bstrFormat);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void View2_Export([in]string bstrURL, [in]string bstrFormat) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ViewObjectClass.View2_Export(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub View2_Export (bstrURL As String, bstrFormat As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void View2_Export(System::String ^ bstrURL, System::String ^ bstrFormat) = Microsoft::Office::Interop::InfoPath::View2::Export;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrURL" Type="System.String" />
+        <Parameter Name="bstrFormat" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrURL">To be added.</param>
+        <param name="bstrFormat">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="View2_ExportAsFixedFormat">
+      <MemberSignature Language="C#" Value="public virtual void View2_ExportAsFixedFormat (string bstrURL, string bstrFormat, object varExporter);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void View2_ExportAsFixedFormat([in]string bstrURL, [in]string bstrFormat, [in]object varExporter) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ViewObjectClass.View2_ExportAsFixedFormat(System.String,System.String,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub View2_ExportAsFixedFormat (bstrURL As String, bstrFormat As String, varExporter As Object)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void View2_ExportAsFixedFormat(System::String ^ bstrURL, System::String ^ bstrFormat, System::Object ^ varExporter) = Microsoft::Office::Interop::InfoPath::View2::ExportAsFixedFormat;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrURL" Type="System.String" />
+        <Parameter Name="bstrFormat" Type="System.String" />
+        <Parameter Name="varExporter" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="bstrURL">To be added.</param>
+        <param name="bstrFormat">To be added.</param>
+        <param name="varExporter">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="View2_ForceUpdate">
+      <MemberSignature Language="C#" Value="public virtual void View2_ForceUpdate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void View2_ForceUpdate() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ViewObjectClass.View2_ForceUpdate" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub View2_ForceUpdate ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void View2_ForceUpdate() = Microsoft::Office::Interop::InfoPath::View2::ForceUpdate;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="View2_get_Name">
+      <MemberSignature Language="C#" Value="public virtual string View2_get_Name ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance string View2_get_Name() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ViewObjectClass.View2_get_Name" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function View2_get_Name () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ View2_get_Name() = Microsoft::Office::Interop::InfoPath::View2::get_Name;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="View2_get_Window">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.WindowObject View2_get_Window ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance class Microsoft.Office.Interop.InfoPath.WindowObject View2_get_Window() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ViewObjectClass.View2_get_Window" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function View2_get_Window () As WindowObject" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::WindowObject ^ View2_get_Window() = Microsoft::Office::Interop::InfoPath::View2::get_Window;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.WindowObject</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="View2_GetContextNodes">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.XMLNodesCollection View2_GetContextNodes (object varNode, object varViewContext);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.XMLNodesCollection View2_GetContextNodes([in]object varNode, [in]object varViewContext) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ViewObjectClass.View2_GetContextNodes(System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function View2_GetContextNodes (Optional varNode As Object, Optional varViewContext As Object) As XMLNodesCollection" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XMLNodesCollection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varNode" Type="System.Object" />
+        <Parameter Name="varViewContext" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="varNode">To be added.</param>
+        <param name="varViewContext">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="View2_GetSelectedNodes">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.XMLNodesCollection View2_GetSelectedNodes ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.XMLNodesCollection View2_GetSelectedNodes() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ViewObjectClass.View2_GetSelectedNodes" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function View2_GetSelectedNodes () As XMLNodesCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::XMLNodesCollection ^ View2_GetSelectedNodes() = Microsoft::Office::Interop::InfoPath::View2::GetSelectedNodes;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XMLNodesCollection</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="View2_Name">
+      <MemberSignature Language="C#" Value="public virtual string View2_Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string View2_Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.ViewObjectClass.View2_Name" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property View2_Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ View2_Name { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="View2_SelectNodes">
+      <MemberSignature Language="C#" Value="public virtual void View2_SelectNodes (Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNode pxnStartNode, object varEndNode, object varViewContext);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void View2_SelectNodes([in]class Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNode pxnStartNode, [in]object varEndNode, [in]object varViewContext) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ViewObjectClass.View2_SelectNodes(Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNode,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub View2_SelectNodes (pxnStartNode As IXMLDOMNode, Optional varEndNode As Object, Optional varViewContext As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pxnStartNode" Type="Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNode" />
+        <Parameter Name="varEndNode" Type="System.Object" />
+        <Parameter Name="varViewContext" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="pxnStartNode">To be added.</param>
+        <param name="varEndNode">To be added.</param>
+        <param name="varViewContext">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="View2_SelectText">
+      <MemberSignature Language="C#" Value="public virtual void View2_SelectText (Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNode pxnField, object varViewContext);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void View2_SelectText([in]class Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNode pxnField, [in]object varViewContext) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ViewObjectClass.View2_SelectText(Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNode,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub View2_SelectText (pxnField As IXMLDOMNode, Optional varViewContext As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pxnField" Type="Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNode" />
+        <Parameter Name="varViewContext" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="pxnField">To be added.</param>
+        <param name="varViewContext">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="View2_SwitchView">
+      <MemberSignature Language="C#" Value="public virtual void View2_SwitchView (string bstrName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void View2_SwitchView([in]string bstrName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ViewObjectClass.View2_SwitchView(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub View2_SwitchView (bstrName As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void View2_SwitchView(System::String ^ bstrName) = Microsoft::Office::Interop::InfoPath::View2::SwitchView;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrName">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="View2_Window">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.WindowObject View2_Window { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.WindowObject View2_Window" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.ViewObjectClass.View2_Window" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property View2_Window As WindowObject" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::InfoPath::WindowObject ^ View2_Window { Microsoft::Office::Interop::InfoPath::WindowObject ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.WindowObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="View3_DisableAutoUpdate">
+      <MemberSignature Language="C#" Value="public virtual void View3_DisableAutoUpdate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void View3_DisableAutoUpdate() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ViewObjectClass.View3_DisableAutoUpdate" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub View3_DisableAutoUpdate ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void View3_DisableAutoUpdate() = Microsoft::Office::Interop::InfoPath::View3::DisableAutoUpdate;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="View3_EnableAutoUpdate">
+      <MemberSignature Language="C#" Value="public virtual void View3_EnableAutoUpdate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void View3_EnableAutoUpdate() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ViewObjectClass.View3_EnableAutoUpdate" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub View3_EnableAutoUpdate ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void View3_EnableAutoUpdate() = Microsoft::Office::Interop::InfoPath::View3::EnableAutoUpdate;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="View3_ExecuteAction">
+      <MemberSignature Language="C#" Value="public virtual void View3_ExecuteAction (string bstrAction, object varXmlToEdit);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void View3_ExecuteAction([in]string bstrAction, [in]object varXmlToEdit) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ViewObjectClass.View3_ExecuteAction(System.String,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub View3_ExecuteAction (bstrAction As String, Optional varXmlToEdit As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrAction" Type="System.String" />
+        <Parameter Name="varXmlToEdit" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="bstrAction">To be added.</param>
+        <param name="varXmlToEdit">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="View3_Export">
+      <MemberSignature Language="C#" Value="public virtual void View3_Export (string bstrURL, string bstrFormat);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void View3_Export([in]string bstrURL, [in]string bstrFormat) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ViewObjectClass.View3_Export(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub View3_Export (bstrURL As String, bstrFormat As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void View3_Export(System::String ^ bstrURL, System::String ^ bstrFormat) = Microsoft::Office::Interop::InfoPath::View3::Export;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrURL" Type="System.String" />
+        <Parameter Name="bstrFormat" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrURL">To be added.</param>
+        <param name="bstrFormat">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="View3_ForceUpdate">
+      <MemberSignature Language="C#" Value="public virtual void View3_ForceUpdate ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void View3_ForceUpdate() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ViewObjectClass.View3_ForceUpdate" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub View3_ForceUpdate ()" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void View3_ForceUpdate() = Microsoft::Office::Interop::InfoPath::View3::ForceUpdate;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="View3_get_Name">
+      <MemberSignature Language="C#" Value="public virtual string View3_get_Name ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance string View3_get_Name() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ViewObjectClass.View3_get_Name" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function View3_get_Name () As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ View3_get_Name() = Microsoft::Office::Interop::InfoPath::View3::get_Name;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="View3_get_Window">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.WindowObject View3_get_Window ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname newslot virtual instance class Microsoft.Office.Interop.InfoPath.WindowObject View3_get_Window() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ViewObjectClass.View3_get_Window" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function View3_get_Window () As WindowObject" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::WindowObject ^ View3_get_Window() = Microsoft::Office::Interop::InfoPath::View3::get_Window;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.WindowObject</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="View3_GetContextNodes">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.XMLNodesCollection View3_GetContextNodes (object varNode, object varViewContext);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.XMLNodesCollection View3_GetContextNodes([in]object varNode, [in]object varViewContext) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ViewObjectClass.View3_GetContextNodes(System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function View3_GetContextNodes (Optional varNode As Object, Optional varViewContext As Object) As XMLNodesCollection" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XMLNodesCollection</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="varNode" Type="System.Object" />
+        <Parameter Name="varViewContext" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="varNode">To be added.</param>
+        <param name="varViewContext">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="View3_GetSelectedNodes">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.XMLNodesCollection View3_GetSelectedNodes ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Office.Interop.InfoPath.XMLNodesCollection View3_GetSelectedNodes() runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ViewObjectClass.View3_GetSelectedNodes" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function View3_GetSelectedNodes () As XMLNodesCollection" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual Microsoft::Office::Interop::InfoPath::XMLNodesCollection ^ View3_GetSelectedNodes() = Microsoft::Office::Interop::InfoPath::View3::GetSelectedNodes;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.XMLNodesCollection</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="View3_Name">
+      <MemberSignature Language="C#" Value="public virtual string View3_Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string View3_Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.ViewObjectClass.View3_Name" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property View3_Name As String" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ View3_Name { System::String ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="View3_SelectNodes">
+      <MemberSignature Language="C#" Value="public virtual void View3_SelectNodes (Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNode pxnStartNode, object varEndNode, object varViewContext);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void View3_SelectNodes([in]class Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNode pxnStartNode, [in]object varEndNode, [in]object varViewContext) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ViewObjectClass.View3_SelectNodes(Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNode,System.Object,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub View3_SelectNodes (pxnStartNode As IXMLDOMNode, Optional varEndNode As Object, Optional varViewContext As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pxnStartNode" Type="Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNode" />
+        <Parameter Name="varEndNode" Type="System.Object" />
+        <Parameter Name="varViewContext" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="pxnStartNode">To be added.</param>
+        <param name="varEndNode">To be added.</param>
+        <param name="varViewContext">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="View3_SelectText">
+      <MemberSignature Language="C#" Value="public virtual void View3_SelectText (Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNode pxnField, object varViewContext);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void View3_SelectText([in]class Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNode pxnField, [in]object varViewContext) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ViewObjectClass.View3_SelectText(Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNode,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub View3_SelectText (pxnField As IXMLDOMNode, Optional varViewContext As Object)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="pxnField" Type="Microsoft.Office.Interop.InfoPath.Xml.IXMLDOMNode" />
+        <Parameter Name="varViewContext" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="pxnField">To be added.</param>
+        <param name="varViewContext">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="View3_SwitchView">
+      <MemberSignature Language="C#" Value="public virtual void View3_SwitchView (string bstrName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void View3_SwitchView([in]string bstrName) runtime managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Office.Interop.InfoPath.ViewObjectClass.View3_SwitchView(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Sub View3_SwitchView (bstrName As String)" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void View3_SwitchView(System::String ^ bstrName) = Microsoft::Office::Interop::InfoPath::View3::SwitchView;" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bstrName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="bstrName">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="View3_Window">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.WindowObject View3_Window { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.WindowObject View3_Window" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.ViewObjectClass.View3_Window" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property View3_Window As WindowObject" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::InfoPath::WindowObject ^ View3_Window { Microsoft::Office::Interop::InfoPath::WindowObject ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.WindowObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Window">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.Office.Interop.InfoPath.WindowObject Window { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Office.Interop.InfoPath.WindowObject Window" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Office.Interop.InfoPath.ViewObjectClass.Window" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Window As WindowObject" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Microsoft::Office::Interop::InfoPath::WindowObject ^ Window { Microsoft::Office::Interop::InfoPath::WindowObject ^ get(); };" />
+      <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:Microsoft.Office.Interop.InfoPath.View.Window</InterfaceMember>
+      </Implements>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+        <AssemblyVersion>15.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>get: System.Runtime.InteropServices.DispId(4)</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.Office.Interop.InfoPath.WindowObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

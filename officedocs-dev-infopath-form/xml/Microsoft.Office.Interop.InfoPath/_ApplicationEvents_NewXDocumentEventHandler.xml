@@ -1,0 +1,41 @@
+<Type Name="_ApplicationEvents_NewXDocumentEventHandler" FullName="Microsoft.Office.Interop.InfoPath._ApplicationEvents_NewXDocumentEventHandler">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="640acbac301951ef8d3d7b3407432e17b9d87ecf" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21039609" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public delegate void _ApplicationEvents_NewXDocumentEventHandler(_XDocument pDocument);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed _ApplicationEvents_NewXDocumentEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath._ApplicationEvents_NewXDocumentEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub _ApplicationEvents_NewXDocumentEventHandler(pDocument As _XDocument)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void _ApplicationEvents_NewXDocumentEventHandler(_XDocument ^ pDocument);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="pDocument" Type="Microsoft.Office.Interop.InfoPath._XDocument" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="pDocument">To be added.</param>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

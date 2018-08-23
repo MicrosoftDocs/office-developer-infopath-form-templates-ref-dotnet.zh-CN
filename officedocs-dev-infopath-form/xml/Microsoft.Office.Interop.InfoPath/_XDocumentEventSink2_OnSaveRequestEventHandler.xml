@@ -1,0 +1,41 @@
+<Type Name="_XDocumentEventSink2_OnSaveRequestEventHandler" FullName="Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_OnSaveRequestEventHandler">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="756b718928064b17dd70e9a778d67e9ee4b44235" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21039490" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public delegate void _XDocumentEventSink2_OnSaveRequestEventHandler(SaveEventObject pEvent);" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed _XDocumentEventSink2_OnSaveRequestEventHandler extends System.MulticastDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath._XDocumentEventSink2_OnSaveRequestEventHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Delegate Sub _XDocumentEventSink2_OnSaveRequestEventHandler(pEvent As SaveEventObject)" />
+  <TypeSignature Language="C++ CLI" Value="public delegate void _XDocumentEventSink2_OnSaveRequestEventHandler(SaveEventObject ^ pEvent);" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Delegate</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.TypeLibType(16)</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Parameters>
+    <Parameter Name="pEvent" Type="Microsoft.Office.Interop.InfoPath.SaveEventObject" />
+  </Parameters>
+  <ReturnValue>
+    <ReturnType>System.Void</ReturnType>
+  </ReturnValue>
+  <Docs>
+    <param name="pEvent">To be added.</param>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+</Type>

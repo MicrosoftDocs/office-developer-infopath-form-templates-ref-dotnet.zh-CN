@@ -1,0 +1,37 @@
+<Type Name="DocActionEventObject" FullName="Microsoft.Office.Interop.InfoPath.DocActionEventObject">
+  <Metadata>
+    <Meta Name="ms.openlocfilehash" Value="be70415f06933f5c709288c85bed2bfbb92d1ce1" />
+    <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
+    <Meta Name="ms.translationtype" Value="MT" />
+    <Meta Name="ms.contentlocale" Value="zh-CN" />
+    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.locfileid" Value="21039581" />
+  </Metadata>
+  <TypeSignature Language="C#" Value="public interface DocActionEventObject : Microsoft.Office.Interop.InfoPath.DocActionEvent" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract DocActionEventObject implements class Microsoft.Office.Interop.InfoPath.DocActionEvent" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.Office.Interop.InfoPath.DocActionEventObject" />
+  <TypeSignature Language="VB.NET" Value="Public Interface DocActionEventObject&#xA;Implements DocActionEvent" />
+  <TypeSignature Language="C++ CLI" Value="public interface class DocActionEventObject : Microsoft::Office::Interop::InfoPath::DocActionEvent" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.Office.Interop.InfoPath</AssemblyName>
+    <AssemblyVersion>15.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.Office.Interop.InfoPath.DocActionEvent</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.CoClass(typeof(Microsoft.Office.Interop.InfoPath.DocActionEventObjectClass))</AttributeName>
+    </Attribute>
+    <Attribute>
+      <AttributeName>System.Runtime.InteropServices.Guid("096CD63A-0786-11D1-95FA-0080C78EE3BB")</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>
