@@ -4,7 +4,7 @@
     <Meta Name="ms.sourcegitcommit" Value="907d8f0097d976421aeaea84e30c7ff8a13e8ebc" />
     <Meta Name="ms.translationtype" Value="MT" />
     <Meta Name="ms.contentlocale" Value="zh-CN" />
-    <Meta Name="ms.lasthandoff" Value="08/23/2018" />
+    <Meta Name="ms.lasthandoff" Value="08/27/2018" />
     <Meta Name="ms.locfileid" Value="21040883" />
   </Metadata>
   <TypeSignature Language="C#" Value="public interface SignatureObject : Microsoft.Office.Interop.InfoPath.Signature" />
