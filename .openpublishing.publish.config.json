@@ -4,7 +4,7 @@
       "docset_name": "officedocs-dev-infopath-form",
       "build_source_folder": "officedocs-dev-infopath-form",
       "build_output_subfolder": "officedocs-dev-infopath-form",
-      "locale": "ru-ru",
+      "locale": "zh-cn",
       "monikers": [
         "infopath-form"
       ],
@@ -58,7 +58,7 @@
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
-      "url": "https://github.com/Microsoft/templates.docs.msft.ru-ru",
+      "url": "https://github.com/Microsoft/templates.docs.msft.zh-cn",
       "branch": "master",
       "branch_mapping": {}
     }
